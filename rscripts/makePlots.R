@@ -147,8 +147,8 @@ for(thisDis in diseases){
 #cat("Finish FC ... ", file=logFile, append=TRUE, sep = "\n")
 
 #save results
-#write_tsv(dipTestResults,paste(outDir,.Platform$file.sep,'diptest.tsv',sep = ""))
-#write_tsv(KSTestResults,paste(outDir,.Platform$file.sep,'KStest.tsv',sep = ""))
+write_tsv(dipTestResults,paste(outDir,.Platform$file.sep,'diptest.tsv',sep = ""))
+write_tsv(KSTestResults,paste(outDir,.Platform$file.sep,'KStest.tsv',sep = ""))
 
 #cat("Finish save results... ", file=logFile, append=TRUE, sep = "\n")
 
@@ -242,12 +242,6 @@ makeplot <- function(x) {
   colnames(medians)[3]<-'median'
   means<-aggregate( get(genename) ~ Disease+Race, testdata2, mean )
   colnames(means)[3]<-'mean'
-  #trick to get legend
-  emptylines<-means %>% mutate(Race=ifelse(Race=='AA','HD','KS'))
-  #create df for three classes KE, HD and MW
-  emptylines<-rbind(emptylines,means[1:8,]%>%mutate(Race='MW'))
-  emptylines<-emptylines %>% mutate(mean=0) 
-  colnames(emptylines)[which(colnames(emptylines)=='Race')]<-'Test'
   
   #plot violin plot
   dodge <- position_dodge(width = 0.9)
@@ -261,9 +255,8 @@ makeplot <- function(x) {
     method = "t.test", ref.group = "AA"
   )
   
-  #print(paste("Done",genename,sep="::"))
-  #get position to display significance
-  
+
+  #max val used for position to put significance results
   #maxVal<-max(testdata2[,genename])
   maxVals<-aggregate(as.formula(paste(genename,"~ Disease")), data = testdata2, max)
   colnames(maxVals)[2]<-"y.position"
@@ -345,12 +338,7 @@ makeplot <- function(x) {
   }
   FCval<-FCval%>%mutate(y.position=y.position+0.5*y.position)
   
-  #plot
-  #title
-  #ann_text<-data.frame(Type = c('a','b','c','d','e','f','g','h'), lbl = c('', '', '','','','','','sdas'))
-  
   ggplot(testdata2, aes_string(x='Disease',  y=genename))+
-    #annotate("text",  x=Inf, y = Inf, label = "Some text", vjust=1, hjust=1,colour = "red", size = 1.5)+
     geom_violin(aes(fill=Race),position = dodge,alpha = 0.1,show.legend = FALSE)+
     geom_boxplot(aes(fill=Race),width=.1, outlier.colour=NA, position = dodge,show.legend = FALSE)+
     stat_pvalue_manual(dip,x='Disease',color = "Blue",label = "p.signif",size = 5)+
@@ -367,16 +355,9 @@ makeplot <- function(x) {
           panel.grid.minor = element_blank(),
           panel.border = element_blank(),
           panel.background = element_blank(), axis.title=element_text(size=7,face="bold"))+
-    
     ylab(paste(genename,"(FPKM)"))+xlab("")+
     geom_hline(data = means, aes(yintercept = mean, color = Race))+ 
     guides(colour=FALSE)+guides(color = guide_legend(override.aes = list(size = 3)))+
-    #geom_hline(data = emptylines,alpha=0, aes(yintercept = mean, color = Test))+ 
-    #scale_fill_identity(name = 'the fill', guide = 'legend',labels = c('m1')) +
-    #scale_colour_manual(name = 'the colour')+
-    #guides(colour=FALSE)+guides(color = guide_legend(override.aes = list(size = 1)))+
-    #geom_hline(data = medians, aes(yintercept = median))+
-    #geom_text(data = ann_text, aes(x = Inf, y = Inf, label = lbl), hjust = 1,vjust=1)+
     facet_wrap( ~ Disease, scales="free",ncol = 8)+
     theme(
       strip.background = element_blank(),
@@ -390,17 +371,12 @@ makeplot <- function(x) {
   
 }
 
-#cat("Finish plot function... ", file=logFile, append=TRUE, sep = "\n")
 
-#td<-apply(data[1,], 1, makeplot)
+
+
 apply(data, 1, makeplot)
 
-#cat("Finish plotting... ", file=logFile, append=TRUE, sep = "\n")
 
-#testdata2<-td[[1]]
-#print("Done!!!")
-
-#export sys
 #Recomended to save the session info for reproducibility details
 #Create a file sessionInfo.txt and save the R sessionInfo()
 writeLines(capture.output(sessionInfo()), paste(outDir,.Platform$file.sep,"sessionInfo.txt",sep = ""))
