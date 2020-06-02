@@ -35,11 +35,12 @@ diseases<-c('BRCA','COAD','KIRC','KIRP','LUAD','LUSC','THCA','UCEC')
 metadata<-metadata%>%filter(clinical.race %in% races) %>% filter(clinical.disease %in% diseases)
 
 #read data
-infile<-"D:/MOGdata/mog_testdata/cancer/raw/normalized/alldata_reduced/TCGA_GTEX_MOG/TCGA_GTEX_MOG_proj/US_5-20-20_GTEx_TCGA_MOG/np5/mogData_R_Data.txt"
 data<-read_delim(infile,"\t", escape_double = FALSE, trim_ws = TRUE)
 
 allGenes<-data$Name
-logFile = paste(outDir,.Platform$file.sep,'log_file.txt',sep = "")
+#logFile = paste(outDir,.Platform$file.sep,'log_file.txt',sep = "")
+
+
 
 #cat("Start log ", file=logFile, append=FALSE, sep = "\n")
 
@@ -56,14 +57,15 @@ dipTestResults<-data.frame(Disease=character(),
 
 #cat("Start DT ... ", file=logFile, append=TRUE, sep = "\n")
 
+
 for(thisDis in diseases){
-  print(thisDis)
+  #print(thisDis)
   
   for (geneind in 1:length(allGenes)) {
-    thisGene=allGenes[geneind]
-    print(thisGene)
+    thisGene<-allGenes[geneind]
+    #print(thisGene)
     for (thisRace in races) {
-      print(thisRace)
+      #print(thisRace)
       thisSamps<-metadata %>% filter(clinical.race == thisRace) %>% filter(clinical.disease == thisDis)
       thisData<-data[geneind,thisSamps$SID]    
       tmp<-dip.test(log2(as.numeric(thisData)+1))
@@ -73,6 +75,8 @@ for(thisDis in diseases){
     
   }
 }
+
+
 
 #cat("Finish DT ... ", file=logFile, append=TRUE, sep = "\n")
 
@@ -89,10 +93,10 @@ KSTestResults<-data.frame(Disease=character(),
                           stringsAsFactors=FALSE) 
 
 for(thisDis in diseases){
-  print(thisDis)
+  #print(thisDis)
   for (geneind in 1:length(allGenes)) {
     thisGene=allGenes[geneind]
-    print(thisGene)
+    #print(thisGene)
     
     blackSamps<-metadata %>% filter(clinical.race == races[1]) %>% filter(clinical.disease == thisDis)
     whiteSamps<-metadata %>% filter(clinical.race == races[2]) %>% filter(clinical.disease == thisDis)
@@ -119,10 +123,10 @@ FCResults<-data.frame(Disease=character(),
                       stringsAsFactors=FALSE) 
 
 for(thisDis in diseases){
-  print(thisDis)
+  #print(thisDis)
   for (geneind in 1:length(allGenes)) {
     thisGene=allGenes[geneind]
-    print(thisGene)
+    #print(thisGene)
     
     blackSamps<-metadata %>% filter(clinical.race == races[1]) %>% filter(clinical.disease == thisDis)
     whiteSamps<-metadata %>% filter(clinical.race == races[2]) %>% filter(clinical.disease == thisDis)
@@ -143,8 +147,8 @@ for(thisDis in diseases){
 #cat("Finish FC ... ", file=logFile, append=TRUE, sep = "\n")
 
 #save results
-write_tsv(dipTestResults,paste(outDir,.Platform$file.sep,'diptest.tsv',sep = ""))
-write_tsv(KSTestResults,paste(outDir,.Platform$file.sep,'KStest.tsv',sep = ""))
+#write_tsv(dipTestResults,paste(outDir,.Platform$file.sep,'diptest.tsv',sep = ""))
+#write_tsv(KSTestResults,paste(outDir,.Platform$file.sep,'KStest.tsv',sep = ""))
 
 #cat("Finish save results... ", file=logFile, append=TRUE, sep = "\n")
 
@@ -194,6 +198,7 @@ MOG_MW[nrow(MOG_MW) + 1,] = c('KIRC','GSTM1',0.002426698)
 MOG_MW[nrow(MOG_MW) + 1,] = c('BRCA','IL6ST',1.63E-13)
 MOG_MW[nrow(MOG_MW) + 1,] = c('KIRC','IL6ST',0.00301579)
 MOG_MW[nrow(MOG_MW) + 1,] = c('BRCA','TMPRSS6',1.23E-04)
+MOG_MW$FDR<-as.numeric(MOG_MW$FDR)
 
 #cat("Finish loading MW results... ", file=logFile, append=TRUE, sep = "\n")
                               
@@ -211,7 +216,7 @@ makeplot <- function(x) {
   rownames(tdata)<-NULL
   #return(tdata)
   genename<-colnames(tdata)[1]
-  print(paste('dim:',dim(tdata),' gene:',genename))
+  #print(paste('dim:',dim(tdata),' gene:',genename))
   
   #join with metadata
   tdata<-merge(tdata,metadata,all.x = TRUE,by='SID')
@@ -220,7 +225,7 @@ makeplot <- function(x) {
   colnames(testdata2)[1]='Disease'
   colnames(testdata2)[3]='Race'
   
-  print(paste('dim:',dim(testdata2)))
+  #print(paste('dim:',dim(testdata2)))
   
   #subset race
   testdata2<-testdata2 %>% filter(Race %in% c('white','black or african american'))
@@ -256,7 +261,7 @@ makeplot <- function(x) {
     method = "t.test", ref.group = "AA"
   )
   
-  print(paste("Done",genename,sep="::"))
+  #print(paste("Done",genename,sep="::"))
   #get position to display significance
   
   #maxVal<-max(testdata2[,genename])
@@ -379,7 +384,7 @@ makeplot <- function(x) {
     )#+annotate("text",  x=Inf, y = Inf, label = "Some text", vjust=1, hjust=1,colour = "red", size = 1.5)
   
   
-  print(paste('saving:',genename))
+  #print(paste('saving:',genename))
   #plot
   ggsave(paste(outDir,.Platform$file.sep,genename,".png",sep = ""),width = 8, height = 3, units = "in",dpi = 300)
   
