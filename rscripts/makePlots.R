@@ -40,7 +40,8 @@ data<-read_delim(infile,"\t", escape_double = FALSE, trim_ws = TRUE)
 
 allGenes<-data$Name
 logFile = paste(outDir,.Platform$file.sep,'log_file.txt',sep = "")
-cat("Start log ", file=logFile, append=FALSE, sep = "\n")
+
+#cat("Start log ", file=logFile, append=FALSE, sep = "\n")
 
 #perform dip test for all genes
 dipTestResults<-data.frame(Disease=character(),
@@ -53,7 +54,8 @@ dipTestResults<-data.frame(Disease=character(),
                            pval=double(),
                            stringsAsFactors=FALSE) 
 
-cat("Start DT ... ", file=logFile, append=TRUE, sep = "\n")
+#cat("Start DT ... ", file=logFile, append=TRUE, sep = "\n")
+
 for(thisDis in diseases){
   print(thisDis)
   
@@ -72,7 +74,7 @@ for(thisDis in diseases){
   }
 }
 
-cat("Finish DT ... ", file=logFile, append=TRUE, sep = "\n")
+#cat("Finish DT ... ", file=logFile, append=TRUE, sep = "\n")
 
 #perform KS test
 #perform dip test for all genes
@@ -103,7 +105,7 @@ for(thisDis in diseases){
   }
 }
 
-cat("Finish KS ... ", file=logFile, append=TRUE, sep = "\n")
+#cat("Finish KS ... ", file=logFile, append=TRUE, sep = "\n")
 
 #compute foldchange
 FCResults<-data.frame(Disease=character(),
@@ -138,13 +140,13 @@ for(thisDis in diseases){
   }
 }
 
-cat("Finish FC ... ", file=logFile, append=TRUE, sep = "\n")
+#cat("Finish FC ... ", file=logFile, append=TRUE, sep = "\n")
 
 #save results
 write_tsv(dipTestResults,paste(outDir,.Platform$file.sep,'diptest.tsv',sep = ""))
 write_tsv(KSTestResults,paste(outDir,.Platform$file.sep,'KStest.tsv',sep = ""))
 
-cat("Finish save results... ", file=logFile, append=TRUE, sep = "\n")
+#cat("Finish save results... ", file=logFile, append=TRUE, sep = "\n")
 
 #Read file containing significant MWtest
 #MOG_MW <- read_delim("MOG_MW.tsv", "\t", escape_double = FALSE, trim_ws = TRUE)
@@ -193,7 +195,7 @@ MOG_MW[nrow(MOG_MW) + 1,] = c('BRCA','IL6ST',1.63E-13)
 MOG_MW[nrow(MOG_MW) + 1,] = c('KIRC','IL6ST',0.00301579)
 MOG_MW[nrow(MOG_MW) + 1,] = c('BRCA','TMPRSS6',1.23E-04)
 
-cat("Finish loading MW results... ", file=logFile, append=TRUE, sep = "\n")
+#cat("Finish loading MW results... ", file=logFile, append=TRUE, sep = "\n")
                               
 #create plots
 #do for each row in data
@@ -383,12 +385,12 @@ makeplot <- function(x) {
   
 }
 
-cat("Finish plot function... ", file=logFile, append=TRUE, sep = "\n")
+#cat("Finish plot function... ", file=logFile, append=TRUE, sep = "\n")
 
 #td<-apply(data[1,], 1, makeplot)
 apply(data, 1, makeplot)
 
-cat("Finish plotting... ", file=logFile, append=TRUE, sep = "\n")
+#cat("Finish plotting... ", file=logFile, append=TRUE, sep = "\n")
 
 #testdata2<-td[[1]]
 #print("Done!!!")
