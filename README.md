@@ -24,9 +24,25 @@ For more detailed explanation, please go through section 8 of the user manual.
 3. Browse to the R script in `rscripts/makeplots.R`
 4. Enter output directory name. NOTE: the output directory is relative to the project directory.
 
+*NOTE: Please have these packages installed in R:*
+* readr
+* dplyr
+* diptest
+* plyr
+* scales
+* data.table
+* ggplot2
+* ggthemes
+* ggpubr
+
+
 
 ## Perform Correlation Analysis with MetaOmGraph
-1. Apply log_2 transformation: In the main Menu Bar, to `Edit --> Transform data --> Log_2`
+1. Apply log_2 transformation: In the main menubar, to `Edit --> Transform data --> Log_2`
 2. Select the required row in the MetaOmGraph's `Feature Metadata` tab.
 3. Go to `Statistical Analysis --> Correlation` or choose other appropriate option.
 4. Click the green button next to `Statistical Analysis` to save the `Feature Metadata` table containing the correlation values.
+
+
+### References
+1. Singh, Urminder, Manhoi Hur, Karin Dorman, and Eve Syrkin Wurtele. "MetaOmGraph: a workbench for interactive exploratory data analysis of large expression datasets." Nucleic acids research 48, no. 4 (2020): e23-e23.
