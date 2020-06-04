@@ -9,12 +9,24 @@ All analysis were performed using [MetaOmGraph](https://github.com/urmi-21/MetaO
 
 ## Open the project with MetaOmGraph
 1. Double click on the .jar file to start MetaOmGraph.
-2. 
+2. Click on open new project and locate the .mog file for the Human cancer RNA-Seq mog project
+3. MetaOmGraph will open and display the project.
 
 ## Perform Differential Expression Analysis with MetaOmGraph
+For more detailed explanation, please go through section 8 of the user manual.
+1. In the top menubar, go to `Tools --> Differential Expresion Analysis`
+2. In the Differential Expression Analysis window, search the groups and perform the analysis.
 
 
 ## Execute R via MetaOmGraph
+1. Select the features (genes) from the MetaOmGraph's `Feature Metadata` tab.
+2. Go to `Plot --> Selected Rows --> Using R`
+3. Browse to the R script in `rscripts/makeplots.R`
+4. Enter output directory name. NOTE: the output directory is relative to the project directory.
 
 
 ## Perform Correlation Analysis with MetaOmGraph
+1. Apply log_2 transformation: In the main Menu Bar, to `Edit --> Transform data --> Log_2`
+2. Select the required row in the MetaOmGraph's `Feature Metadata` tab.
+3. Go to `Statistical Analysis --> Correlation` or choose other appropriate option.
+4. Click the green button next to `Statistical Analysis` to save the `Feature Metadata` table containing the correlation values.
