@@ -13,7 +13,7 @@ All analysis were performed using [MetaOmGraph](https://github.com/urmi-21/MetaO
 3. MetaOmGraph will open and display the project.
 
 ## Perform Differential Expression Analysis with MetaOmGraph
-For more detailed explanation, please go through section 8 of the user manual.
+For more detailed explanation, please go through section 8 of the [MetaOmGraph user manual](https://github.com/urmi-21/MetaOmGraph/tree/master/manual).
 1. In the top menubar, go to `Tools --> Differential Expresion Analysis`
 2. In the Differential Expression Analysis window, search the groups and perform the analysis.
 
