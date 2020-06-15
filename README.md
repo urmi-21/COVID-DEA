@@ -1,5 +1,5 @@
 # Differential expression of COVID-19-related genes in European Americans and African Americans
-This file will provide instructions on how to reproduce the results described in the pre-print ["Differential expression of COVID-19-related genes in European Americans and African Americans"]().
+This file will provide instructions on how to reproduce the results described in the pre-print ["Differential expression of COVID-19-related genes in European Americans and African Americans"](https://www.biorxiv.org/content/10.1101/2020.06.09.143271v3).
 All analysis were performed using [MetaOmGraph](https://github.com/urmi-21/MetaOmGraph) version 1.8.1. Violin plots were made using ggplot in R.
 
 ## Setting up tools and data
