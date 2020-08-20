@@ -1,0 +1,433 @@
+Disease	Sample	Gene	Data	Size	Method	Statistic	pval
+BRCA	black or african american	CCL3L3	log2(as.numeric(thisData) + 1)	142	Hartigans' dip test for unimodality / multimodality	0.0352112676056338	0.2379
+BRCA	white	CCL3L3	log2(as.numeric(thisData) + 1)	674	Hartigans' dip test for unimodality / multimodality	0.0874013327420663	0.0000
+BRCA	black or african american	CXCL9	log2(as.numeric(thisData) + 1)	142	Hartigans' dip test for unimodality / multimodality	0.0175091974156221	0.9932
+BRCA	white	CXCL9	log2(as.numeric(thisData) + 1)	674	Hartigans' dip test for unimodality / multimodality	0.0090020054974402	0.9907
+BRCA	black or african american	CXCL10	log2(as.numeric(thisData) + 1)	142	Hartigans' dip test for unimodality / multimodality	0.0172210782749063	0.9937
+BRCA	white	CXCL10	log2(as.numeric(thisData) + 1)	674	Hartigans' dip test for unimodality / multimodality	0.0114050119560286	0.8590
+BRCA	black or african american	F8A1	log2(as.numeric(thisData) + 1)	142	Hartigans' dip test for unimodality / multimodality	0.0206199231603762	0.9722
+BRCA	white	F8A1	log2(as.numeric(thisData) + 1)	674	Hartigans' dip test for unimodality / multimodality	0.0112403556487271	0.8761
+BRCA	black or african american	F8A2	log2(as.numeric(thisData) + 1)	142	Hartigans' dip test for unimodality / multimodality	0.0528169014084507	0.0048
+BRCA	white	F8A2	log2(as.numeric(thisData) + 1)	674	Hartigans' dip test for unimodality / multimodality	0.0687514250401978	0.0000
+BRCA	black or african american	F8A3	log2(as.numeric(thisData) + 1)	142	Hartigans' dip test for unimodality / multimodality	0.0242767145249377	0.8472
+BRCA	white	F8A3	log2(as.numeric(thisData) + 1)	674	Hartigans' dip test for unimodality / multimodality	0.0146223811745538	0.4495
+BRCA	black or african american	GSTM1	log2(as.numeric(thisData) + 1)	142	Hartigans' dip test for unimodality / multimodality	0.0255524595409137	0.7810
+BRCA	white	GSTM1	log2(as.numeric(thisData) + 1)	674	Hartigans' dip test for unimodality / multimodality	0.0640458757850978	0.0000
+BRCA	black or african american	IL6ST	log2(as.numeric(thisData) + 1)	142	Hartigans' dip test for unimodality / multimodality	0.0329152321013572	0.3387
+BRCA	white	IL6ST	log2(as.numeric(thisData) + 1)	674	Hartigans' dip test for unimodality / multimodality	0.00910141468245399	0.9904
+BRCA	black or african american	TMPRSS6	log2(as.numeric(thisData) + 1)	142	Hartigans' dip test for unimodality / multimodality	0.0301434734572343	0.4923
+BRCA	white	TMPRSS6	log2(as.numeric(thisData) + 1)	674	Hartigans' dip test for unimodality / multimodality	0.0140724791129069	0.5195
+UCEC	black or african american	CCL3L3	log2(as.numeric(thisData) + 1)	54	Hartigans' dip test for unimodality / multimodality	0.0708458947242945	0.0352
+UCEC	white	CCL3L3	log2(as.numeric(thisData) + 1)	70	Hartigans' dip test for unimodality / multimodality	0.0646021842094859	0.0253
+UCEC	black or african american	CXCL9	log2(as.numeric(thisData) + 1)	54	Hartigans' dip test for unimodality / multimodality	0.0440820136900191	0.6229
+UCEC	white	CXCL9	log2(as.numeric(thisData) + 1)	70	Hartigans' dip test for unimodality / multimodality	0.0443274961140913	0.3914
+UCEC	black or african american	CXCL10	log2(as.numeric(thisData) + 1)	54	Hartigans' dip test for unimodality / multimodality	0.0443197932232153	0.6132
+UCEC	white	CXCL10	log2(as.numeric(thisData) + 1)	70	Hartigans' dip test for unimodality / multimodality	0.0286939685481073	0.9714
+UCEC	black or african american	F8A1	log2(as.numeric(thisData) + 1)	54	Hartigans' dip test for unimodality / multimodality	0.0397803131520488	0.7932
+UCEC	white	F8A1	log2(as.numeric(thisData) + 1)	70	Hartigans' dip test for unimodality / multimodality	0.0324204464671937	0.8933
+UCEC	black or african american	F8A2	log2(as.numeric(thisData) + 1)	54	Hartigans' dip test for unimodality / multimodality	0.0925925925925926	7e-04
+UCEC	white	F8A2	log2(as.numeric(thisData) + 1)	70	Hartigans' dip test for unimodality / multimodality	0.0699927471093364	0.0091
+UCEC	black or african american	F8A3	log2(as.numeric(thisData) + 1)	54	Hartigans' dip test for unimodality / multimodality	0.0277777777777778	0.9928
+UCEC	white	F8A3	log2(as.numeric(thisData) + 1)	70	Hartigans' dip test for unimodality / multimodality	0.0763196946257574	0.0027
+UCEC	black or african american	GSTM1	log2(as.numeric(thisData) + 1)	54	Hartigans' dip test for unimodality / multimodality	0.057031667204469	0.1948
+UCEC	white	GSTM1	log2(as.numeric(thisData) + 1)	70	Hartigans' dip test for unimodality / multimodality	0.0689752976222845	0.0111
+UCEC	black or african american	IL6ST	log2(as.numeric(thisData) + 1)	54	Hartigans' dip test for unimodality / multimodality	0.0383071723298509	0.8402
+UCEC	white	IL6ST	log2(as.numeric(thisData) + 1)	70	Hartigans' dip test for unimodality / multimodality	0.0357034630440717	0.7729
+UCEC	black or african american	TMPRSS6	log2(as.numeric(thisData) + 1)	54	Hartigans' dip test for unimodality / multimodality	0.0515895989146538	0.3411
+UCEC	white	TMPRSS6	log2(as.numeric(thisData) + 1)	70	Hartigans' dip test for unimodality / multimodality	0.0367015454991909	0.7297
+UCS	black or african american	CCL3L3	log2(as.numeric(thisData) + 1)	8	Hartigans' dip test for unimodality / multimodality	0.103516446585854	0.6366
+UCS	white	CCL3L3	log2(as.numeric(thisData) + 1)	35	Hartigans' dip test for unimodality / multimodality	0.122360975452718	1e-04
+UCS	black or african american	CXCL9	log2(as.numeric(thisData) + 1)	8	Hartigans' dip test for unimodality / multimodality	0.115305777640833	0.4126
+UCS	white	CXCL9	log2(as.numeric(thisData) + 1)	35	Hartigans' dip test for unimodality / multimodality	0.0517382243297468	0.6865
+UCS	black or african american	CXCL10	log2(as.numeric(thisData) + 1)	8	Hartigans' dip test for unimodality / multimodality	0.0625	0.9950
+UCS	white	CXCL10	log2(as.numeric(thisData) + 1)	35	Hartigans' dip test for unimodality / multimodality	0.0698049832237897	0.1873
+UCS	black or african american	F8A1	log2(as.numeric(thisData) + 1)	8	Hartigans' dip test for unimodality / multimodality	0.109375665774228	0.5313
+UCS	white	F8A1	log2(as.numeric(thisData) + 1)	35	Hartigans' dip test for unimodality / multimodality	0.0499978357524447	0.7421
+UCS	black or african american	F8A2	log2(as.numeric(thisData) + 1)	8	Hartigans' dip test for unimodality / multimodality	0.0625	0.9950
+UCS	white	F8A2	log2(as.numeric(thisData) + 1)	35	Hartigans' dip test for unimodality / multimodality	0.0874522974775362	0.0288
+UCS	black or african american	F8A3	log2(as.numeric(thisData) + 1)	8	Hartigans' dip test for unimodality / multimodality	0.114686786136399	0.4252
+UCS	white	F8A3	log2(as.numeric(thisData) + 1)	35	Hartigans' dip test for unimodality / multimodality	0.107846949118751	0.0014
+UCS	black or african american	GSTM1	log2(as.numeric(thisData) + 1)	8	Hartigans' dip test for unimodality / multimodality	0.0811430249166737	0.9053
+UCS	white	GSTM1	log2(as.numeric(thisData) + 1)	35	Hartigans' dip test for unimodality / multimodality	0.105088060145921	0.0021
+UCS	black or african american	IL6ST	log2(as.numeric(thisData) + 1)	8	Hartigans' dip test for unimodality / multimodality	0.102009846104297	0.6614
+UCS	white	IL6ST	log2(as.numeric(thisData) + 1)	35	Hartigans' dip test for unimodality / multimodality	0.0501235695954281	0.7381
+UCS	black or african american	TMPRSS6	log2(as.numeric(thisData) + 1)	8	Hartigans' dip test for unimodality / multimodality	0.104100314481452	0.6270
+UCS	white	TMPRSS6	log2(as.numeric(thisData) + 1)	35	Hartigans' dip test for unimodality / multimodality	0.0535443520482493	0.6253
+COAD	black or african american	CCL3L3	log2(as.numeric(thisData) + 1)	54	Hartigans' dip test for unimodality / multimodality	0.0648148148148148	0.0786
+COAD	white	CCL3L3	log2(as.numeric(thisData) + 1)	188	Hartigans' dip test for unimodality / multimodality	0.0825879091119036	0.0000
+COAD	black or african american	CXCL9	log2(as.numeric(thisData) + 1)	54	Hartigans' dip test for unimodality / multimodality	0.0464609824880699	0.5262
+COAD	white	CXCL9	log2(as.numeric(thisData) + 1)	188	Hartigans' dip test for unimodality / multimodality	0.0249399822958117	0.6005
+COAD	black or african american	CXCL10	log2(as.numeric(thisData) + 1)	54	Hartigans' dip test for unimodality / multimodality	0.0368570255380097	0.8853
+COAD	white	CXCL10	log2(as.numeric(thisData) + 1)	188	Hartigans' dip test for unimodality / multimodality	0.0313325545506497	0.2167
+COAD	black or african american	F8A1	log2(as.numeric(thisData) + 1)	54	Hartigans' dip test for unimodality / multimodality	0.0307019221007388	0.9873
+COAD	white	F8A1	log2(as.numeric(thisData) + 1)	188	Hartigans' dip test for unimodality / multimodality	0.0155776942729394	0.9926
+COAD	black or african american	F8A2	log2(as.numeric(thisData) + 1)	54	Hartigans' dip test for unimodality / multimodality	0.0925925925925926	7e-04
+COAD	white	F8A2	log2(as.numeric(thisData) + 1)	188	Hartigans' dip test for unimodality / multimodality	0.0733424554829297	0.0000
+COAD	black or african american	F8A3	log2(as.numeric(thisData) + 1)	54	Hartigans' dip test for unimodality / multimodality	0.0404758807961699	0.7665
+COAD	white	F8A3	log2(as.numeric(thisData) + 1)	188	Hartigans' dip test for unimodality / multimodality	0.062227278676556	0.0000
+COAD	black or african american	GSTM1	log2(as.numeric(thisData) + 1)	54	Hartigans' dip test for unimodality / multimodality	0.0391875145991843	0.8129
+COAD	white	GSTM1	log2(as.numeric(thisData) + 1)	188	Hartigans' dip test for unimodality / multimodality	0.0391065226019914	0.0398
+COAD	black or african american	IL6ST	log2(as.numeric(thisData) + 1)	54	Hartigans' dip test for unimodality / multimodality	0.0509209624853805	0.3628
+COAD	white	IL6ST	log2(as.numeric(thisData) + 1)	188	Hartigans' dip test for unimodality / multimodality	0.0183356446643748	0.9667
+COAD	black or african american	TMPRSS6	log2(as.numeric(thisData) + 1)	54	Hartigans' dip test for unimodality / multimodality	0.0424278513786601	0.6910
+COAD	white	TMPRSS6	log2(as.numeric(thisData) + 1)	188	Hartigans' dip test for unimodality / multimodality	0.0172771704551732	0.9861
+LIHC	black or african american	CCL3L3	log2(as.numeric(thisData) + 1)	15	Hartigans' dip test for unimodality / multimodality	0.069099877917795	0.8025
+LIHC	white	CCL3L3	log2(as.numeric(thisData) + 1)	159	Hartigans' dip test for unimodality / multimodality	0.055648829775203	9e-04
+LIHC	black or african american	CXCL9	log2(as.numeric(thisData) + 1)	15	Hartigans' dip test for unimodality / multimodality	0.0727879166338426	0.7330
+LIHC	white	CXCL9	log2(as.numeric(thisData) + 1)	159	Hartigans' dip test for unimodality / multimodality	0.0222265129228726	0.8885
+LIHC	black or african american	CXCL10	log2(as.numeric(thisData) + 1)	15	Hartigans' dip test for unimodality / multimodality	0.0919849566842239	0.3228
+LIHC	white	CXCL10	log2(as.numeric(thisData) + 1)	159	Hartigans' dip test for unimodality / multimodality	0.0284318185024409	0.5019
+LIHC	black or african american	F8A1	log2(as.numeric(thisData) + 1)	15	Hartigans' dip test for unimodality / multimodality	0.0799472088212237	0.5832
+LIHC	white	F8A1	log2(as.numeric(thisData) + 1)	159	Hartigans' dip test for unimodality / multimodality	0.0295597789792724	0.4317
+LIHC	black or african american	F8A2	log2(as.numeric(thisData) + 1)	15	Hartigans' dip test for unimodality / multimodality	0.1	0.1968
+LIHC	white	F8A2	log2(as.numeric(thisData) + 1)	159	Hartigans' dip test for unimodality / multimodality	0.0916888523809954	0.0000
+LIHC	black or african american	F8A3	log2(as.numeric(thisData) + 1)	15	Hartigans' dip test for unimodality / multimodality	0.0726728964641974	0.7352
+LIHC	white	F8A3	log2(as.numeric(thisData) + 1)	159	Hartigans' dip test for unimodality / multimodality	0.0613691018980432	1e-04
+LIHC	black or african american	GSTM1	log2(as.numeric(thisData) + 1)	15	Hartigans' dip test for unimodality / multimodality	0.0953583412793522	0.2659
+LIHC	white	GSTM1	log2(as.numeric(thisData) + 1)	159	Hartigans' dip test for unimodality / multimodality	0.059304613458738	3e-04
+LIHC	black or african american	IL6ST	log2(as.numeric(thisData) + 1)	15	Hartigans' dip test for unimodality / multimodality	0.11159459307391	0.0913
+LIHC	white	IL6ST	log2(as.numeric(thisData) + 1)	159	Hartigans' dip test for unimodality / multimodality	0.0226403972551858	0.8671
+LIHC	black or african american	TMPRSS6	log2(as.numeric(thisData) + 1)	15	Hartigans' dip test for unimodality / multimodality	0.0750001373426528	0.6903
+LIHC	white	TMPRSS6	log2(as.numeric(thisData) + 1)	159	Hartigans' dip test for unimodality / multimodality	0.0223946719697848	0.8798
+ESCA	black or african american	CCL3L3	log2(as.numeric(thisData) + 1)	5	Hartigans' dip test for unimodality / multimodality	0.1	0.9029
+ESCA	white	CCL3L3	log2(as.numeric(thisData) + 1)	112	Hartigans' dip test for unimodality / multimodality	0.102385886816938	0.0000
+ESCA	black or african american	CXCL9	log2(as.numeric(thisData) + 1)	5	Hartigans' dip test for unimodality / multimodality	0.1	0.9029
+ESCA	white	CXCL9	log2(as.numeric(thisData) + 1)	112	Hartigans' dip test for unimodality / multimodality	0.0261112407277517	0.8932
+ESCA	black or african american	CXCL10	log2(as.numeric(thisData) + 1)	5	Hartigans' dip test for unimodality / multimodality	0.10592596259782	0.6971
+ESCA	white	CXCL10	log2(as.numeric(thisData) + 1)	112	Hartigans' dip test for unimodality / multimodality	0.0239862230235888	0.9557
+ESCA	black or african american	F8A1	log2(as.numeric(thisData) + 1)	5	Hartigans' dip test for unimodality / multimodality	0.131249129032093	0.4241
+ESCA	white	F8A1	log2(as.numeric(thisData) + 1)	112	Hartigans' dip test for unimodality / multimodality	0.0276780839193772	0.8246
+ESCA	black or african american	F8A2	log2(as.numeric(thisData) + 1)	5	Hartigans' dip test for unimodality / multimodality	0.121371043376843	0.5015
+ESCA	white	F8A2	log2(as.numeric(thisData) + 1)	112	Hartigans' dip test for unimodality / multimodality	0.0730592961152686	1e-04
+ESCA	black or african american	F8A3	log2(as.numeric(thisData) + 1)	5	Hartigans' dip test for unimodality / multimodality	0.1	0.9029
+ESCA	white	F8A3	log2(as.numeric(thisData) + 1)	112	Hartigans' dip test for unimodality / multimodality	0.0603446679710207	0.0037
+ESCA	black or african american	GSTM1	log2(as.numeric(thisData) + 1)	5	Hartigans' dip test for unimodality / multimodality	0.110257123145853	0.5880
+ESCA	white	GSTM1	log2(as.numeric(thisData) + 1)	112	Hartigans' dip test for unimodality / multimodality	0.0634163432381512	0.0016
+ESCA	black or african american	IL6ST	log2(as.numeric(thisData) + 1)	5	Hartigans' dip test for unimodality / multimodality	0.133696702398421	0.4049
+ESCA	white	IL6ST	log2(as.numeric(thisData) + 1)	112	Hartigans' dip test for unimodality / multimodality	0.0306522238050431	0.6681
+ESCA	black or african american	TMPRSS6	log2(as.numeric(thisData) + 1)	5	Hartigans' dip test for unimodality / multimodality	0.1	0.9029
+ESCA	white	TMPRSS6	log2(as.numeric(thisData) + 1)	112	Hartigans' dip test for unimodality / multimodality	0.0367797008818551	0.3418
+PRAD	black or african american	CCL3L3	log2(as.numeric(thisData) + 1)	7	Hartigans' dip test for unimodality / multimodality	0.142857142857143	0.1182
+PRAD	white	CCL3L3	log2(as.numeric(thisData) + 1)	139	Hartigans' dip test for unimodality / multimodality	0.0806903667999954	0.0000
+PRAD	black or african american	CXCL9	log2(as.numeric(thisData) + 1)	7	Hartigans' dip test for unimodality / multimodality	0.0714285714285714	0.9900
+PRAD	white	CXCL9	log2(as.numeric(thisData) + 1)	139	Hartigans' dip test for unimodality / multimodality	0.0296549603372055	0.5417
+PRAD	black or african american	CXCL10	log2(as.numeric(thisData) + 1)	7	Hartigans' dip test for unimodality / multimodality	0.0905529676147858	0.8284
+PRAD	white	CXCL10	log2(as.numeric(thisData) + 1)	139	Hartigans' dip test for unimodality / multimodality	0.0205177264618363	0.9784
+PRAD	black or african american	F8A1	log2(as.numeric(thisData) + 1)	7	Hartigans' dip test for unimodality / multimodality	0.140875677798358	0.1443
+PRAD	white	F8A1	log2(as.numeric(thisData) + 1)	139	Hartigans' dip test for unimodality / multimodality	0.023384168756221	0.9017
+PRAD	black or african american	F8A2	log2(as.numeric(thisData) + 1)	7	Hartigans' dip test for unimodality / multimodality	0.127941754423119	0.3398
+PRAD	white	F8A2	log2(as.numeric(thisData) + 1)	139	Hartigans' dip test for unimodality / multimodality	0.0587358910839539	0.0010
+PRAD	black or african american	F8A3	log2(as.numeric(thisData) + 1)	7	Hartigans' dip test for unimodality / multimodality	0.102028873704251	0.7132
+PRAD	white	F8A3	log2(as.numeric(thisData) + 1)	139	Hartigans' dip test for unimodality / multimodality	0.0938319882461131	0.0000
+PRAD	black or african american	GSTM1	log2(as.numeric(thisData) + 1)	7	Hartigans' dip test for unimodality / multimodality	0.0905599676519477	0.8284
+PRAD	white	GSTM1	log2(as.numeric(thisData) + 1)	139	Hartigans' dip test for unimodality / multimodality	0.0996686931615215	0.0000
+PRAD	black or african american	IL6ST	log2(as.numeric(thisData) + 1)	7	Hartigans' dip test for unimodality / multimodality	0.123226336077188	0.4154
+PRAD	white	IL6ST	log2(as.numeric(thisData) + 1)	139	Hartigans' dip test for unimodality / multimodality	0.0356954825000494	0.2328
+PRAD	black or african american	TMPRSS6	log2(as.numeric(thisData) + 1)	7	Hartigans' dip test for unimodality / multimodality	0.124428997875725	0.3966
+PRAD	white	TMPRSS6	log2(as.numeric(thisData) + 1)	139	Hartigans' dip test for unimodality / multimodality	0.0342904157498835	0.2891
+STAD	black or african american	CCL3L3	log2(as.numeric(thisData) + 1)	12	Hartigans' dip test for unimodality / multimodality	0.0766086915285129	0.8170
+STAD	white	CCL3L3	log2(as.numeric(thisData) + 1)	236	Hartigans' dip test for unimodality / multimodality	0.0614406779661017	0.0000
+STAD	black or african american	CXCL9	log2(as.numeric(thisData) + 1)	12	Hartigans' dip test for unimodality / multimodality	0.0768399182424387	0.8133
+STAD	white	CXCL9	log2(as.numeric(thisData) + 1)	236	Hartigans' dip test for unimodality / multimodality	0.0199885918532942	0.7897
+STAD	black or african american	CXCL10	log2(as.numeric(thisData) + 1)	12	Hartigans' dip test for unimodality / multimodality	0.075586368496215	0.8335
+STAD	white	CXCL10	log2(as.numeric(thisData) + 1)	236	Hartigans' dip test for unimodality / multimodality	0.0147257418892776	0.9910
+STAD	black or african american	F8A1	log2(as.numeric(thisData) + 1)	12	Hartigans' dip test for unimodality / multimodality	0.0994131996207123	0.3379
+STAD	white	F8A1	log2(as.numeric(thisData) + 1)	236	Hartigans' dip test for unimodality / multimodality	0.0127468700830134	0.9951
+STAD	black or african american	F8A2	log2(as.numeric(thisData) + 1)	12	Hartigans' dip test for unimodality / multimodality	0.0801155378061107	0.7524
+STAD	white	F8A2	log2(as.numeric(thisData) + 1)	236	Hartigans' dip test for unimodality / multimodality	0.0538277887312239	0.0000
+STAD	black or african american	F8A3	log2(as.numeric(thisData) + 1)	12	Hartigans' dip test for unimodality / multimodality	0.0809991571185161	0.7352
+STAD	white	F8A3	log2(as.numeric(thisData) + 1)	236	Hartigans' dip test for unimodality / multimodality	0.0413059356668131	0.0054
+STAD	black or african american	GSTM1	log2(as.numeric(thisData) + 1)	12	Hartigans' dip test for unimodality / multimodality	0.113021990305432	0.1696
+STAD	white	GSTM1	log2(as.numeric(thisData) + 1)	236	Hartigans' dip test for unimodality / multimodality	0.0801726927979631	0.0000
+STAD	black or african american	IL6ST	log2(as.numeric(thisData) + 1)	12	Hartigans' dip test for unimodality / multimodality	0.0589441265193534	0.9868
+STAD	white	IL6ST	log2(as.numeric(thisData) + 1)	236	Hartigans' dip test for unimodality / multimodality	0.016078941236681	0.9760
+STAD	black or african american	TMPRSS6	log2(as.numeric(thisData) + 1)	12	Hartigans' dip test for unimodality / multimodality	0.112848312120601	0.1711
+STAD	white	TMPRSS6	log2(as.numeric(thisData) + 1)	236	Hartigans' dip test for unimodality / multimodality	0.0129399172538215	0.9947
+THCA	black or african american	CCL3L3	log2(as.numeric(thisData) + 1)	25	Hartigans' dip test for unimodality / multimodality	0.0764806323122389	0.2655
+THCA	white	CCL3L3	log2(as.numeric(thisData) + 1)	292	Hartigans' dip test for unimodality / multimodality	0.0482698525341038	0.0000
+THCA	black or african american	CXCL9	log2(as.numeric(thisData) + 1)	25	Hartigans' dip test for unimodality / multimodality	0.0515866552264109	0.8950
+THCA	white	CXCL9	log2(as.numeric(thisData) + 1)	292	Hartigans' dip test for unimodality / multimodality	0.0155184812703541	0.9453
+THCA	black or african american	CXCL10	log2(as.numeric(thisData) + 1)	25	Hartigans' dip test for unimodality / multimodality	0.0493877778304709	0.9286
+THCA	white	CXCL10	log2(as.numeric(thisData) + 1)	292	Hartigans' dip test for unimodality / multimodality	0.0176031585049207	0.8213
+THCA	black or african american	F8A1	log2(as.numeric(thisData) + 1)	25	Hartigans' dip test for unimodality / multimodality	0.0713558958398792	0.3752
+THCA	white	F8A1	log2(as.numeric(thisData) + 1)	292	Hartigans' dip test for unimodality / multimodality	0.0191025771424813	0.6975
+THCA	black or african american	F8A2	log2(as.numeric(thisData) + 1)	25	Hartigans' dip test for unimodality / multimodality	0.0624008733371825	0.6197
+THCA	white	F8A2	log2(as.numeric(thisData) + 1)	292	Hartigans' dip test for unimodality / multimodality	0.0653431177106967	0.0000
+THCA	black or african american	F8A3	log2(as.numeric(thisData) + 1)	25	Hartigans' dip test for unimodality / multimodality	0.0569203476062357	0.7758
+THCA	white	F8A3	log2(as.numeric(thisData) + 1)	292	Hartigans' dip test for unimodality / multimodality	0.043227425530273	5e-04
+THCA	black or african american	GSTM1	log2(as.numeric(thisData) + 1)	25	Hartigans' dip test for unimodality / multimodality	0.0476922615088508	0.9521
+THCA	white	GSTM1	log2(as.numeric(thisData) + 1)	292	Hartigans' dip test for unimodality / multimodality	0.129977947716654	0.0000
+THCA	black or african american	IL6ST	log2(as.numeric(thisData) + 1)	25	Hartigans' dip test for unimodality / multimodality	0.104726282562685	0.0183
+THCA	white	IL6ST	log2(as.numeric(thisData) + 1)	292	Hartigans' dip test for unimodality / multimodality	0.0177253457431672	0.8128
+THCA	black or african american	TMPRSS6	log2(as.numeric(thisData) + 1)	25	Hartigans' dip test for unimodality / multimodality	0.0688810394796579	0.4366
+THCA	white	TMPRSS6	log2(as.numeric(thisData) + 1)	292	Hartigans' dip test for unimodality / multimodality	0.0157578403949796	0.9339
+LUAD	black or african american	CCL3L3	log2(as.numeric(thisData) + 1)	48	Hartigans' dip test for unimodality / multimodality	0.0441792573886607	0.7139
+LUAD	white	CCL3L3	log2(as.numeric(thisData) + 1)	368	Hartigans' dip test for unimodality / multimodality	0.101177996354019	0.0000
+LUAD	black or african american	CXCL9	log2(as.numeric(thisData) + 1)	48	Hartigans' dip test for unimodality / multimodality	0.0468750925788489	0.6099
+LUAD	white	CXCL9	log2(as.numeric(thisData) + 1)	368	Hartigans' dip test for unimodality / multimodality	0.0165182295338294	0.7526
+LUAD	black or african american	CXCL10	log2(as.numeric(thisData) + 1)	48	Hartigans' dip test for unimodality / multimodality	0.0454175244145076	0.6667
+LUAD	white	CXCL10	log2(as.numeric(thisData) + 1)	368	Hartigans' dip test for unimodality / multimodality	0.0125498608002711	0.9855
+LUAD	black or african american	F8A1	log2(as.numeric(thisData) + 1)	48	Hartigans' dip test for unimodality / multimodality	0.0487611869468608	0.5373
+LUAD	white	F8A1	log2(as.numeric(thisData) + 1)	368	Hartigans' dip test for unimodality / multimodality	0.0122265493585334	0.9902
+LUAD	black or african american	F8A2	log2(as.numeric(thisData) + 1)	48	Hartigans' dip test for unimodality / multimodality	0.0625	0.1576
+LUAD	white	F8A2	log2(as.numeric(thisData) + 1)	368	Hartigans' dip test for unimodality / multimodality	0.0593252790671971	0.0000
+LUAD	black or african american	F8A3	log2(as.numeric(thisData) + 1)	48	Hartigans' dip test for unimodality / multimodality	0.0324067136275056	0.9873
+LUAD	white	F8A3	log2(as.numeric(thisData) + 1)	368	Hartigans' dip test for unimodality / multimodality	0.028450294853057	0.0381
+LUAD	black or african american	GSTM1	log2(as.numeric(thisData) + 1)	48	Hartigans' dip test for unimodality / multimodality	0.0813788526380762	0.0127
+LUAD	white	GSTM1	log2(as.numeric(thisData) + 1)	368	Hartigans' dip test for unimodality / multimodality	0.115446748873314	0.0000
+LUAD	black or african american	IL6ST	log2(as.numeric(thisData) + 1)	48	Hartigans' dip test for unimodality / multimodality	0.0393784786204772	0.8714
+LUAD	white	IL6ST	log2(as.numeric(thisData) + 1)	368	Hartigans' dip test for unimodality / multimodality	0.0183431097264769	0.5699
+LUAD	black or african american	TMPRSS6	log2(as.numeric(thisData) + 1)	48	Hartigans' dip test for unimodality / multimodality	0.0341161232698446	0.9724
+LUAD	white	TMPRSS6	log2(as.numeric(thisData) + 1)	368	Hartigans' dip test for unimodality / multimodality	0.011868521101112	0.9911
+LUSC	black or african american	CCL3L3	log2(as.numeric(thisData) + 1)	28	Hartigans' dip test for unimodality / multimodality	0.0526245387175582	0.8145
+LUSC	white	CCL3L3	log2(as.numeric(thisData) + 1)	337	Hartigans' dip test for unimodality / multimodality	0.0702282317403141	0.0000
+LUSC	black or african american	CXCL9	log2(as.numeric(thisData) + 1)	28	Hartigans' dip test for unimodality / multimodality	0.0446902862286114	0.9600
+LUSC	white	CXCL9	log2(as.numeric(thisData) + 1)	337	Hartigans' dip test for unimodality / multimodality	0.0135328463106769	0.9763
+LUSC	black or african american	CXCL10	log2(as.numeric(thisData) + 1)	28	Hartigans' dip test for unimodality / multimodality	0.0879025893903089	0.0709
+LUSC	white	CXCL10	log2(as.numeric(thisData) + 1)	337	Hartigans' dip test for unimodality / multimodality	0.0111277453461462	0.9943
+LUSC	black or african american	F8A1	log2(as.numeric(thisData) + 1)	28	Hartigans' dip test for unimodality / multimodality	0.0645714386208338	0.4642
+LUSC	white	F8A1	log2(as.numeric(thisData) + 1)	337	Hartigans' dip test for unimodality / multimodality	0.0125068243886685	0.9908
+LUSC	black or african american	F8A2	log2(as.numeric(thisData) + 1)	28	Hartigans' dip test for unimodality / multimodality	0.0892857142857143	0.0609
+LUSC	white	F8A2	log2(as.numeric(thisData) + 1)	337	Hartigans' dip test for unimodality / multimodality	0.0727345919158141	0.0000
+LUSC	black or african american	F8A3	log2(as.numeric(thisData) + 1)	28	Hartigans' dip test for unimodality / multimodality	0.0432692287906755	0.9738
+LUSC	white	F8A3	log2(as.numeric(thisData) + 1)	337	Hartigans' dip test for unimodality / multimodality	0.0540581628609886	0.0000
+LUSC	black or african american	GSTM1	log2(as.numeric(thisData) + 1)	28	Hartigans' dip test for unimodality / multimodality	0.0693134757538263	0.3410
+LUSC	white	GSTM1	log2(as.numeric(thisData) + 1)	337	Hartigans' dip test for unimodality / multimodality	0.0297738844997509	0.0370
+LUSC	black or african american	IL6ST	log2(as.numeric(thisData) + 1)	28	Hartigans' dip test for unimodality / multimodality	0.0574522308251714	0.6795
+LUSC	white	IL6ST	log2(as.numeric(thisData) + 1)	337	Hartigans' dip test for unimodality / multimodality	0.0137779167390637	0.9688
+LUSC	black or african american	TMPRSS6	log2(as.numeric(thisData) + 1)	28	Hartigans' dip test for unimodality / multimodality	0.0592817189505476	0.6229
+LUSC	white	TMPRSS6	log2(as.numeric(thisData) + 1)	337	Hartigans' dip test for unimodality / multimodality	0.0170819376746663	0.7662
+KIRC	black or african american	CCL3L3	log2(as.numeric(thisData) + 1)	46	Hartigans' dip test for unimodality / multimodality	0.0434782608695652	0.7687
+KIRC	white	CCL3L3	log2(as.numeric(thisData) + 1)	410	Hartigans' dip test for unimodality / multimodality	0.0809367831234551	0.0000
+KIRC	black or african american	CXCL9	log2(as.numeric(thisData) + 1)	46	Hartigans' dip test for unimodality / multimodality	0.0581105709482838	0.2696
+KIRC	white	CXCL9	log2(as.numeric(thisData) + 1)	410	Hartigans' dip test for unimodality / multimodality	0.00998477610896964	0.9948
+KIRC	black or african american	CXCL10	log2(as.numeric(thisData) + 1)	46	Hartigans' dip test for unimodality / multimodality	0.0538772219985951	0.3897
+KIRC	white	CXCL10	log2(as.numeric(thisData) + 1)	410	Hartigans' dip test for unimodality / multimodality	0.013026973828613	0.9527
+KIRC	black or african american	F8A1	log2(as.numeric(thisData) + 1)	46	Hartigans' dip test for unimodality / multimodality	0.0363060131169259	0.9538
+KIRC	white	F8A1	log2(as.numeric(thisData) + 1)	410	Hartigans' dip test for unimodality / multimodality	0.00919048919331979	0.9971
+KIRC	black or african american	F8A2	log2(as.numeric(thisData) + 1)	46	Hartigans' dip test for unimodality / multimodality	0.0434782608695652	0.7687
+KIRC	white	F8A2	log2(as.numeric(thisData) + 1)	410	Hartigans' dip test for unimodality / multimodality	0.0560475824161128	0.0000
+KIRC	black or african american	F8A3	log2(as.numeric(thisData) + 1)	46	Hartigans' dip test for unimodality / multimodality	0.0380454004187164	0.9216
+KIRC	white	F8A3	log2(as.numeric(thisData) + 1)	410	Hartigans' dip test for unimodality / multimodality	0.0322497813724673	0.0043
+KIRC	black or african american	GSTM1	log2(as.numeric(thisData) + 1)	46	Hartigans' dip test for unimodality / multimodality	0.0530431588954552	0.4172
+KIRC	white	GSTM1	log2(as.numeric(thisData) + 1)	410	Hartigans' dip test for unimodality / multimodality	0.0852177215612562	0.0000
+KIRC	black or african american	IL6ST	log2(as.numeric(thisData) + 1)	46	Hartigans' dip test for unimodality / multimodality	0.0342188376610704	0.9790
+KIRC	white	IL6ST	log2(as.numeric(thisData) + 1)	410	Hartigans' dip test for unimodality / multimodality	0.0135245144314749	0.9266
+KIRC	black or african american	TMPRSS6	log2(as.numeric(thisData) + 1)	46	Hartigans' dip test for unimodality / multimodality	0.041106286130744	0.8430
+KIRC	white	TMPRSS6	log2(as.numeric(thisData) + 1)	410	Hartigans' dip test for unimodality / multimodality	0.024390243902439	0.0913
+KIRP	black or african american	CCL3L3	log2(as.numeric(thisData) + 1)	49	Hartigans' dip test for unimodality / multimodality	0.0263436620973431	0.9955
+KIRP	white	CCL3L3	log2(as.numeric(thisData) + 1)	166	Hartigans' dip test for unimodality / multimodality	0.0786104895392375	0.0000
+KIRP	black or african american	CXCL9	log2(as.numeric(thisData) + 1)	49	Hartigans' dip test for unimodality / multimodality	0.0403959281687089	0.8308
+KIRP	white	CXCL9	log2(as.numeric(thisData) + 1)	166	Hartigans' dip test for unimodality / multimodality	0.0292682699642574	0.4127
+KIRP	black or african american	CXCL10	log2(as.numeric(thisData) + 1)	49	Hartigans' dip test for unimodality / multimodality	0.0622794430123023	0.1522
+KIRP	white	CXCL10	log2(as.numeric(thisData) + 1)	166	Hartigans' dip test for unimodality / multimodality	0.0323573466648368	0.2536
+KIRP	black or african american	F8A1	log2(as.numeric(thisData) + 1)	49	Hartigans' dip test for unimodality / multimodality	0.0357137602617696	0.9480
+KIRP	white	F8A1	log2(as.numeric(thisData) + 1)	166	Hartigans' dip test for unimodality / multimodality	0.0204162833729205	0.9418
+KIRP	black or african american	F8A2	log2(as.numeric(thisData) + 1)	49	Hartigans' dip test for unimodality / multimodality	0.0714285714285714	0.0475
+KIRP	white	F8A2	log2(as.numeric(thisData) + 1)	166	Hartigans' dip test for unimodality / multimodality	0.0638834563350501	0.0000
+KIRP	black or african american	F8A3	log2(as.numeric(thisData) + 1)	49	Hartigans' dip test for unimodality / multimodality	0.0510181640967074	0.4378
+KIRP	white	F8A3	log2(as.numeric(thisData) + 1)	166	Hartigans' dip test for unimodality / multimodality	0.102564903981154	0.0000
+KIRP	black or african american	GSTM1	log2(as.numeric(thisData) + 1)	49	Hartigans' dip test for unimodality / multimodality	0.0602214448339939	0.1857
+KIRP	white	GSTM1	log2(as.numeric(thisData) + 1)	166	Hartigans' dip test for unimodality / multimodality	0.110562908601694	0.0000
+KIRP	black or african american	IL6ST	log2(as.numeric(thisData) + 1)	49	Hartigans' dip test for unimodality / multimodality	0.0359865779124016	0.9424
+KIRP	white	IL6ST	log2(as.numeric(thisData) + 1)	166	Hartigans' dip test for unimodality / multimodality	0.0241888425632878	0.7525
+KIRP	black or african american	TMPRSS6	log2(as.numeric(thisData) + 1)	49	Hartigans' dip test for unimodality / multimodality	0.0512890527211351	0.4281
+KIRP	white	TMPRSS6	log2(as.numeric(thisData) + 1)	166	Hartigans' dip test for unimodality / multimodality	0.0286785092574734	0.4501
+KICH	black or african american	CCL3L3	log2(as.numeric(thisData) + 1)	4	Hartigans' dip test for unimodality / multimodality	0.125	0.7820
+KICH	white	CCL3L3	log2(as.numeric(thisData) + 1)	52	Hartigans' dip test for unimodality / multimodality	0.0909772832845068	0.0014
+KICH	black or african american	CXCL9	log2(as.numeric(thisData) + 1)	4	Hartigans' dip test for unimodality / multimodality	0.125	0.7820
+KICH	white	CXCL9	log2(as.numeric(thisData) + 1)	52	Hartigans' dip test for unimodality / multimodality	0.0486186253460172	0.4755
+KICH	black or african american	CXCL10	log2(as.numeric(thisData) + 1)	4	Hartigans' dip test for unimodality / multimodality	0.125	0.7820
+KICH	white	CXCL10	log2(as.numeric(thisData) + 1)	52	Hartigans' dip test for unimodality / multimodality	0.0436327931841523	0.6731
+KICH	black or african american	F8A1	log2(as.numeric(thisData) + 1)	4	Hartigans' dip test for unimodality / multimodality	0.125	0.7820
+KICH	white	F8A1	log2(as.numeric(thisData) + 1)	52	Hartigans' dip test for unimodality / multimodality	0.0340912828865612	0.9572
+KICH	black or african american	F8A2	log2(as.numeric(thisData) + 1)	4	Hartigans' dip test for unimodality / multimodality	0.164045810244872	0.1781
+KICH	white	F8A2	log2(as.numeric(thisData) + 1)	52	Hartigans' dip test for unimodality / multimodality	0.0299228550701716	0.9910
+KICH	black or african american	F8A3	log2(as.numeric(thisData) + 1)	4	Hartigans' dip test for unimodality / multimodality	0.125	0.7820
+KICH	white	F8A3	log2(as.numeric(thisData) + 1)	52	Hartigans' dip test for unimodality / multimodality	0.098818594579634	3e-04
+KICH	black or african american	GSTM1	log2(as.numeric(thisData) + 1)	4	Hartigans' dip test for unimodality / multimodality	0.146415519256441	0.2444
+KICH	white	GSTM1	log2(as.numeric(thisData) + 1)	52	Hartigans' dip test for unimodality / multimodality	0.0570078577675258	0.2187
+KICH	black or african american	IL6ST	log2(as.numeric(thisData) + 1)	4	Hartigans' dip test for unimodality / multimodality	0.125	0.7820
+KICH	white	IL6ST	log2(as.numeric(thisData) + 1)	52	Hartigans' dip test for unimodality / multimodality	0.0321588318814064	0.9810
+KICH	black or african american	TMPRSS6	log2(as.numeric(thisData) + 1)	4	Hartigans' dip test for unimodality / multimodality	0.125	0.7820
+KICH	white	TMPRSS6	log2(as.numeric(thisData) + 1)	52	Hartigans' dip test for unimodality / multimodality	0.094240337367951	7e-04
+Uterus	black or african american	CCL3L3	log2(as.numeric(thisData) + 1)	13	Hartigans' dip test for unimodality / multimodality	0.115384615384615	0.1124
+Uterus	white	CCL3L3	log2(as.numeric(thisData) + 1)	68	Hartigans' dip test for unimodality / multimodality	0.0887911989470643	2e-04
+Uterus	black or african american	CXCL9	log2(as.numeric(thisData) + 1)	13	Hartigans' dip test for unimodality / multimodality	0.0955644380344192	0.3509
+Uterus	white	CXCL9	log2(as.numeric(thisData) + 1)	68	Hartigans' dip test for unimodality / multimodality	0.0364581434967547	0.7613
+Uterus	black or african american	CXCL10	log2(as.numeric(thisData) + 1)	13	Hartigans' dip test for unimodality / multimodality	0.0779352415383958	0.7346
+Uterus	white	CXCL10	log2(as.numeric(thisData) + 1)	68	Hartigans' dip test for unimodality / multimodality	0.0326004864869676	0.9016
+Uterus	black or african american	F8A1	log2(as.numeric(thisData) + 1)	13	Hartigans' dip test for unimodality / multimodality	0.0560606444567596	0.9903
+Uterus	white	F8A1	log2(as.numeric(thisData) + 1)	68	Hartigans' dip test for unimodality / multimodality	0.0392155494867426	0.6395
+Uterus	black or african american	F8A2	log2(as.numeric(thisData) + 1)	13	Hartigans' dip test for unimodality / multimodality	0.171177227149975	4e-04
+Uterus	white	F8A2	log2(as.numeric(thisData) + 1)	68	Hartigans' dip test for unimodality / multimodality	0.0640428208012393	0.0330
+Uterus	black or african american	F8A3	log2(as.numeric(thisData) + 1)	13	Hartigans' dip test for unimodality / multimodality	0.0769230769230769	0.7540
+Uterus	white	F8A3	log2(as.numeric(thisData) + 1)	68	Hartigans' dip test for unimodality / multimodality	0.0955882352941176	0.0000
+Uterus	black or african american	GSTM1	log2(as.numeric(thisData) + 1)	13	Hartigans' dip test for unimodality / multimodality	0.0664335362982314	0.9275
+Uterus	white	GSTM1	log2(as.numeric(thisData) + 1)	68	Hartigans' dip test for unimodality / multimodality	0.14735900188281	0.0000
+Uterus	black or african american	IL6ST	log2(as.numeric(thisData) + 1)	13	Hartigans' dip test for unimodality / multimodality	0.0681318909464465	0.9075
+Uterus	white	IL6ST	log2(as.numeric(thisData) + 1)	68	Hartigans' dip test for unimodality / multimodality	0.0321700923644265	0.9119
+Uterus	black or african american	TMPRSS6	log2(as.numeric(thisData) + 1)	13	Hartigans' dip test for unimodality / multimodality	0.0786683476556033	0.7205
+Uterus	white	TMPRSS6	log2(as.numeric(thisData) + 1)	68	Hartigans' dip test for unimodality / multimodality	0.0483325772831077	0.2748
+Breast	black or african american	CCL3L3	log2(as.numeric(thisData) + 1)	12	Hartigans' dip test for unimodality / multimodality	0.141370194539121	0.0187
+Breast	white	CCL3L3	log2(as.numeric(thisData) + 1)	75	Hartigans' dip test for unimodality / multimodality	0.0735246992515127	0.0030
+Breast	black or african american	CXCL9	log2(as.numeric(thisData) + 1)	12	Hartigans' dip test for unimodality / multimodality	0.11054316352764	0.1921
+Breast	white	CXCL9	log2(as.numeric(thisData) + 1)	75	Hartigans' dip test for unimodality / multimodality	0.037984381059515	0.6152
+Breast	black or african american	CXCL10	log2(as.numeric(thisData) + 1)	12	Hartigans' dip test for unimodality / multimodality	0.10354416076471	0.2786
+Breast	white	CXCL10	log2(as.numeric(thisData) + 1)	75	Hartigans' dip test for unimodality / multimodality	0.0333333333333333	0.8234
+Breast	black or african american	F8A1	log2(as.numeric(thisData) + 1)	12	Hartigans' dip test for unimodality / multimodality	0.0741896917420458	0.8559
+Breast	white	F8A1	log2(as.numeric(thisData) + 1)	75	Hartigans' dip test for unimodality / multimodality	0.033598164801023	0.8138
+Breast	black or african american	F8A2	log2(as.numeric(thisData) + 1)	12	Hartigans' dip test for unimodality / multimodality	0.146996929254678	0.0116
+Breast	white	F8A2	log2(as.numeric(thisData) + 1)	75	Hartigans' dip test for unimodality / multimodality	0.082017770032991	4e-04
+Breast	black or african american	F8A3	log2(as.numeric(thisData) + 1)	12	Hartigans' dip test for unimodality / multimodality	0.0792341512805027	0.7696
+Breast	white	F8A3	log2(as.numeric(thisData) + 1)	75	Hartigans' dip test for unimodality / multimodality	0.0466666666666667	0.2607
+Breast	black or african american	GSTM1	log2(as.numeric(thisData) + 1)	12	Hartigans' dip test for unimodality / multimodality	0.0819267964905443	0.7172
+Breast	white	GSTM1	log2(as.numeric(thisData) + 1)	75	Hartigans' dip test for unimodality / multimodality	0.146685800638199	0.0000
+Breast	black or african american	IL6ST	log2(as.numeric(thisData) + 1)	12	Hartigans' dip test for unimodality / multimodality	0.087227416194549	0.5964
+Breast	white	IL6ST	log2(as.numeric(thisData) + 1)	75	Hartigans' dip test for unimodality / multimodality	0.0264910685686305	0.9861
+Breast	black or african american	TMPRSS6	log2(as.numeric(thisData) + 1)	12	Hartigans' dip test for unimodality / multimodality	0.0929780616913318	0.4542
+Breast	white	TMPRSS6	log2(as.numeric(thisData) + 1)	75	Hartigans' dip test for unimodality / multimodality	0.0394989936585323	0.5434
+Thyroid	black or african american	CCL3L3	log2(as.numeric(thisData) + 1)	43	Hartigans' dip test for unimodality / multimodality	0.116279069767442	0.0000
+Thyroid	white	CCL3L3	log2(as.numeric(thisData) + 1)	267	Hartigans' dip test for unimodality / multimodality	0.0589364215576063	0.0000
+Thyroid	black or african american	CXCL9	log2(as.numeric(thisData) + 1)	43	Hartigans' dip test for unimodality / multimodality	0.039537703431781	0.9149
+Thyroid	white	CXCL9	log2(as.numeric(thisData) + 1)	267	Hartigans' dip test for unimodality / multimodality	0.0172181863285259	0.8986
+Thyroid	black or african american	CXCL10	log2(as.numeric(thisData) + 1)	43	Hartigans' dip test for unimodality / multimodality	0.0439256883256146	0.7988
+Thyroid	white	CXCL10	log2(as.numeric(thisData) + 1)	267	Hartigans' dip test for unimodality / multimodality	0.0205992509363296	0.6406
+Thyroid	black or african american	F8A1	log2(as.numeric(thisData) + 1)	43	Hartigans' dip test for unimodality / multimodality	0.0368798163638078	0.9601
+Thyroid	white	F8A1	log2(as.numeric(thisData) + 1)	267	Hartigans' dip test for unimodality / multimodality	0.0187220133446549	0.7983
+Thyroid	black or african american	F8A2	log2(as.numeric(thisData) + 1)	43	Hartigans' dip test for unimodality / multimodality	0.127906976744186	0.0000
+Thyroid	white	F8A2	log2(as.numeric(thisData) + 1)	267	Hartigans' dip test for unimodality / multimodality	0.0628579129909586	0.0000
+Thyroid	black or african american	F8A3	log2(as.numeric(thisData) + 1)	43	Hartigans' dip test for unimodality / multimodality	0.0426373779242063	0.8349
+Thyroid	white	F8A3	log2(as.numeric(thisData) + 1)	267	Hartigans' dip test for unimodality / multimodality	0.0580524344569288	0.0000
+Thyroid	black or african american	GSTM1	log2(as.numeric(thisData) + 1)	43	Hartigans' dip test for unimodality / multimodality	0.0870909896444086	0.0094
+Thyroid	white	GSTM1	log2(as.numeric(thisData) + 1)	267	Hartigans' dip test for unimodality / multimodality	0.120501592544817	0.0000
+Thyroid	black or african american	IL6ST	log2(as.numeric(thisData) + 1)	43	Hartigans' dip test for unimodality / multimodality	0.0537760553735478	0.4468
+Thyroid	white	IL6ST	log2(as.numeric(thisData) + 1)	267	Hartigans' dip test for unimodality / multimodality	0.0183516077222139	0.8233
+Thyroid	black or african american	TMPRSS6	log2(as.numeric(thisData) + 1)	43	Hartigans' dip test for unimodality / multimodality	0.0813891833767669	0.0220
+Thyroid	white	TMPRSS6	log2(as.numeric(thisData) + 1)	267	Hartigans' dip test for unimodality / multimodality	0.0229169098156722	0.4448
+Lung	black or african american	CCL3L3	log2(as.numeric(thisData) + 1)	39	Hartigans' dip test for unimodality / multimodality	0.0570097566329562	0.4196
+Lung	white	CCL3L3	log2(as.numeric(thisData) + 1)	269	Hartigans' dip test for unimodality / multimodality	0.0847174330982441	0.0000
+Lung	black or african american	CXCL9	log2(as.numeric(thisData) + 1)	39	Hartigans' dip test for unimodality / multimodality	0.0429378951065286	0.8774
+Lung	white	CXCL9	log2(as.numeric(thisData) + 1)	269	Hartigans' dip test for unimodality / multimodality	0.0157924973514023	0.9569
+Lung	black or african american	CXCL10	log2(as.numeric(thisData) + 1)	39	Hartigans' dip test for unimodality / multimodality	0.0477116256347303	0.7386
+Lung	white	CXCL10	log2(as.numeric(thisData) + 1)	269	Hartigans' dip test for unimodality / multimodality	0.0217929953958964	0.5304
+Lung	black or african american	F8A1	log2(as.numeric(thisData) + 1)	39	Hartigans' dip test for unimodality / multimodality	0.0426137297148187	0.8860
+Lung	white	F8A1	log2(as.numeric(thisData) + 1)	269	Hartigans' dip test for unimodality / multimodality	0.0153336834702537	0.9694
+Lung	black or african american	F8A2	log2(as.numeric(thisData) + 1)	39	Hartigans' dip test for unimodality / multimodality	0.141025641025641	0.0000
+Lung	white	F8A2	log2(as.numeric(thisData) + 1)	269	Hartigans' dip test for unimodality / multimodality	0.054429186527255	0.0000
+Lung	black or african american	F8A3	log2(as.numeric(thisData) + 1)	39	Hartigans' dip test for unimodality / multimodality	0.041029675454115	0.9199
+Lung	white	F8A3	log2(as.numeric(thisData) + 1)	269	Hartigans' dip test for unimodality / multimodality	0.0576208178438662	0.0000
+Lung	black or african american	GSTM1	log2(as.numeric(thisData) + 1)	39	Hartigans' dip test for unimodality / multimodality	0.0628572696377905	0.2622
+Lung	white	GSTM1	log2(as.numeric(thisData) + 1)	269	Hartigans' dip test for unimodality / multimodality	0.123647282854934	0.0000
+Lung	black or african american	IL6ST	log2(as.numeric(thisData) + 1)	39	Hartigans' dip test for unimodality / multimodality	0.0523502683113735	0.5769
+Lung	white	IL6ST	log2(as.numeric(thisData) + 1)	269	Hartigans' dip test for unimodality / multimodality	0.0130124308333297	0.9928
+Lung	black or african american	TMPRSS6	log2(as.numeric(thisData) + 1)	39	Hartigans' dip test for unimodality / multimodality	0.0506278775173303	0.6379
+Lung	white	TMPRSS6	log2(as.numeric(thisData) + 1)	269	Hartigans' dip test for unimodality / multimodality	0.0191072323977934	0.7610
+Esophagus	black or african american	CCL3L3	log2(as.numeric(thisData) + 1)	80	Hartigans' dip test for unimodality / multimodality	0.0811740418469295	3e-04
+Esophagus	white	CCL3L3	log2(as.numeric(thisData) + 1)	564	Hartigans' dip test for unimodality / multimodality	0.021844708829401	0.0650
+Esophagus	black or african american	CXCL9	log2(as.numeric(thisData) + 1)	80	Hartigans' dip test for unimodality / multimodality	0.0362546917620272	0.6459
+Esophagus	white	CXCL9	log2(as.numeric(thisData) + 1)	564	Hartigans' dip test for unimodality / multimodality	0.0115248226950355	0.9320
+Esophagus	black or african american	CXCL10	log2(as.numeric(thisData) + 1)	80	Hartigans' dip test for unimodality / multimodality	0.0403939069533758	0.4481
+Esophagus	white	CXCL10	log2(as.numeric(thisData) + 1)	564	Hartigans' dip test for unimodality / multimodality	0.0629432624113475	0.0000
+Esophagus	black or african american	F8A1	log2(as.numeric(thisData) + 1)	80	Hartigans' dip test for unimodality / multimodality	0.0267045518867243	0.9758
+Esophagus	white	F8A1	log2(as.numeric(thisData) + 1)	564	Hartigans' dip test for unimodality / multimodality	0.010064426734088	0.9893
+Esophagus	black or african american	F8A2	log2(as.numeric(thisData) + 1)	80	Hartigans' dip test for unimodality / multimodality	0.16875	0.0000
+Esophagus	white	F8A2	log2(as.numeric(thisData) + 1)	564	Hartigans' dip test for unimodality / multimodality	0.0608169719655404	0.0000
+Esophagus	black or african american	F8A3	log2(as.numeric(thisData) + 1)	80	Hartigans' dip test for unimodality / multimodality	0.044046693856423	0.2996
+Esophagus	white	F8A3	log2(as.numeric(thisData) + 1)	564	Hartigans' dip test for unimodality / multimodality	0.0718085106382979	0.0000
+Esophagus	black or african american	GSTM1	log2(as.numeric(thisData) + 1)	80	Hartigans' dip test for unimodality / multimodality	0.0694723619630721	0.0044
+Esophagus	white	GSTM1	log2(as.numeric(thisData) + 1)	564	Hartigans' dip test for unimodality / multimodality	0.096248512005005	0.0000
+Esophagus	black or african american	IL6ST	log2(as.numeric(thisData) + 1)	80	Hartigans' dip test for unimodality / multimodality	0.0533976632959717	0.0858
+Esophagus	white	IL6ST	log2(as.numeric(thisData) + 1)	564	Hartigans' dip test for unimodality / multimodality	0.0351306615790864	0.0000
+Esophagus	black or african american	TMPRSS6	log2(as.numeric(thisData) + 1)	80	Hartigans' dip test for unimodality / multimodality	0.0245026716899547	0.9910
+Esophagus	white	TMPRSS6	log2(as.numeric(thisData) + 1)	564	Hartigans' dip test for unimodality / multimodality	0.0132240395213575	0.7806
+Stomach	black or african american	CCL3L3	log2(as.numeric(thisData) + 1)	29	Hartigans' dip test for unimodality / multimodality	0.155172413793103	0.0000
+Stomach	white	CCL3L3	log2(as.numeric(thisData) + 1)	159	Hartigans' dip test for unimodality / multimodality	0.0606499153106765	2e-04
+Stomach	black or african american	CXCL9	log2(as.numeric(thisData) + 1)	29	Hartigans' dip test for unimodality / multimodality	0.0540645507708048	0.7535
+Stomach	white	CXCL9	log2(as.numeric(thisData) + 1)	159	Hartigans' dip test for unimodality / multimodality	0.0254745973365943	0.7018
+Stomach	black or african american	CXCL10	log2(as.numeric(thisData) + 1)	29	Hartigans' dip test for unimodality / multimodality	0.0425536809918747	0.9748
+Stomach	white	CXCL10	log2(as.numeric(thisData) + 1)	159	Hartigans' dip test for unimodality / multimodality	0.0266893689425096	0.6191
+Stomach	black or african american	F8A1	log2(as.numeric(thisData) + 1)	29	Hartigans' dip test for unimodality / multimodality	0.0588210453512144	0.6093
+Stomach	white	F8A1	log2(as.numeric(thisData) + 1)	159	Hartigans' dip test for unimodality / multimodality	0.0215463625300882	0.9163
+Stomach	black or african american	F8A2	log2(as.numeric(thisData) + 1)	29	Hartigans' dip test for unimodality / multimodality	0.155172413793103	0.0000
+Stomach	white	F8A2	log2(as.numeric(thisData) + 1)	159	Hartigans' dip test for unimodality / multimodality	0.0796796977490544	0.0000
+Stomach	black or african american	F8A3	log2(as.numeric(thisData) + 1)	29	Hartigans' dip test for unimodality / multimodality	0.0689655172413793	0.3238
+Stomach	white	F8A3	log2(as.numeric(thisData) + 1)	159	Hartigans' dip test for unimodality / multimodality	0.125786163522013	0.0000
+Stomach	black or african american	GSTM1	log2(as.numeric(thisData) + 1)	29	Hartigans' dip test for unimodality / multimodality	0.11195740591909	0.0031
+Stomach	white	GSTM1	log2(as.numeric(thisData) + 1)	159	Hartigans' dip test for unimodality / multimodality	0.140744337808615	0.0000
+Stomach	black or african american	IL6ST	log2(as.numeric(thisData) + 1)	29	Hartigans' dip test for unimodality / multimodality	0.0403525825648833	0.9890
+Stomach	white	IL6ST	log2(as.numeric(thisData) + 1)	159	Hartigans' dip test for unimodality / multimodality	0.0208340725187739	0.9417
+Stomach	black or african american	TMPRSS6	log2(as.numeric(thisData) + 1)	29	Hartigans' dip test for unimodality / multimodality	0.0484001351124493	0.8932
+Stomach	white	TMPRSS6	log2(as.numeric(thisData) + 1)	159	Hartigans' dip test for unimodality / multimodality	0.0225041243345019	0.8741
+Colon	black or african american	CCL3L3	log2(as.numeric(thisData) + 1)	41	Hartigans' dip test for unimodality / multimodality	0.0609756097560976	0.2735
+Colon	white	CCL3L3	log2(as.numeric(thisData) + 1)	292	Hartigans' dip test for unimodality / multimodality	0.0446442851802855	3e-04
+Colon	black or african american	CXCL9	log2(as.numeric(thisData) + 1)	41	Hartigans' dip test for unimodality / multimodality	0.0458455969200723	0.7658
+Colon	white	CXCL9	log2(as.numeric(thisData) + 1)	292	Hartigans' dip test for unimodality / multimodality	0.0222602739726027	0.4185
+Colon	black or african american	CXCL10	log2(as.numeric(thisData) + 1)	41	Hartigans' dip test for unimodality / multimodality	0.0467157362901013	0.7365
+Colon	white	CXCL10	log2(as.numeric(thisData) + 1)	292	Hartigans' dip test for unimodality / multimodality	0.0479452054794521	0.0000
+Colon	black or african american	F8A1	log2(as.numeric(thisData) + 1)	41	Hartigans' dip test for unimodality / multimodality	0.0467084324111281	0.7367
+Colon	white	F8A1	log2(as.numeric(thisData) + 1)	292	Hartigans' dip test for unimodality / multimodality	0.0122016429343615	0.9936
+Colon	black or african american	F8A2	log2(as.numeric(thisData) + 1)	41	Hartigans' dip test for unimodality / multimodality	0.170731707317073	0.0000
+Colon	white	F8A2	log2(as.numeric(thisData) + 1)	292	Hartigans' dip test for unimodality / multimodality	0.05519379079851	0.0000
+Colon	black or african american	F8A3	log2(as.numeric(thisData) + 1)	41	Hartigans' dip test for unimodality / multimodality	0.0487804878048781	0.6642
+Colon	white	F8A3	log2(as.numeric(thisData) + 1)	292	Hartigans' dip test for unimodality / multimodality	0.0667808219178082	0.0000
+Colon	black or african american	GSTM1	log2(as.numeric(thisData) + 1)	41	Hartigans' dip test for unimodality / multimodality	0.054582421529542	0.4583
+Colon	white	GSTM1	log2(as.numeric(thisData) + 1)	292	Hartigans' dip test for unimodality / multimodality	0.118894805320055	0.0000
+Colon	black or african american	IL6ST	log2(as.numeric(thisData) + 1)	41	Hartigans' dip test for unimodality / multimodality	0.0481122157785468	0.6885
+Colon	white	IL6ST	log2(as.numeric(thisData) + 1)	292	Hartigans' dip test for unimodality / multimodality	0.0190017191488651	0.7063
+Colon	black or african american	TMPRSS6	log2(as.numeric(thisData) + 1)	41	Hartigans' dip test for unimodality / multimodality	0.0374585929903156	0.9626
+Colon	white	TMPRSS6	log2(as.numeric(thisData) + 1)	292	Hartigans' dip test for unimodality / multimodality	0.020901255645188	0.5343
+Prostate	black or african american	CCL3L3	log2(as.numeric(thisData) + 1)	13	Hartigans' dip test for unimodality / multimodality	0.0779819698590913	0.7337
+Prostate	white	CCL3L3	log2(as.numeric(thisData) + 1)	89	Hartigans' dip test for unimodality / multimodality	0.0487561402140948	0.1200
+Prostate	black or african american	CXCL9	log2(as.numeric(thisData) + 1)	13	Hartigans' dip test for unimodality / multimodality	0.0792746230672603	0.7088
+Prostate	white	CXCL9	log2(as.numeric(thisData) + 1)	89	Hartigans' dip test for unimodality / multimodality	0.0265852211057593	0.9573
+Prostate	black or african american	CXCL10	log2(as.numeric(thisData) + 1)	13	Hartigans' dip test for unimodality / multimodality	0.0766350843060776	0.7596
+Prostate	white	CXCL10	log2(as.numeric(thisData) + 1)	89	Hartigans' dip test for unimodality / multimodality	0.0306437194624386	0.8305
+Prostate	black or african american	F8A1	log2(as.numeric(thisData) + 1)	13	Hartigans' dip test for unimodality / multimodality	0.0603627464648899	0.9761
+Prostate	white	F8A1	log2(as.numeric(thisData) + 1)	89	Hartigans' dip test for unimodality / multimodality	0.0292246015486902	0.8862
+Prostate	black or african american	F8A2	log2(as.numeric(thisData) + 1)	13	Hartigans' dip test for unimodality / multimodality	0.115384615384615	0.1124
+Prostate	white	F8A2	log2(as.numeric(thisData) + 1)	89	Hartigans' dip test for unimodality / multimodality	0.0808544648237382	1e-04
+Prostate	black or african american	F8A3	log2(as.numeric(thisData) + 1)	13	Hartigans' dip test for unimodality / multimodality	0.117286306424307	0.0968
+Prostate	white	F8A3	log2(as.numeric(thisData) + 1)	89	Hartigans' dip test for unimodality / multimodality	0.101123595505618	0.0000
+Prostate	black or african american	GSTM1	log2(as.numeric(thisData) + 1)	13	Hartigans' dip test for unimodality / multimodality	0.143569746484216	0.0101
+Prostate	white	GSTM1	log2(as.numeric(thisData) + 1)	89	Hartigans' dip test for unimodality / multimodality	0.103056693452155	0.0000
+Prostate	black or african american	IL6ST	log2(as.numeric(thisData) + 1)	13	Hartigans' dip test for unimodality / multimodality	0.0874102896707318	0.5194
+Prostate	white	IL6ST	log2(as.numeric(thisData) + 1)	89	Hartigans' dip test for unimodality / multimodality	0.0358428043361711	0.5784
+Prostate	black or african american	TMPRSS6	log2(as.numeric(thisData) + 1)	13	Hartigans' dip test for unimodality / multimodality	0.0672712372807963	0.9176
+Prostate	white	TMPRSS6	log2(as.numeric(thisData) + 1)	89	Hartigans' dip test for unimodality / multimodality	0.036797565517944	0.5296
+Liver	black or african american	CCL3L3	log2(as.numeric(thisData) + 1)	15	Hartigans' dip test for unimodality / multimodality	0.0780815434147423	0.6241
+Liver	white	CCL3L3	log2(as.numeric(thisData) + 1)	97	Hartigans' dip test for unimodality / multimodality	0.082030787608485	0.0000
+Liver	black or african american	CXCL9	log2(as.numeric(thisData) + 1)	15	Hartigans' dip test for unimodality / multimodality	0.100523158721733	0.1918
+Liver	white	CXCL9	log2(as.numeric(thisData) + 1)	97	Hartigans' dip test for unimodality / multimodality	0.0231053843572944	0.9901
+Liver	black or african american	CXCL10	log2(as.numeric(thisData) + 1)	15	Hartigans' dip test for unimodality / multimodality	0.0854691955176007	0.4589
+Liver	white	CXCL10	log2(as.numeric(thisData) + 1)	97	Hartigans' dip test for unimodality / multimodality	0.0238232490723543	0.9837
+Liver	black or african american	F8A1	log2(as.numeric(thisData) + 1)	15	Hartigans' dip test for unimodality / multimodality	0.0542638879408322	0.9902
+Liver	white	F8A1	log2(as.numeric(thisData) + 1)	97	Hartigans' dip test for unimodality / multimodality	0.0266325997823909	0.9323
+Liver	black or african american	F8A2	log2(as.numeric(thisData) + 1)	15	Hartigans' dip test for unimodality / multimodality	0.0666666666666667	0.8516
+Liver	white	F8A2	log2(as.numeric(thisData) + 1)	97	Hartigans' dip test for unimodality / multimodality	0.0527218261126499	0.0443
+Liver	black or african american	F8A3	log2(as.numeric(thisData) + 1)	15	Hartigans' dip test for unimodality / multimodality	0.0830511346146727	0.5129
+Liver	white	F8A3	log2(as.numeric(thisData) + 1)	97	Hartigans' dip test for unimodality / multimodality	0.0822873154088408	0.0000
+Liver	black or african american	GSTM1	log2(as.numeric(thisData) + 1)	15	Hartigans' dip test for unimodality / multimodality	0.0580645373503691	0.9733
+Liver	white	GSTM1	log2(as.numeric(thisData) + 1)	97	Hartigans' dip test for unimodality / multimodality	0.11681803287565	0.0000
+Liver	black or african american	IL6ST	log2(as.numeric(thisData) + 1)	15	Hartigans' dip test for unimodality / multimodality	0.129629423409444	0.0190
+Liver	white	IL6ST	log2(as.numeric(thisData) + 1)	97	Hartigans' dip test for unimodality / multimodality	0.0337647499897797	0.6164
+Liver	black or african american	TMPRSS6	log2(as.numeric(thisData) + 1)	15	Hartigans' dip test for unimodality / multimodality	0.0645160656405193	0.8950
+Liver	white	TMPRSS6	log2(as.numeric(thisData) + 1)	97	Hartigans' dip test for unimodality / multimodality	0.0319432182635974	0.7136
+Kidney	black or african american	CCL3L3	log2(as.numeric(thisData) + 1)	7	Hartigans' dip test for unimodality / multimodality	0.135786557189464	0.2137
+Kidney	white	CCL3L3	log2(as.numeric(thisData) + 1)	25	Hartigans' dip test for unimodality / multimodality	0.0821803167448742	0.1731
+Kidney	black or african american	CXCL9	log2(as.numeric(thisData) + 1)	7	Hartigans' dip test for unimodality / multimodality	0.0811753587694031	0.9030
+Kidney	white	CXCL9	log2(as.numeric(thisData) + 1)	25	Hartigans' dip test for unimodality / multimodality	0.0494703219041362	0.9274
+Kidney	black or african american	CXCL10	log2(as.numeric(thisData) + 1)	7	Hartigans' dip test for unimodality / multimodality	0.0898544507706637	0.8341
+Kidney	white	CXCL10	log2(as.numeric(thisData) + 1)	25	Hartigans' dip test for unimodality / multimodality	0.0675926688892975	0.4703
+Kidney	black or african american	F8A1	log2(as.numeric(thisData) + 1)	7	Hartigans' dip test for unimodality / multimodality	0.109110284553048	0.6240
+Kidney	white	F8A1	log2(as.numeric(thisData) + 1)	25	Hartigans' dip test for unimodality / multimodality	0.0763636329829342	0.2676
+Kidney	black or african american	F8A2	log2(as.numeric(thisData) + 1)	7	Hartigans' dip test for unimodality / multimodality	0.0714285714285714	0.9900
+Kidney	white	F8A2	log2(as.numeric(thisData) + 1)	25	Hartigans' dip test for unimodality / multimodality	0.0647668234026287	0.5498
+Kidney	black or african american	F8A3	log2(as.numeric(thisData) + 1)	7	Hartigans' dip test for unimodality / multimodality	0.118645475109598	0.4869
+Kidney	white	F8A3	log2(as.numeric(thisData) + 1)	25	Hartigans' dip test for unimodality / multimodality	0.08	0.2000
+Kidney	black or african american	GSTM1	log2(as.numeric(thisData) + 1)	7	Hartigans' dip test for unimodality / multimodality	0.163272500279741	0.0434
+Kidney	white	GSTM1	log2(as.numeric(thisData) + 1)	25	Hartigans' dip test for unimodality / multimodality	0.134974373365932	3e-04
+Kidney	black or african american	IL6ST	log2(as.numeric(thisData) + 1)	7	Hartigans' dip test for unimodality / multimodality	0.120407662095273	0.4594
+Kidney	white	IL6ST	log2(as.numeric(thisData) + 1)	25	Hartigans' dip test for unimodality / multimodality	0.0905859152547787	0.0828
+Kidney	black or african american	TMPRSS6	log2(as.numeric(thisData) + 1)	7	Hartigans' dip test for unimodality / multimodality	0.114138126051891	0.5536
+Kidney	white	TMPRSS6	log2(as.numeric(thisData) + 1)	25	Hartigans' dip test for unimodality / multimodality	0.0974480334013834	0.0424
