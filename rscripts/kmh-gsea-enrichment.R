@@ -46,7 +46,11 @@ gtex.gse.mf <- gseGO(geneList=gtex.fc,
 gtex.gse.mf.x <- setReadable(simplify(gtex.gse.mf), 'org.Hs.eg.db', 'ENTREZID')
 gtex.gse.mf.cnet <- cnetplot(gtex.gse.mf.x, foldChange=gtex.fc, categorySize="pvalue", showCategory = 5)
 # This kind of approach let's you manipulate the figure
-gtex.gse.mf.cnet$scales$scales[[1]] <- scale_color_gradient(name="fold change", low="green", high="red", na.value = "yellow")
+#gtex.gse.mf.cnet$scales$scales[[1]] <- scale_color_gradient(name="fold change", low="green", high="red", na.value = "yellow")
+gtex.gsea.kk.cnet+ 
+  scale_color_gradient2(name="logFC",low="grey",high="blue",midpoint = 0,na.value = "yellow")+
+  guides( size = FALSE)+ 
+  theme(legend.position = c(0.9, 0.9))+theme(text = element_text(size=15)) 
 print(gtex.gse.mf.cnet)
 
 # GSEA KEGG
@@ -79,6 +83,12 @@ tcga.gsea.kk <- gseKEGG(geneList=tcga.fc,
                         verbose = FALSE,
                         pAdjustMethod = "BH")
 tcga.gsea.kk.x <- setReadable(tcga.gsea.kk, 'org.Hs.eg.db', 'ENTREZID')
-cnetplot(tcga.gsea.kk.x, foldChange=tcga.fc, categorySize="pvalue", showCategory = 5)
+tcga.gsea.kk.cnet<-cnetplot(tcga.gsea.kk.x, foldChange=tcga.fc, categorySize="pvalue", showCategory = 5)
+
+tcga.gsea.kk.cnet+ 
+  scale_color_gradient2(name="logFC",low="grey",high="blue",midpoint = 0,na.value = "yellow")+
+  guides( size = FALSE)+ 
+  theme(legend.position = c(0.9, 0.9))+theme(text = element_text(size=15)) 
+
 write.table(data.frame(tcga.gsea.kk.x), file=paste(odir, "tcga.pooled.gsea.kegg.tsv", sep="/"),
             sep="\t", row.names=FALSE, quote = FALSE)
