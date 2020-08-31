@@ -16,6 +16,9 @@ to.entrez <- function(symbols) {
 df.gtex <- read.csv("/Users/kylehernandez/Projects/Other/COV-IRT/ancestry/eve-paper/gene-set/DEGs/gtex_de_results.csv")
 df.tcga <- read.csv("/Users/kylehernandez/Projects/Other/COV-IRT/ancestry/eve-paper/gene-set/DEGs/tcga_de_results.csv")
 
+# Out
+odir <- "SupplementaryData/gsea_testout"
+
 # Universe with entrez
 uni.bitr <- to.entrez(df.tcga$Name)
 
@@ -55,3 +58,27 @@ gtex.gsea.kk <- gseKEGG(geneList=gtex.fc,
                         pAdjustMethod = "BH")
 gtex.gsea.kk.x <- setReadable(gtex.gsea.kk, 'org.Hs.eg.db', 'ENTREZID')
 cnetplot(gtex.gsea.kk.x, foldChange=gtex.fc, categorySize="pvalue", showCategory = 5)
+write.table(data.frame(gtex.gsea.kk.x), file=paste(odir, "gtex.pooled.gsea.kegg.tsv", sep="/"),
+            sep="\t", row.names=FALSE, quote = FALSE)
+
+## TCGA
+
+tcga.entrez <- df.tcga %>%
+  filter(Name %in% uni.bitr$SYMBOL) %>%
+  left_join(uni.bitr, by=c("Name"="SYMBOL"))
+tcga.fc <- tcga.entrez$logFC
+names(tcga.fc) <- as.character(tcga.entrez$ENTREZID)
+tcga.fc <- sort(tcga.fc, decreasing=TRUE)
+
+# TCGA GSEA KEGG
+tcga.gsea.kk <- gseKEGG(geneList=tcga.fc,
+                        organism='hsa',
+                        nPerm=5000,
+                        by="fgsea",
+                        pvalueCutoff = 0.05,
+                        verbose = FALSE,
+                        pAdjustMethod = "BH")
+tcga.gsea.kk.x <- setReadable(tcga.gsea.kk, 'org.Hs.eg.db', 'ENTREZID')
+cnetplot(tcga.gsea.kk.x, foldChange=tcga.fc, categorySize="pvalue", showCategory = 5)
+write.table(data.frame(tcga.gsea.kk.x), file=paste(odir, "tcga.pooled.gsea.kegg.tsv", sep="/"),
+            sep="\t", row.names=FALSE, quote = FALSE)
