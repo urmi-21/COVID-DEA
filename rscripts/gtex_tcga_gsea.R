@@ -6,54 +6,33 @@
 library(tidyverse)
 library(clusterProfiler)
 library(org.Hs.eg.db)
-
+library(scales)
 # Get entrez from symbol
 to.entrez <- function(symbols) {
   bitr(symbols, "SYMBOL", "ENTREZID", org.Hs.eg.db)
 }
 
 # Load
-df.gtex <- read.csv("/Users/kylehernandez/Projects/Other/COV-IRT/ancestry/eve-paper/gene-set/DEGs/gtex_de_results.csv")
-df.tcga <- read.csv("/Users/kylehernandez/Projects/Other/COV-IRT/ancestry/eve-paper/gene-set/DEGs/tcga_de_results.csv")
-
+df.gtex <- read_delim("gtex_de.tsv", "\t", escape_double = FALSE, trim_ws = TRUE)
+df.tcga <- read_delim("tcga_de.tsv", "\t", escape_double = FALSE, trim_ws = TRUE)
 # Out
-odir <- "SupplementaryData/gsea_testout"
+odir <- "gtex_tcga_gsea"
 
 # Universe with entrez
 uni.bitr <- to.entrez(df.tcga$Name)
-
-# GSEA
-## GTEX
 
 ### Set up inputs
 gtex.entrez <- df.gtex %>%
   filter(Name %in% uni.bitr$SYMBOL) %>%
   left_join(uni.bitr, by=c("Name"="SYMBOL"))
+
 gtex.fc <- gtex.entrez$logFC
 names(gtex.fc) <- as.character(gtex.entrez$ENTREZID)
 gtex.fc <- sort(gtex.fc, decreasing=TRUE)
 
-### GSEA - GO Ontology
-
-# Molecular Function
-gtex.gse.mf <- gseGO(geneList=gtex.fc,
-                     OrgDb = org.Hs.eg.db,
-                     ont = "MF",
-                     by = "fgsea",
-                     nPerm = 5000,
-                     pvalueCutoff = 0.05,
-                     pAdjustMethod = "BH")
-gtex.gse.mf.x <- setReadable(simplify(gtex.gse.mf), 'org.Hs.eg.db', 'ENTREZID')
-gtex.gse.mf.cnet <- cnetplot(gtex.gse.mf.x, foldChange=gtex.fc, categorySize="pvalue", showCategory = 5)
-# This kind of approach let's you manipulate the figure
-#gtex.gse.mf.cnet$scales$scales[[1]] <- scale_color_gradient(name="fold change", low="green", high="red", na.value = "yellow")
-gtex.gsea.kk.cnet+ 
-  scale_color_gradient2(name="logFC",low="grey",high="blue",midpoint = 0,na.value = "yellow")+
-  guides( size = FALSE)+ 
-  theme(legend.position = c(0.9, 0.9))+theme(text = element_text(size=15)) 
-print(gtex.gse.mf.cnet)
 
 # GSEA KEGG
+set.seed(22);
 gtex.gsea.kk <- gseKEGG(geneList=gtex.fc,
                         organism='hsa',
                         nPerm=5000,
@@ -61,9 +40,17 @@ gtex.gsea.kk <- gseKEGG(geneList=gtex.fc,
                         verbose = FALSE,
                         pAdjustMethod = "BH")
 gtex.gsea.kk.x <- setReadable(gtex.gsea.kk, 'org.Hs.eg.db', 'ENTREZID')
-cnetplot(gtex.gsea.kk.x, foldChange=gtex.fc, categorySize="pvalue", showCategory = 5)
-write.table(data.frame(gtex.gsea.kk.x), file=paste(odir, "gtex.pooled.gsea.kegg.tsv", sep="/"),
-            sep="\t", row.names=FALSE, quote = FALSE)
+
+gtex.gsea.kk.cnet<-cnetplot(gtex.gsea.kk.x, foldChange=gtex.fc, categorySize="pvalue", showCategory = 5,
+                            node_label=T)
+
+gtex.gsea.kk.cnet+ 
+  scale_color_gradient2(name="logFC",low="grey",high="blue",midpoint = -1.,na.value = "yellow")+
+  guides( size = FALSE)+ 
+  theme(legend.position = c(0.9, 0.2))+theme(text = element_text(size=15)) 
+
+
+ridgeplot(gtex.gsea.kk)
 
 ## TCGA
 
@@ -86,9 +73,15 @@ tcga.gsea.kk.x <- setReadable(tcga.gsea.kk, 'org.Hs.eg.db', 'ENTREZID')
 tcga.gsea.kk.cnet<-cnetplot(tcga.gsea.kk.x, foldChange=tcga.fc, categorySize="pvalue", showCategory = 5)
 
 tcga.gsea.kk.cnet+ 
-  scale_color_gradient2(name="logFC",low="grey",high="blue",midpoint = 0,na.value = "yellow")+
+  scale_color_gradient2(name="logFC",low="red",high="grey",midpoint = 0,na.value = "yellow")+
   guides( size = FALSE)+ 
-  theme(legend.position = c(0.9, 0.9))+theme(text = element_text(size=15)) 
+  theme(legend.position = c(0.9, 0.1))+theme(text = element_text(size=15)) 
 
 write.table(data.frame(tcga.gsea.kk.x), file=paste(odir, "tcga.pooled.gsea.kegg.tsv", sep="/"),
             sep="\t", row.names=FALSE, quote = FALSE)
+
+
+
+
+
+
