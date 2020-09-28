@@ -1,0 +1,40 @@
+Total_terms_MW	Total_terms_Limma	Intersection_All	Only_MW	Only_Limma	Intersection_top_20	Only_MW_top_20	Only_Limma_top_20	Terms_Intersect_top_20	Terms_Only_MW_top_20	Terms_Only_Limma_top_20	Terms_MW_top_20	Terms_Limma_top_20	Terms_Intersect_ALL	Terms_Only_MW	Terms_Only_Limma
+62	45	39	23	6	17	3	3	Chemokine signaling pathway	p53 signaling pathway	Hematopoietic cell lineage	Chemokine signaling pathway	Cytokine-cytokine receptor interaction	Chemokine signaling pathway	Glycine, serine and threonine metabolism	Pancreatic secretion
+								Viral protein interaction with cytokine and cytokine receptor	Ascorbate and aldarate metabolism	Pancreatic secretion	Viral protein interaction with cytokine and cytokine receptor	Chemokine signaling pathway	Viral protein interaction with cytokine and cytokine receptor	Chronic myeloid leukemia	Pertussis
+								Toll-like receptor signaling pathway	PI3K-Akt signaling pathway	T cell receptor signaling pathway	Toll-like receptor signaling pathway	Viral protein interaction with cytokine and cytokine receptor	Toll-like receptor signaling pathway	Tryptophan metabolism	Calcium signaling pathway
+								Metabolism of xenobiotics by cytochrome P450			Metabolism of xenobiotics by cytochrome P450	Toll-like receptor signaling pathway	Metabolism of xenobiotics by cytochrome P450	MAPK signaling pathway	Proximal tubule bicarbonate reclamation
+								Drug metabolism - cytochrome P450			Drug metabolism - cytochrome P450	Metabolism of xenobiotics by cytochrome P450	Drug metabolism - cytochrome P450	Toxoplasmosis	PPAR signaling pathway
+								Primary immunodeficiency			Primary immunodeficiency	Neuroactive ligand-receptor interaction	Primary immunodeficiency	Lysosome	Arachidonic acid metabolism
+								Chemical carcinogenesis			Chemical carcinogenesis	Primary immunodeficiency	Chemical carcinogenesis	Maturity onset diabetes of the young	
+								Cytokine-cytokine receptor interaction			p53 signaling pathway	Drug metabolism - cytochrome P450	p53 signaling pathway	Herpes simplex virus 1 infection	
+								Bile secretion			Cytokine-cytokine receptor interaction	B cell receptor signaling pathway	Cytokine-cytokine receptor interaction	Cellular senescence	
+								Taste transduction			Bile secretion	Bile secretion	Bile secretion	Staphylococcus aureus infection	
+								Glutathione metabolism			Taste transduction	Taste transduction	Taste transduction	Antifolate resistance	
+								Ribosome			Glutathione metabolism	Hematopoietic cell lineage	Glutathione metabolism	Butanoate metabolism	
+								Malaria			Ribosome	Ribosome	Ribosome	Fluid shear stress and atherosclerosis	
+								MicroRNAs in cancer			Malaria	Pancreatic secretion	Malaria	Lysine degradation	
+								Neuroactive ligand-receptor interaction			MicroRNAs in cancer	MicroRNAs in cancer	MicroRNAs in cancer	African trypanosomiasis	
+								B cell receptor signaling pathway			Neuroactive ligand-receptor interaction	T cell receptor signaling pathway	Neuroactive ligand-receptor interaction	Carbon metabolism	
+								Chagas disease			Ascorbate and aldarate metabolism	Chemical carcinogenesis	Ascorbate and aldarate metabolism	Measles	
+											B cell receptor signaling pathway	Malaria	B cell receptor signaling pathway	HIF-1 signaling pathway	
+											PI3K-Akt signaling pathway	Glutathione metabolism	PI3K-Akt signaling pathway	Pantothenate and CoA biosynthesis	
+											Chagas disease	Chagas disease	Chagas disease	Focal adhesion	
+													T cell receptor signaling pathway	2-Oxocarboxylic acid metabolism	
+													Peroxisome	Cell adhesion molecules	
+													Pentose and glucuronate interconversions	Phagosome	
+													Rheumatoid arthritis		
+													Hematopoietic cell lineage		
+													Cytosolic DNA-sensing pathway		
+													Drug metabolism - other enzymes		
+													Fatty acid degradation		
+													Gastric acid secretion		
+													Platinum drug resistance		
+													NF-kappa B signaling pathway		
+													Tyrosine metabolism		
+													Intestinal immune network for IgA production		
+													Melanoma		
+													Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate		
+													Human cytomegalovirus infection		
+													Retinol metabolism		
+													RNA polymerase		
+													Osteoclast differentiation		

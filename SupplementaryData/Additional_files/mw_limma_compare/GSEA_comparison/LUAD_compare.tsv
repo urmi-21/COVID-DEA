@@ -1,0 +1,135 @@
+Total_terms_MW	Total_terms_Limma	Intersection_All	Only_MW	Only_Limma	Intersection_top_20	Only_MW_top_20	Only_Limma_top_20	Terms_Intersect_top_20	Terms_Only_MW_top_20	Terms_Only_Limma_top_20	Terms_MW_top_20	Terms_Limma_top_20	Terms_Intersect_ALL	Terms_Only_MW	Terms_Only_Limma
+168	137	134	34	3	14	6	6	Huntington disease	Ribosome	Measles	Huntington disease	Neuroactive ligand-receptor interaction	Huntington disease	Chemokine signaling pathway	Basal transcription factors
+								Alcoholism	Systemic lupus erythematosus	Regulation of actin cytoskeleton	Alcoholism	Alcoholism	Alcoholism	Salivary secretion	GABAergic synapse
+								Oxidative phosphorylation	Malaria	Hedgehog signaling pathway	Ribosome	Oxidative phosphorylation	Ribosome	Intestinal immune network for IgA production	Aldosterone synthesis and secretion
+								Antigen processing and presentation	Viral myocarditis	TGF-beta signaling pathway	Systemic lupus erythematosus	Bile secretion	Systemic lupus erythematosus	Fc epsilon RI signaling pathway	
+								Bile secretion	Hepatitis B	Natural killer cell mediated cytotoxicity	Oxidative phosphorylation	Staphylococcus aureus infection	Oxidative phosphorylation	Biosynthesis of amino acids	
+								Staphylococcus aureus infection	PI3K-Akt signaling pathway	Toxoplasmosis	Malaria	Phagosome	Malaria	Leukocyte transendothelial migration	
+								Leishmaniasis			Antigen processing and presentation	Influenza A	Antigen processing and presentation	Rap1 signaling pathway	
+								Phagosome			Bile secretion	Proteoglycans in cancer	Bile secretion	Apoptosis	
+								Influenza A			Viral myocarditis	Cytokine-cytokine receptor interaction	Viral myocarditis	Ras signaling pathway	
+								Proteoglycans in cancer			Staphylococcus aureus infection	Herpes simplex virus 1 infection	Staphylococcus aureus infection	Cholinergic synapse	
+								Focal adhesion			Leishmaniasis	Huntington disease	Leishmaniasis	Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate	
+								Cytokine-cytokine receptor interaction			Hepatitis B	Measles	Hepatitis B	Tight junction	
+								Herpes simplex virus 1 infection			Phagosome	Focal adhesion	Phagosome	Type I diabetes mellitus	
+								Neuroactive ligand-receptor interaction			Influenza A	Regulation of actin cytoskeleton	Influenza A	C-type lectin receptor signaling pathway	
+											Proteoglycans in cancer	Hedgehog signaling pathway	Proteoglycans in cancer	cGMP-PKG signaling pathway	
+											Focal adhesion	Antigen processing and presentation	Focal adhesion	Parathyroid hormone synthesis, secretion and action	
+											Cytokine-cytokine receptor interaction	Leishmaniasis	Cytokine-cytokine receptor interaction	NF-kappa B signaling pathway	
+											PI3K-Akt signaling pathway	TGF-beta signaling pathway	PI3K-Akt signaling pathway	Base excision repair	
+											Herpes simplex virus 1 infection	Natural killer cell mediated cytotoxicity	Herpes simplex virus 1 infection	Spliceosome	
+											Neuroactive ligand-receptor interaction	Toxoplasmosis	Neuroactive ligand-receptor interaction	Nitrogen metabolism	
+													Natural killer cell mediated cytotoxicity	Synaptic vesicle cycle	
+													Toxoplasmosis	Primary bile acid biosynthesis	
+													Axon guidance	ErbB signaling pathway	
+													Measles	Th1 and Th2 cell differentiation	
+													Osteoclast differentiation	Apoptosis - multiple species	
+													MicroRNAs in cancer	Arginine biosynthesis	
+													NOD-like receptor signaling pathway	Thiamine metabolism	
+													Regulation of actin cytoskeleton	Glycosphingolipid biosynthesis - lacto and neolacto series	
+													MAPK signaling pathway	Hepatocellular carcinoma	
+													Human papillomavirus infection	Ether lipid metabolism	
+													Amyotrophic lateral sclerosis	Steroid biosynthesis	
+													Hedgehog signaling pathway	Relaxin signaling pathway	
+													Yersinia infection	Bacterial invasion of epithelial cells	
+													Platelet activation	Prion disease	
+													Allograft rejection		
+													JAK-STAT signaling pathway		
+													AGE-RAGE signaling pathway in diabetic complications		
+													TGF-beta signaling pathway		
+													Tuberculosis		
+													Mucin type O-glycan biosynthesis		
+													Hepatitis C		
+													Parkinson disease		
+													Arrhythmogenic right ventricular cardiomyopathy		
+													Complement and coagulation cascades		
+													Viral protein interaction with cytokine and cytokine receptor		
+													Cell adhesion molecules		
+													Pertussis		
+													Gastric cancer		
+													ECM-receptor interaction		
+													Epstein-Barr virus infection		
+													Th17 cell differentiation		
+													Asthma		
+													Wnt signaling pathway		
+													Hippo signaling pathway		
+													Signaling pathways regulating pluripotency of stem cells		
+													Human immunodeficiency virus 1 infection		
+													Pentose and glucuronate interconversions		
+													Phototransduction		
+													Ovarian steroidogenesis		
+													Ascorbate and aldarate metabolism		
+													Renal cell carcinoma		
+													Lysosome		
+													Adherens junction		
+													Dilated cardiomyopathy		
+													Cholesterol metabolism		
+													EGFR tyrosine kinase inhibitor resistance		
+													Graft-versus-host disease		
+													Human T-cell leukemia virus 1 infection		
+													Inflammatory bowel disease		
+													PD-L1 expression and PD-1 checkpoint pathway in cancer		
+													Hypertrophic cardiomyopathy		
+													Sphingolipid signaling pathway		
+													Retinol metabolism		
+													African trypanosomiasis		
+													Amoebiasis		
+													Serotonergic synapse		
+													One carbon pool by folate		
+													Kaposi sarcoma-associated herpesvirus infection		
+													Antifolate resistance		
+													Drug metabolism - cytochrome P450		
+													Pancreatic secretion		
+													Endocytosis		
+													TNF signaling pathway		
+													Autoimmune thyroid disease		
+													T cell receptor signaling pathway		
+													Long-term depression		
+													Acute myeloid leukemia		
+													Basal cell carcinoma		
+													Hematopoietic cell lineage		
+													Pathogenic Escherichia coli infection		
+													Biosynthesis of unsaturated fatty acids		
+													Prostate cancer		
+													Chagas disease		
+													Alzheimer disease		
+													Renin secretion		
+													Toll-like receptor signaling pathway		
+													Non-alcoholic fatty liver disease		
+													Peroxisome		
+													Metabolism of xenobiotics by cytochrome P450		
+													Legionellosis		
+													Thyroid hormone synthesis		
+													Insulin secretion		
+													Fluid shear stress and atherosclerosis		
+													Taste transduction		
+													Thermogenesis		
+													Estrogen signaling pathway		
+													Protein digestion and absorption		
+													Thyroid hormone signaling pathway		
+													Pancreatic cancer		
+													Maturity onset diabetes of the young		
+													Hippo signaling pathway - multiple species		
+													Synthesis and degradation of ketone bodies		
+													Steroid hormone biosynthesis		
+													GnRH secretion		
+													Colorectal cancer		
+													Human cytomegalovirus infection		
+													Valine, leucine and isoleucine degradation		
+													Small cell lung cancer		
+													Amphetamine addiction		
+													Chemical carcinogenesis		
+													Tryptophan metabolism		
+													Mineral absorption		
+													Melanoma		
+													Circadian entrainment		
+													Inflammatory mediator regulation of TRP channels		
+													Drug metabolism - other enzymes		
+													cAMP signaling pathway		
+													Calcium signaling pathway		
+													Cocaine addiction		
+													Regulation of lipolysis in adipocytes		
+													Porphyrin and chlorophyll metabolism		
+													Glucagon signaling pathway		
+													Transcriptional misregulation in cancer		
+													Other types of O-glycan biosynthesis		

@@ -1,0 +1,166 @@
+Total_terms_MW	Total_terms_Limma	Intersection_All	Only_MW	Only_Limma	Intersection_top_20	Only_MW_top_20	Only_Limma_top_20	Terms_Intersect_top_20	Terms_Only_MW_top_20	Terms_Only_Limma_top_20	Terms_MW_top_20	Terms_Limma_top_20	Terms_Intersect_ALL	Terms_Only_MW	Terms_Only_Limma
+176	167	165	11	2	19	1	1	Herpes simplex virus 1 infection	Thyroid hormone signaling pathway	Rap1 signaling pathway	Herpes simplex virus 1 infection	Herpes simplex virus 1 infection	Herpes simplex virus 1 infection	GnRH secretion	Cell adhesion molecules
+								PI3K-Akt signaling pathway			PI3K-Akt signaling pathway	PI3K-Akt signaling pathway	PI3K-Akt signaling pathway	Human immunodeficiency virus 1 infection	Relaxin signaling pathway
+								Regulation of lipolysis in adipocytes			Regulation of lipolysis in adipocytes	Regulation of lipolysis in adipocytes	Regulation of lipolysis in adipocytes	Tryptophan metabolism	
+								DNA replication			DNA replication	DNA replication	DNA replication	Alanine, aspartate and glutamate metabolism	
+								Primary immunodeficiency			Primary immunodeficiency	Primary immunodeficiency	Primary immunodeficiency	Biosynthesis of unsaturated fatty acids	
+								Proteasome			Proteasome	Proteasome	Proteasome	Breast cancer	
+								IL-17 signaling pathway			IL-17 signaling pathway	IL-17 signaling pathway	IL-17 signaling pathway	Ribosome biogenesis in eukaryotes	
+								Viral protein interaction with cytokine and cytokine receptor			Viral protein interaction with cytokine and cytokine receptor	Axon guidance	Viral protein interaction with cytokine and cytokine receptor	Histidine metabolism	
+								Systemic lupus erythematosus			Systemic lupus erythematosus	Viral protein interaction with cytokine and cytokine receptor	Systemic lupus erythematosus	Insulin signaling pathway	
+								Cell cycle			Cell cycle	Cell cycle	Cell cycle	Fluid shear stress and atherosclerosis	
+								Ribosome			Ribosome	Systemic lupus erythematosus	Ribosome	Colorectal cancer	
+								AMPK signaling pathway			AMPK signaling pathway	AMPK signaling pathway	AMPK signaling pathway		
+								Alcoholism			Alcoholism	TGF-beta signaling pathway	Alcoholism		
+								Cortisol synthesis and secretion			Cortisol synthesis and secretion	Ribosome	Cortisol synthesis and secretion		
+								Axon guidance			Axon guidance	Alcoholism	Axon guidance		
+								Cytokine-cytokine receptor interaction			Cytokine-cytokine receptor interaction	Rap1 signaling pathway	Cytokine-cytokine receptor interaction		
+								TGF-beta signaling pathway			TGF-beta signaling pathway	Cortisol synthesis and secretion	TGF-beta signaling pathway		
+								MAPK signaling pathway			MAPK signaling pathway	MAPK signaling pathway	MAPK signaling pathway		
+								cGMP-PKG signaling pathway			cGMP-PKG signaling pathway	Cytokine-cytokine receptor interaction	cGMP-PKG signaling pathway		
+											Thyroid hormone signaling pathway	cGMP-PKG signaling pathway	Thyroid hormone signaling pathway		
+													Salivary secretion		
+													Rap1 signaling pathway		
+													Proteoglycans in cancer		
+													Hedgehog signaling pathway		
+													Circadian entrainment		
+													Spliceosome		
+													Focal adhesion		
+													Longevity regulating pathway		
+													Circadian rhythm		
+													Adrenergic signaling in cardiomyocytes		
+													Mucin type O-glycan biosynthesis		
+													Aldosterone synthesis and secretion		
+													Renin secretion		
+													Necroptosis		
+													Complement and coagulation cascades		
+													Thyroid hormone synthesis		
+													Phospholipase D signaling pathway		
+													ABC transporters		
+													Glutamatergic synapse		
+													Parathyroid hormone synthesis, secretion and action		
+													cAMP signaling pathway		
+													Intestinal immune network for IgA production		
+													Oxidative phosphorylation		
+													Insulin resistance		
+													Prostate cancer		
+													Arrhythmogenic right ventricular cardiomyopathy		
+													Gap junction		
+													Growth hormone synthesis, secretion and action		
+													FoxO signaling pathway		
+													Epstein-Barr virus infection		
+													Renin-angiotensin system		
+													Chemokine signaling pathway		
+													Longevity regulating pathway - multiple species		
+													Cytosolic DNA-sensing pathway		
+													Serotonergic synapse		
+													Base excision repair		
+													EGFR tyrosine kinase inhibitor resistance		
+													Rheumatoid arthritis		
+													Valine, leucine and isoleucine degradation		
+													Allograft rejection		
+													Dilated cardiomyopathy		
+													Cholinergic synapse		
+													Insulin secretion		
+													Glutathione metabolism		
+													Aldosterone-regulated sodium reabsorption		
+													Pancreatic secretion		
+													Bile secretion		
+													Human T-cell leukemia virus 1 infection		
+													Graft-versus-host disease		
+													Renal cell carcinoma		
+													Proximal tubule bicarbonate reclamation		
+													Autoimmune thyroid disease		
+													NF-kappa B signaling pathway		
+													p53 signaling pathway		
+													Platelet activation		
+													Endocrine and other factor-regulated calcium reabsorption		
+													Synthesis and degradation of ketone bodies		
+													One carbon pool by folate		
+													Calcium signaling pathway		
+													Melanoma		
+													Propanoate metabolism		
+													RIG-I-like receptor signaling pathway		
+													Hypertrophic cardiomyopathy		
+													ECM-receptor interaction		
+													Other types of O-glycan biosynthesis		
+													Fanconi anemia pathway		
+													Viral carcinogenesis		
+													Malaria		
+													Bladder cancer		
+													Drug metabolism - other enzymes		
+													AGE-RAGE signaling pathway in diabetic complications		
+													Regulation of actin cytoskeleton		
+													Estrogen signaling pathway		
+													Butanoate metabolism		
+													Type II diabetes mellitus		
+													Nitrogen metabolism		
+													Platinum drug resistance		
+													Pyrimidine metabolism		
+													JAK-STAT signaling pathway		
+													Retinol metabolism		
+													Vascular smooth muscle contraction		
+													Amphetamine addiction		
+													PPAR signaling pathway		
+													Gastric acid secretion		
+													Long-term potentiation		
+													Parkinson disease		
+													Cellular senescence		
+													Dopaminergic synapse		
+													Adherens junction		
+													African trypanosomiasis		
+													Cocaine addiction		
+													Long-term depression		
+													Human cytomegalovirus infection		
+													Tyrosine metabolism		
+													Hepatocellular carcinoma		
+													Th1 and Th2 cell differentiation		
+													Hematopoietic cell lineage		
+													Natural killer cell mediated cytotoxicity		
+													Protein digestion and absorption		
+													Tight junction		
+													Mineral absorption		
+													Toll-like receptor signaling pathway		
+													Purine metabolism		
+													Oxytocin signaling pathway		
+													Vasopressin-regulated water reabsorption		
+													Cysteine and methionine metabolism		
+													Drug metabolism - cytochrome P450		
+													Nicotine addiction		
+													Pentose and glucuronate interconversions		
+													Homologous recombination		
+													Peroxisome		
+													Choline metabolism in cancer		
+													Inositol phosphate metabolism		
+													Sphingolipid signaling pathway		
+													Neuroactive ligand-receptor interaction		
+													Phosphatidylinositol signaling system		
+													Morphine addiction		
+													Ras signaling pathway		
+													Cushing syndrome		
+													Phototransduction		
+													Antigen processing and presentation		
+													VEGF signaling pathway		
+													Autophagy - animal		
+													Type I diabetes mellitus		
+													Biosynthesis of amino acids		
+													Various types of N-glycan biosynthesis		
+													Sphingolipid metabolism		
+													Hippo signaling pathway		
+													Glucagon signaling pathway		
+													Primary bile acid biosynthesis		
+													beta-Alanine metabolism		
+													MicroRNAs in cancer		
+													Thiamine metabolism		
+													Signaling pathways regulating pluripotency of stem cells		
+													Fatty acid degradation		
+													Hippo signaling pathway - multiple species		
+													Fatty acid metabolism		
+													Taste transduction		
+													Glycosaminoglycan biosynthesis - keratan sulfate		
+													GABAergic synapse		
+													Carbohydrate digestion and absorption		
+													Glycosphingolipid biosynthesis - lacto and neolacto series		
+													Alzheimer disease		
+													Apelin signaling pathway		
+													Prolactin signaling pathway		

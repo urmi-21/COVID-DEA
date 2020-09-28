@@ -1,0 +1,62 @@
+Total_terms_MW	Total_terms_Limma	Intersection_All	Only_MW	Only_Limma	Intersection_top_20	Only_MW_top_20	Only_Limma_top_20	Terms_Intersect_top_20	Terms_Only_MW_top_20	Terms_Only_Limma_top_20	Terms_MW_top_20	Terms_Limma_top_20	Terms_Intersect_ALL	Terms_Only_MW	Terms_Only_Limma
+70	61	61	9	0	18	2	2	Neuroactive ligand-receptor interaction	Cholinergic synapse	Maturity onset diabetes of the young	Neuroactive ligand-receptor interaction	Neuroactive ligand-receptor interaction	Neuroactive ligand-receptor interaction	Hematopoietic cell lineage	
+								Salivary secretion	MicroRNAs in cancer	Calcium signaling pathway	Salivary secretion	Salivary secretion	Salivary secretion	Fc epsilon RI signaling pathway	
+								Taste transduction			Taste transduction	Taste transduction	Taste transduction	Insulin resistance	
+								Chemokine signaling pathway			Chemokine signaling pathway	Chemokine signaling pathway	Chemokine signaling pathway	Cellular senescence	
+								T cell receptor signaling pathway			T cell receptor signaling pathway	Alcoholism	T cell receptor signaling pathway	Ascorbate and aldarate metabolism	
+								Alcoholism			Alcoholism	T cell receptor signaling pathway	Alcoholism	Leukocyte transendothelial migration	
+								Circadian entrainment			Circadian entrainment	Circadian entrainment	Circadian entrainment	Tryptophan metabolism	
+								Viral protein interaction with cytokine and cytokine receptor			Viral protein interaction with cytokine and cytokine receptor	Glutamatergic synapse	Viral protein interaction with cytokine and cytokine receptor	Estrogen signaling pathway	
+								Intestinal immune network for IgA production			Intestinal immune network for IgA production	Viral protein interaction with cytokine and cytokine receptor	Intestinal immune network for IgA production	Platinum drug resistance	
+								Glutamatergic synapse			Glutamatergic synapse	Intestinal immune network for IgA production	Glutamatergic synapse		
+								Ribosome			Cholinergic synapse	Nicotine addiction	Cholinergic synapse		
+								Natural killer cell mediated cytotoxicity			Ribosome	Systemic lupus erythematosus	Ribosome		
+								Nicotine addiction			Natural killer cell mediated cytotoxicity	Ribosome	Natural killer cell mediated cytotoxicity		
+								Systemic lupus erythematosus			Nicotine addiction	Malaria	Nicotine addiction		
+								Amphetamine addiction			Systemic lupus erythematosus	p53 signaling pathway	Systemic lupus erythematosus		
+								Malaria			Amphetamine addiction	Maturity onset diabetes of the young	Amphetamine addiction		
+								p53 signaling pathway			Malaria	Amphetamine addiction	Malaria		
+								Rheumatoid arthritis			p53 signaling pathway	Natural killer cell mediated cytotoxicity	p53 signaling pathway		
+											Rheumatoid arthritis	Calcium signaling pathway	Rheumatoid arthritis		
+											MicroRNAs in cancer	Rheumatoid arthritis	MicroRNAs in cancer		
+													Primary immunodeficiency		
+													Calcium signaling pathway		
+													Dopaminergic synapse		
+													Serotonergic synapse		
+													Maturity onset diabetes of the young		
+													Cell adhesion molecules		
+													Cytokine-cytokine receptor interaction		
+													Protein digestion and absorption		
+													B cell receptor signaling pathway		
+													Pancreatic secretion		
+													cAMP signaling pathway		
+													Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate		
+													Ribosome biogenesis in eukaryotes		
+													African trypanosomiasis		
+													Cocaine addiction		
+													Glutathione metabolism		
+													Starch and sucrose metabolism		
+													Long-term potentiation		
+													Chronic myeloid leukemia		
+													GABAergic synapse		
+													Long-term depression		
+													Drug metabolism - cytochrome P450		
+													Pantothenate and CoA biosynthesis		
+													Metabolism of xenobiotics by cytochrome P450		
+													Chagas disease		
+													Gap junction		
+													Bile secretion		
+													AGE-RAGE signaling pathway in diabetic complications		
+													Chemical carcinogenesis		
+													Morphine addiction		
+													Adrenergic signaling in cardiomyocytes		
+													Carbohydrate digestion and absorption		
+													Gastric acid secretion		
+													IL-17 signaling pathway		
+													Tight junction		
+													Retrograde endocannabinoid signaling		
+													Toll-like receptor signaling pathway		
+													Cell cycle		
+													Glycosphingolipid biosynthesis - globo and isoglobo series		
+													Glycine, serine and threonine metabolism		
+													Cardiac muscle contraction		

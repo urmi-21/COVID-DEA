@@ -1,0 +1,97 @@
+Total_terms_MW	Total_terms_Limma	Intersection_All	Only_MW	Only_Limma	Intersection_top_20	Only_MW_top_20	Only_Limma_top_20	Terms_Intersect_top_20	Terms_Only_MW_top_20	Terms_Only_Limma_top_20	Terms_MW_top_20	Terms_Limma_top_20	Terms_Intersect_ALL	Terms_Only_MW	Terms_Only_Limma
+115	102	96	19	6	18	2	2	Cytokine-cytokine receptor interaction	Pentose and glucuronate interconversions	Glutathione metabolism	Cytokine-cytokine receptor interaction	Focal adhesion	Cytokine-cytokine receptor interaction	Mismatch repair	Fat digestion and absorption
+								Focal adhesion	Viral protein interaction with cytokine and cytokine receptor	Natural killer cell mediated cytotoxicity	Focal adhesion	Osteoclast differentiation	Focal adhesion	Glutamatergic synapse	Glycosphingolipid biosynthesis - ganglio series
+								Calcium signaling pathway			Calcium signaling pathway	Dilated cardiomyopathy	Calcium signaling pathway	Rheumatoid arthritis	Nicotine addiction
+								Osteoclast differentiation			Osteoclast differentiation	ECM-receptor interaction	Osteoclast differentiation	Th17 cell differentiation	Fatty acid elongation
+								Hematopoietic cell lineage			Hematopoietic cell lineage	Hypertrophic cardiomyopathy	Hematopoietic cell lineage	Bacterial invasion of epithelial cells	Cholesterol metabolism
+								Dilated cardiomyopathy			Dilated cardiomyopathy	Staphylococcus aureus infection	Dilated cardiomyopathy	Steroid biosynthesis	DNA replication
+								ECM-receptor interaction			ECM-receptor interaction	Complement and coagulation cascades	ECM-receptor interaction	Inflammatory bowel disease	
+								Hypertrophic cardiomyopathy			Hypertrophic cardiomyopathy	Cytokine-cytokine receptor interaction	Hypertrophic cardiomyopathy	Fc gamma R-mediated phagocytosis	
+								Staphylococcus aureus infection			Staphylococcus aureus infection	Phagosome	Staphylococcus aureus infection	Drug metabolism - other enzymes	
+								Complement and coagulation cascades			Complement and coagulation cascades	Hematopoietic cell lineage	Complement and coagulation cascades	Th1 and Th2 cell differentiation	
+								B cell receptor signaling pathway			B cell receptor signaling pathway	Glutathione metabolism	B cell receptor signaling pathway	Linoleic acid metabolism	
+								Primary immunodeficiency			Primary immunodeficiency	Primary immunodeficiency	Primary immunodeficiency	Leukocyte transendothelial migration	
+								Phagosome			Phagosome	Ribosome	Phagosome	African trypanosomiasis	
+								Maturity onset diabetes of the young			Maturity onset diabetes of the young	B cell receptor signaling pathway	Maturity onset diabetes of the young	Glycerolipid metabolism	
+								Regulation of actin cytoskeleton			Pentose and glucuronate interconversions	Regulation of actin cytoskeleton	Pentose and glucuronate interconversions	Cocaine addiction	
+								Ribosome			Regulation of actin cytoskeleton	Calcium signaling pathway	Regulation of actin cytoskeleton	NF-kappa B signaling pathway	
+								Tuberculosis			Viral protein interaction with cytokine and cytokine receptor	Maturity onset diabetes of the young	Viral protein interaction with cytokine and cytokine receptor	cAMP signaling pathway	
+								Vascular smooth muscle contraction			Ribosome	Tuberculosis	Ribosome	Aldosterone synthesis and secretion	
+											Tuberculosis	Vascular smooth muscle contraction	Tuberculosis	Pantothenate and CoA biosynthesis	
+											Vascular smooth muscle contraction	Natural killer cell mediated cytotoxicity	Vascular smooth muscle contraction		
+													Platelet activation		
+													Adrenergic signaling in cardiomyocytes		
+													Alcoholism		
+													Oxytocin signaling pathway		
+													Chagas disease		
+													Chemokine signaling pathway		
+													Natural killer cell mediated cytotoxicity		
+													Toll-like receptor signaling pathway		
+													Protein digestion and absorption		
+													Cell adhesion molecules		
+													Steroid hormone biosynthesis		
+													Malaria		
+													Gap junction		
+													Pertussis		
+													Folate biosynthesis		
+													Neuroactive ligand-receptor interaction		
+													PI3K-Akt signaling pathway		
+													Glutathione metabolism		
+													Cardiac muscle contraction		
+													Amoebiasis		
+													T cell receptor signaling pathway		
+													AGE-RAGE signaling pathway in diabetic complications		
+													Fluid shear stress and atherosclerosis		
+													Thiamine metabolism		
+													cGMP-PKG signaling pathway		
+													Spliceosome		
+													Apelin signaling pathway		
+													Human cytomegalovirus infection		
+													Rap1 signaling pathway		
+													Relaxin signaling pathway		
+													Herpes simplex virus 1 infection		
+													Systemic lupus erythematosus		
+													Arrhythmogenic right ventricular cardiomyopathy		
+													Other types of O-glycan biosynthesis		
+													Phospholipase D signaling pathway		
+													alpha-Linolenic acid metabolism		
+													Pathogenic Escherichia coli infection		
+													Ascorbate and aldarate metabolism		
+													Ribosome biogenesis in eukaryotes		
+													Porphyrin and chlorophyll metabolism		
+													Ras signaling pathway		
+													Leishmaniasis		
+													Terpenoid backbone biosynthesis		
+													Glycine, serine and threonine metabolism		
+													Prion disease		
+													Yersinia infection		
+													Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate		
+													Viral myocarditis		
+													Measles		
+													Circadian entrainment		
+													TGF-beta signaling pathway		
+													Mineral absorption		
+													Salmonella infection		
+													Viral carcinogenesis		
+													PD-L1 expression and PD-1 checkpoint pathway in cancer		
+													Platinum drug resistance		
+													Retinol metabolism		
+													Bladder cancer		
+													Synthesis and degradation of ketone bodies		
+													Histidine metabolism		
+													Graft-versus-host disease		
+													C-type lectin receptor signaling pathway		
+													Arachidonic acid metabolism		
+													Glycolysis / Gluconeogenesis		
+													Proteoglycans in cancer		
+													Glycosaminoglycan biosynthesis - keratan sulfate		
+													Drug metabolism - cytochrome P450		
+													Human papillomavirus infection		
+													Chemical carcinogenesis		
+													Pancreatic secretion		
+													Aldosterone-regulated sodium reabsorption		
+													Antigen processing and presentation		
+													Metabolism of xenobiotics by cytochrome P450		
+													Hepatocellular carcinoma		
+													Protein export		
+													Biosynthesis of amino acids		

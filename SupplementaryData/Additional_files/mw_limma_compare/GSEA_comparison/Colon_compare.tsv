@@ -1,0 +1,94 @@
+Total_terms_MW	Total_terms_Limma	Intersection_All	Only_MW	Only_Limma	Intersection_top_20	Only_MW_top_20	Only_Limma_top_20	Terms_Intersect_top_20	Terms_Only_MW_top_20	Terms_Only_Limma_top_20	Terms_MW_top_20	Terms_Limma_top_20	Terms_Intersect_ALL	Terms_Only_MW	Terms_Only_Limma
+104	101	93	11	8	15	5	5	Cytokine-cytokine receptor interaction	Bile secretion	Herpes simplex virus 1 infection	Cytokine-cytokine receptor interaction	Herpes simplex virus 1 infection	Cytokine-cytokine receptor interaction	Maturity onset diabetes of the young	Cardiac muscle contraction
+								Chemokine signaling pathway	Proximal tubule bicarbonate reclamation	Systemic lupus erythematosus	Chemokine signaling pathway	Cytokine-cytokine receptor interaction	Chemokine signaling pathway	Mineral absorption	Steroid hormone biosynthesis
+								Viral protein interaction with cytokine and cytokine receptor	T cell receptor signaling pathway	Calcium signaling pathway	Viral protein interaction with cytokine and cytokine receptor	Chemokine signaling pathway	Viral protein interaction with cytokine and cytokine receptor	Nitrogen metabolism	Central carbon metabolism in cancer
+								Pancreatic secretion	Type I diabetes mellitus	PPAR signaling pathway	Pancreatic secretion	Viral protein interaction with cytokine and cytokine receptor	Pancreatic secretion	Porphyrin and chlorophyll metabolism	Ras signaling pathway
+								Hematopoietic cell lineage	Melanoma	Ribosome	Hematopoietic cell lineage	Hematopoietic cell lineage	Hematopoietic cell lineage	Apoptosis	Dilated cardiomyopathy
+								Toll-like receptor signaling pathway			Toll-like receptor signaling pathway	Toll-like receptor signaling pathway	Toll-like receptor signaling pathway	Retinol metabolism	RNA transport
+								Rheumatoid arthritis			Rheumatoid arthritis	Th1 and Th2 cell differentiation	Rheumatoid arthritis	Leukocyte transendothelial migration	Adrenergic signaling in cardiomyocytes
+								Antigen processing and presentation			Bile secretion	Rheumatoid arthritis	Bile secretion	Lysosome	FoxO signaling pathway
+								Primary immunodeficiency			Antigen processing and presentation	Antigen processing and presentation	Antigen processing and presentation	Pathogenic Escherichia coli infection	
+								NF-kappa B signaling pathway			Primary immunodeficiency	Primary immunodeficiency	Primary immunodeficiency	Peroxisome	
+								Intestinal immune network for IgA production			Proximal tubule bicarbonate reclamation	NF-kappa B signaling pathway	Proximal tubule bicarbonate reclamation	TNF signaling pathway	
+								Graft-versus-host disease			NF-kappa B signaling pathway	Intestinal immune network for IgA production	NF-kappa B signaling pathway		
+								Th1 and Th2 cell differentiation			Intestinal immune network for IgA production	Graft-versus-host disease	Intestinal immune network for IgA production		
+								Th17 cell differentiation			Graft-versus-host disease	Systemic lupus erythematosus	Graft-versus-host disease		
+								Chagas disease			Th1 and Th2 cell differentiation	Th17 cell differentiation	Th1 and Th2 cell differentiation		
+											Th17 cell differentiation	Pancreatic secretion	Th17 cell differentiation		
+											T cell receptor signaling pathway	Calcium signaling pathway	T cell receptor signaling pathway		
+											Type I diabetes mellitus	PPAR signaling pathway	Type I diabetes mellitus		
+											Chagas disease	Chagas disease	Chagas disease		
+											Melanoma	Ribosome	Melanoma		
+													B cell receptor signaling pathway		
+													Herpes simplex virus 1 infection		
+													Natural killer cell mediated cytotoxicity		
+													Systemic lupus erythematosus		
+													Ribosome		
+													Influenza A		
+													Measles		
+													Drug metabolism - cytochrome P450		
+													Ascorbate and aldarate metabolism		
+													PPAR signaling pathway		
+													ECM-receptor interaction		
+													Pentose and glucuronate interconversions		
+													Human cytomegalovirus infection		
+													Focal adhesion		
+													Cytosolic DNA-sensing pathway		
+													Gastric acid secretion		
+													Inflammatory bowel disease		
+													Allograft rejection		
+													Amoebiasis		
+													Chemical carcinogenesis		
+													Metabolism of xenobiotics by cytochrome P450		
+													Epstein-Barr virus infection		
+													PI3K-Akt signaling pathway		
+													Neuroactive ligand-receptor interaction		
+													Asthma		
+													Osteoclast differentiation		
+													Glycosphingolipid biosynthesis - ganglio series		
+													Arachidonic acid metabolism		
+													Estrogen signaling pathway		
+													Autoimmune thyroid disease		
+													Staphylococcus aureus infection		
+													Phagosome		
+													Calcium signaling pathway		
+													IL-17 signaling pathway		
+													Tight junction		
+													Pertussis		
+													Alcoholism		
+													Hepatitis C		
+													Cholesterol metabolism		
+													Leishmaniasis		
+													Human immunodeficiency virus 1 infection		
+													PD-L1 expression and PD-1 checkpoint pathway in cancer		
+													Malaria		
+													Renin-angiotensin system		
+													HIF-1 signaling pathway		
+													Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate		
+													Glycosphingolipid biosynthesis - lacto and neolacto series		
+													Tuberculosis		
+													Cell adhesion molecules		
+													Vitamin digestion and absorption		
+													Taste transduction		
+													Thiamine metabolism		
+													Drug metabolism - other enzymes		
+													Fc epsilon RI signaling pathway		
+													Viral myocarditis		
+													C-type lectin receptor signaling pathway		
+													Complement and coagulation cascades		
+													Glycine, serine and threonine metabolism		
+													Butanoate metabolism		
+													NOD-like receptor signaling pathway		
+													Glycosylphosphatidylinositol (GPI)-anchor biosynthesis		
+													Circadian entrainment		
+													Amphetamine addiction		
+													alpha-Linolenic acid metabolism		
+													Ether lipid metabolism		
+													Antifolate resistance		
+													Salivary secretion		
+													Glycosaminoglycan degradation		
+													TGF-beta signaling pathway		
+													African trypanosomiasis		
+													ABC transporters		
+													Linoleic acid metabolism		
+													Tryptophan metabolism		

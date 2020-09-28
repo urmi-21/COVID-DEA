@@ -1,0 +1,134 @@
+Total_terms_MW	Total_terms_Limma	Intersection_All	Only_MW	Only_Limma	Intersection_top_20	Only_MW_top_20	Only_Limma_top_20	Terms_Intersect_top_20	Terms_Only_MW_top_20	Terms_Only_Limma_top_20	Terms_MW_top_20	Terms_Limma_top_20	Terms_Intersect_ALL	Terms_Only_MW	Terms_Only_Limma
+151	138	133	18	5	9	11	11	Asthma	GnRH signaling pathway	Cytokine-cytokine receptor interaction	GnRH signaling pathway	Cytokine-cytokine receptor interaction	GnRH signaling pathway	Hepatitis C	Cholesterol metabolism
+								Type I diabetes mellitus	Taste transduction	Alcoholism	Taste transduction	Alcoholism	Taste transduction	Circadian rhythm	Relaxin signaling pathway
+								Autoimmune thyroid disease	Graft-versus-host disease	Viral carcinogenesis	Asthma	Viral carcinogenesis	Asthma	Biosynthesis of unsaturated fatty acids	cGMP-PKG signaling pathway
+								Staphylococcus aureus infection	Allograft rejection	Tuberculosis	Type I diabetes mellitus	Tuberculosis	Type I diabetes mellitus	Maturity onset diabetes of the young	Hedgehog signaling pathway
+								Complement and coagulation cascades	Malaria	Chemokine signaling pathway	Autoimmune thyroid disease	Chemokine signaling pathway	Autoimmune thyroid disease	Thyroid hormone synthesis	Sphingolipid signaling pathway
+								Leishmaniasis	Viral myocarditis	Systemic lupus erythematosus	Graft-versus-host disease	Systemic lupus erythematosus	Graft-versus-host disease	RIG-I-like receptor signaling pathway	
+								Viral protein interaction with cytokine and cytokine receptor	Inflammatory bowel disease	Osteoclast differentiation	Allograft rejection	Phagosome	Allograft rejection	Ether lipid metabolism	
+								Phagosome	Antigen processing and presentation	Natural killer cell mediated cytotoxicity	Malaria	Osteoclast differentiation	Malaria	Melanogenesis	
+								Th1 and Th2 cell differentiation	Pertussis	Cell adhesion molecules	Staphylococcus aureus infection	Type I diabetes mellitus	Staphylococcus aureus infection	Insulin secretion	
+									IL-17 signaling pathway	Rheumatoid arthritis	Viral myocarditis	Natural killer cell mediated cytotoxicity	Viral myocarditis	Cushing syndrome	
+									Toll-like receptor signaling pathway	Hematopoietic cell lineage	Inflammatory bowel disease	Viral protein interaction with cytokine and cytokine receptor	Inflammatory bowel disease	Pathogenic Escherichia coli infection	
+											Complement and coagulation cascades	Cell adhesion molecules	Complement and coagulation cascades	Phototransduction	
+											Antigen processing and presentation	Autoimmune thyroid disease	Antigen processing and presentation	VEGF signaling pathway	
+											Leishmaniasis	Rheumatoid arthritis	Leishmaniasis	PPAR signaling pathway	
+											Pertussis	Asthma	Pertussis	alpha-Linolenic acid metabolism	
+											Viral protein interaction with cytokine and cytokine receptor	Th1 and Th2 cell differentiation	Viral protein interaction with cytokine and cytokine receptor	Cell cycle	
+											IL-17 signaling pathway	Hematopoietic cell lineage	IL-17 signaling pathway	Estrogen signaling pathway	
+											Phagosome	Staphylococcus aureus infection	Phagosome	Glutathione metabolism	
+											Toll-like receptor signaling pathway	Leishmaniasis	Toll-like receptor signaling pathway		
+											Th1 and Th2 cell differentiation	Complement and coagulation cascades	Th1 and Th2 cell differentiation		
+													Rheumatoid arthritis		
+													Hematopoietic cell lineage		
+													Natural killer cell mediated cytotoxicity		
+													Toxoplasmosis		
+													Viral carcinogenesis		
+													Alcoholism		
+													Systemic lupus erythematosus		
+													Influenza A		
+													Transcriptional misregulation in cancer		
+													Tuberculosis		
+													Ribosome		
+													Osteoclast differentiation		
+													Epstein-Barr virus infection		
+													Cytokine-cytokine receptor interaction		
+													Chemokine signaling pathway		
+													Cell adhesion molecules		
+													Th17 cell differentiation		
+													TNF signaling pathway		
+													Human T-cell leukemia virus 1 infection		
+													Proteasome		
+													NF-kappa B signaling pathway		
+													Chagas disease		
+													Necroptosis		
+													Chemical carcinogenesis		
+													Drug metabolism - cytochrome P450		
+													Retinol metabolism		
+													Intestinal immune network for IgA production		
+													Metabolism of xenobiotics by cytochrome P450		
+													PD-L1 expression and PD-1 checkpoint pathway in cancer		
+													Glycerolipid metabolism		
+													Legionellosis		
+													Herpes simplex virus 1 infection		
+													JAK-STAT signaling pathway		
+													Shigellosis		
+													ABC transporters		
+													AGE-RAGE signaling pathway in diabetic complications		
+													Oxytocin signaling pathway		
+													Measles		
+													C-type lectin receptor signaling pathway		
+													Bile secretion		
+													Phosphatidylinositol signaling system		
+													Ascorbate and aldarate metabolism		
+													Drug metabolism - other enzymes		
+													Glycosylphosphatidylinositol (GPI)-anchor biosynthesis		
+													Inflammatory mediator regulation of TRP channels		
+													Circadian entrainment		
+													Mineral absorption		
+													Type II diabetes mellitus		
+													Pentose and glucuronate interconversions		
+													Steroid hormone biosynthesis		
+													Glycosphingolipid biosynthesis - globo and isoglobo series		
+													T cell receptor signaling pathway		
+													PI3K-Akt signaling pathway		
+													Glutamatergic synapse		
+													Human papillomavirus infection		
+													Ovarian steroidogenesis		
+													Human immunodeficiency virus 1 infection		
+													Cytosolic DNA-sensing pathway		
+													Apoptosis		
+													ECM-receptor interaction		
+													Porphyrin and chlorophyll metabolism		
+													Pancreatic secretion		
+													NOD-like receptor signaling pathway		
+													Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate		
+													FoxO signaling pathway		
+													B cell receptor signaling pathway		
+													Leukocyte transendothelial migration		
+													Neuroactive ligand-receptor interaction		
+													Mannose type O-glycan biosynthesis		
+													Yersinia infection		
+													Amoebiasis		
+													Inositol phosphate metabolism		
+													Fanconi anemia pathway		
+													Oocyte meiosis		
+													Cortisol synthesis and secretion		
+													Adipocytokine signaling pathway		
+													Long-term potentiation		
+													Aldosterone synthesis and secretion		
+													Thiamine metabolism		
+													RNA polymerase		
+													Salivary secretion		
+													Proteoglycans in cancer		
+													Focal adhesion		
+													Human cytomegalovirus infection		
+													African trypanosomiasis		
+													Retrograde endocannabinoid signaling		
+													Amino sugar and nucleotide sugar metabolism		
+													Lysosome		
+													Glycerophospholipid metabolism		
+													Primary immunodeficiency		
+													Ferroptosis		
+													Other glycan degradation		
+													Butanoate metabolism		
+													Progesterone-mediated oocyte maturation		
+													Vibrio cholerae infection		
+													Protein digestion and absorption		
+													Synthesis and degradation of ketone bodies		
+													Gastric acid secretion		
+													Fluid shear stress and atherosclerosis		
+													Glycosphingolipid biosynthesis - ganglio series		
+													Cellular senescence		
+													Pantothenate and CoA biosynthesis		
+													Kaposi sarcoma-associated herpesvirus infection		
+													Glucagon signaling pathway		
+													Terpenoid backbone biosynthesis		
+													Fat digestion and absorption		
+													Prion disease		
+													Acute myeloid leukemia		
+													Linoleic acid metabolism		
+													Tryptophan metabolism		
+													cAMP signaling pathway		
+													Glycosaminoglycan biosynthesis - keratan sulfate		
+													Amphetamine addiction		

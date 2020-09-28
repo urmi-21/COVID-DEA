@@ -1,0 +1,117 @@
+Total_terms_MW	Total_terms_Limma	Intersection_All	Only_MW	Only_Limma	Intersection_top_20	Only_MW_top_20	Only_Limma_top_20	Terms_Intersect_top_20	Terms_Only_MW_top_20	Terms_Only_Limma_top_20	Terms_MW_top_20	Terms_Limma_top_20	Terms_Intersect_ALL	Terms_Only_MW	Terms_Only_Limma
+122	128	116	6	12	19	1	1	Cytokine-cytokine receptor interaction	Metabolism of xenobiotics by cytochrome P450	Graft-versus-host disease	Cytokine-cytokine receptor interaction	Cytokine-cytokine receptor interaction	Cytokine-cytokine receptor interaction	Cholesterol metabolism	Basal transcription factors
+								Cell adhesion molecules			Cell adhesion molecules	Cell adhesion molecules	Cell adhesion molecules	Human cytomegalovirus infection	Glutamatergic synapse
+								Toxoplasmosis			Toxoplasmosis	Toxoplasmosis	Toxoplasmosis	Synaptic vesicle cycle	Cellular senescence
+								Th17 cell differentiation			Th17 cell differentiation	Th17 cell differentiation	Th17 cell differentiation	Legionellosis	Phototransduction
+								NF-kappa B signaling pathway			NF-kappa B signaling pathway	NF-kappa B signaling pathway	NF-kappa B signaling pathway	Bladder cancer	Rap1 signaling pathway
+								Viral protein interaction with cytokine and cytokine receptor			Viral protein interaction with cytokine and cytokine receptor	Viral protein interaction with cytokine and cytokine receptor	Viral protein interaction with cytokine and cytokine receptor	Adipocytokine signaling pathway	Hedgehog signaling pathway
+								Hematopoietic cell lineage			Hematopoietic cell lineage	Hematopoietic cell lineage	Hematopoietic cell lineage		Various types of N-glycan biosynthesis
+								Th1 and Th2 cell differentiation			Th1 and Th2 cell differentiation	Th1 and Th2 cell differentiation	Th1 and Th2 cell differentiation		Fc epsilon RI signaling pathway
+								Rheumatoid arthritis			Rheumatoid arthritis	Rheumatoid arthritis	Rheumatoid arthritis		Fatty acid biosynthesis
+								Complement and coagulation cascades			Complement and coagulation cascades	Complement and coagulation cascades	Complement and coagulation cascades		Steroid hormone biosynthesis
+								Staphylococcus aureus infection			Staphylococcus aureus infection	Staphylococcus aureus infection	Staphylococcus aureus infection		Platelet activation
+								Antigen processing and presentation			Antigen processing and presentation	Antigen processing and presentation	Antigen processing and presentation		PI3K-Akt signaling pathway
+								Inflammatory bowel disease			Metabolism of xenobiotics by cytochrome P450	Inflammatory bowel disease	Metabolism of xenobiotics by cytochrome P450		
+								Drug metabolism - cytochrome P450			Inflammatory bowel disease	Drug metabolism - cytochrome P450	Inflammatory bowel disease		
+								Viral myocarditis			Drug metabolism - cytochrome P450	Viral myocarditis	Drug metabolism - cytochrome P450		
+								Intestinal immune network for IgA production			Viral myocarditis	Intestinal immune network for IgA production	Viral myocarditis		
+								Type I diabetes mellitus			Intestinal immune network for IgA production	Type I diabetes mellitus	Intestinal immune network for IgA production		
+								Autoimmune thyroid disease			Type I diabetes mellitus	Autoimmune thyroid disease	Type I diabetes mellitus		
+								Primary immunodeficiency			Autoimmune thyroid disease	Graft-versus-host disease	Autoimmune thyroid disease		
+											Primary immunodeficiency	Primary immunodeficiency	Primary immunodeficiency		
+													Graft-versus-host disease		
+													Allograft rejection		
+													Asthma		
+													Natural killer cell mediated cytotoxicity		
+													Leishmaniasis		
+													Homologous recombination		
+													DNA replication		
+													Tuberculosis		
+													Chemical carcinogenesis		
+													Human T-cell leukemia virus 1 infection		
+													Phagosome		
+													T cell receptor signaling pathway		
+													Mismatch repair		
+													Carbohydrate digestion and absorption		
+													Cell cycle		
+													Epstein-Barr virus infection		
+													MicroRNAs in cancer		
+													Toll-like receptor signaling pathway		
+													ABC transporters		
+													Chagas disease		
+													Influenza A		
+													Linoleic acid metabolism		
+													Arachidonic acid metabolism		
+													Chemokine signaling pathway		
+													Glycosphingolipid biosynthesis - lacto and neolacto series		
+													RNA transport		
+													African trypanosomiasis		
+													Fatty acid elongation		
+													Alcoholism		
+													Salivary secretion		
+													TNF signaling pathway		
+													Pantothenate and CoA biosynthesis		
+													Systemic lupus erythematosus		
+													Pancreatic secretion		
+													Ribosome biogenesis in eukaryotes		
+													B cell receptor signaling pathway		
+													NOD-like receptor signaling pathway		
+													One carbon pool by folate		
+													Ether lipid metabolism		
+													Pertussis		
+													Fatty acid degradation		
+													Biosynthesis of amino acids		
+													Aldosterone-regulated sodium reabsorption		
+													Ribosome		
+													IL-17 signaling pathway		
+													Base excision repair		
+													Bile secretion		
+													alpha-Linolenic acid metabolism		
+													Antifolate resistance		
+													Apoptosis		
+													Morphine addiction		
+													Biosynthesis of unsaturated fatty acids		
+													Central carbon metabolism in cancer		
+													Starch and sucrose metabolism		
+													Breast cancer		
+													JAK-STAT signaling pathway		
+													Drug metabolism - other enzymes		
+													Fanconi anemia pathway		
+													PD-L1 expression and PD-1 checkpoint pathway in cancer		
+													Osteoclast differentiation		
+													Mucin type O-glycan biosynthesis		
+													Amoebiasis		
+													Malaria		
+													Protein digestion and absorption		
+													p53 signaling pathway		
+													GABAergic synapse		
+													Cytosolic DNA-sensing pathway		
+													Glycerophospholipid metabolism		
+													Neuroactive ligand-receptor interaction		
+													Ras signaling pathway		
+													Glutathione metabolism		
+													Platinum drug resistance		
+													Mineral absorption		
+													Endocrine and other factor-regulated calcium reabsorption		
+													Estrogen signaling pathway		
+													Tyrosine metabolism		
+													Cysteine and methionine metabolism		
+													Cholinergic synapse		
+													Fluid shear stress and atherosclerosis		
+													Melanogenesis		
+													Carbon metabolism		
+													Vascular smooth muscle contraction		
+													Long-term depression		
+													Lysosome		
+													Gastric cancer		
+													Arginine biosynthesis		
+													Fructose and mannose metabolism		
+													Pentose and glucuronate interconversions		
+													Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate		
+													Inflammatory mediator regulation of TRP channels		
+													Glycine, serine and threonine metabolism		
+													Folate biosynthesis		
+													Wnt signaling pathway		
+													Insulin secretion		
+													Basal cell carcinoma		
+													cAMP signaling pathway		

@@ -1,0 +1,77 @@
+Total_terms_MW	Total_terms_Limma	Intersection_All	Only_MW	Only_Limma	Intersection_top_20	Only_MW_top_20	Only_Limma_top_20	Terms_Intersect_top_20	Terms_Only_MW_top_20	Terms_Only_Limma_top_20	Terms_MW_top_20	Terms_Limma_top_20	Terms_Intersect_ALL	Terms_Only_MW	Terms_Only_Limma
+93	76	76	17	0	17	3	3	Influenza A	Th1 and Th2 cell differentiation	MicroRNAs in cancer	Influenza A	Influenza A	Influenza A	Human T-cell leukemia virus 1 infection	
+								Cell adhesion molecules	Oxidative phosphorylation	PPAR signaling pathway	Cell adhesion molecules	Cell adhesion molecules	Cell adhesion molecules	TNF signaling pathway	
+								Staphylococcus aureus infection	Th17 cell differentiation	Autoimmune thyroid disease	Staphylococcus aureus infection	Staphylococcus aureus infection	Staphylococcus aureus infection	African trypanosomiasis	
+								Antigen processing and presentation			Antigen processing and presentation	Antigen processing and presentation	Antigen processing and presentation	Complement and coagulation cascades	
+								Inflammatory bowel disease			Inflammatory bowel disease	Type I diabetes mellitus	Inflammatory bowel disease	Apoptosis	
+								Graft-versus-host disease			Graft-versus-host disease	Graft-versus-host disease	Graft-versus-host disease	Nicotinate and nicotinamide metabolism	
+								Type I diabetes mellitus			Type I diabetes mellitus	Systemic lupus erythematosus	Type I diabetes mellitus	Axon guidance	
+								Systemic lupus erythematosus			Systemic lupus erythematosus	Toxoplasmosis	Systemic lupus erythematosus	Melanoma	
+								Toxoplasmosis			Toxoplasmosis	Inflammatory bowel disease	Toxoplasmosis	Proteoglycans in cancer	
+								ECM-receptor interaction			ECM-receptor interaction	ECM-receptor interaction	ECM-receptor interaction	Glycosphingolipid biosynthesis - lacto and neolacto series	
+								Hypertrophic cardiomyopathy			Hypertrophic cardiomyopathy	Intestinal immune network for IgA production	Hypertrophic cardiomyopathy	Other glycan degradation	
+								Dilated cardiomyopathy			Dilated cardiomyopathy	Neuroactive ligand-receptor interaction	Dilated cardiomyopathy	Signaling pathways regulating pluripotency of stem cells	
+								Intestinal immune network for IgA production			Intestinal immune network for IgA production	Hypertrophic cardiomyopathy	Intestinal immune network for IgA production	Parathyroid hormone synthesis, secretion and action	
+								Neuroactive ligand-receptor interaction			Neuroactive ligand-receptor interaction	Allograft rejection	Neuroactive ligand-receptor interaction	Ether lipid metabolism	
+								Allograft rejection			Allograft rejection	MicroRNAs in cancer	Allograft rejection	Viral carcinogenesis	
+								PI3K-Akt signaling pathway			Th1 and Th2 cell differentiation	Dilated cardiomyopathy	Th1 and Th2 cell differentiation	VEGF signaling pathway	
+								RNA polymerase			PI3K-Akt signaling pathway	RNA polymerase	PI3K-Akt signaling pathway	Valine, leucine and isoleucine degradation	
+											Oxidative phosphorylation	PPAR signaling pathway	Oxidative phosphorylation		
+											Th17 cell differentiation	PI3K-Akt signaling pathway	Th17 cell differentiation		
+											RNA polymerase	Autoimmune thyroid disease	RNA polymerase		
+													MicroRNAs in cancer		
+													Asthma		
+													Focal adhesion		
+													Autoimmune thyroid disease		
+													PPAR signaling pathway		
+													Cytokine-cytokine receptor interaction		
+													Necroptosis		
+													Alcoholism		
+													Glutathione metabolism		
+													Viral myocarditis		
+													Arrhythmogenic right ventricular cardiomyopathy		
+													Phagosome		
+													Huntington disease		
+													Natural killer cell mediated cytotoxicity		
+													Epstein-Barr virus infection		
+													Chemokine signaling pathway		
+													Malaria		
+													Ribosome		
+													Metabolism of xenobiotics by cytochrome P450		
+													p53 signaling pathway		
+													Toll-like receptor signaling pathway		
+													ErbB signaling pathway		
+													Human papillomavirus infection		
+													Butanoate metabolism		
+													Small cell lung cancer		
+													Viral protein interaction with cytokine and cytokine receptor		
+													Fat digestion and absorption		
+													Choline metabolism in cancer		
+													Leishmaniasis		
+													Chemical carcinogenesis		
+													Tyrosine metabolism		
+													Citrate cycle (TCA cycle)		
+													Serotonergic synapse		
+													Drug metabolism - cytochrome P450		
+													MAPK signaling pathway		
+													Insulin resistance		
+													Protein digestion and absorption		
+													Tight junction		
+													Thyroid hormone synthesis		
+													Taste transduction		
+													Relaxin signaling pathway		
+													Apoptosis - multiple species		
+													Amoebiasis		
+													Hepatitis C		
+													Pathogenic Escherichia coli infection		
+													Glycosylphosphatidylinositol (GPI)-anchor biosynthesis		
+													Linoleic acid metabolism		
+													Hematopoietic cell lineage		
+													Estrogen signaling pathway		
+													GnRH secretion		
+													Cellular senescence		
+													Renin-angiotensin system		
+													ABC transporters		
+													Galactose metabolism		
+													Mineral absorption		
+													Drug metabolism - other enzymes		

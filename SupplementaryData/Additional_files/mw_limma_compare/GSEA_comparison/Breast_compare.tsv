@@ -1,0 +1,79 @@
+Total_terms_MW	Total_terms_Limma	Intersection_All	Only_MW	Only_Limma	Intersection_top_20	Only_MW_top_20	Only_Limma_top_20	Terms_Intersect_top_20	Terms_Only_MW_top_20	Terms_Only_Limma_top_20	Terms_MW_top_20	Terms_Limma_top_20	Terms_Intersect_ALL	Terms_Only_MW	Terms_Only_Limma
+94	83	78	16	5	16	4	4	Herpes simplex virus 1 infection	IL-17 signaling pathway	Metabolism of xenobiotics by cytochrome P450	Herpes simplex virus 1 infection	Herpes simplex virus 1 infection	Herpes simplex virus 1 infection	Apoptosis	Glyoxylate and dicarboxylate metabolism
+								Dilated cardiomyopathy	Hepatitis C	Influenza A	Dilated cardiomyopathy	Dilated cardiomyopathy	Dilated cardiomyopathy	Colorectal cancer	ECM-receptor interaction
+								Hypertrophic cardiomyopathy	Regulation of lipolysis in adipocytes	Cardiac muscle contraction	Hypertrophic cardiomyopathy	Hypertrophic cardiomyopathy	Hypertrophic cardiomyopathy	Longevity regulating pathway	NF-kappa B signaling pathway
+								Taste transduction	Cell adhesion molecules	Staphylococcus aureus infection	Taste transduction	Arrhythmogenic right ventricular cardiomyopathy	Taste transduction	Human T-cell leukemia virus 1 infection	MAPK signaling pathway
+								Systemic lupus erythematosus			Systemic lupus erythematosus	Taste transduction	Systemic lupus erythematosus	Natural killer cell mediated cytotoxicity	Citrate cycle (TCA cycle)
+								Necroptosis			Necroptosis	Systemic lupus erythematosus	Necroptosis	Viral protein interaction with cytokine and cytokine receptor	
+								Alcoholism			Alcoholism	Necroptosis	Alcoholism	Protein digestion and absorption	
+								Viral carcinogenesis			Viral carcinogenesis	Alcoholism	Viral carcinogenesis	Epstein-Barr virus infection	
+								Nitrogen metabolism			Nitrogen metabolism	Viral carcinogenesis	Nitrogen metabolism	Arginine biosynthesis	
+								Drug metabolism - cytochrome P450			Drug metabolism - cytochrome P450	Drug metabolism - cytochrome P450	Drug metabolism - cytochrome P450	TNF signaling pathway	
+								Arrhythmogenic right ventricular cardiomyopathy			Arrhythmogenic right ventricular cardiomyopathy	Nitrogen metabolism	Arrhythmogenic right ventricular cardiomyopathy	Pathogenic Escherichia coli infection	
+								Adrenergic signaling in cardiomyocytes			Adrenergic signaling in cardiomyocytes	Ovarian steroidogenesis	Adrenergic signaling in cardiomyocytes	Amoebiasis	
+								Ovarian steroidogenesis			IL-17 signaling pathway	Adrenergic signaling in cardiomyocytes	IL-17 signaling pathway	Inflammatory bowel disease	
+								Antigen processing and presentation			Ovarian steroidogenesis	Chemical carcinogenesis	Ovarian steroidogenesis	Longevity regulating pathway - multiple species	
+								Chemical carcinogenesis			Antigen processing and presentation	Antigen processing and presentation	Antigen processing and presentation	GABAergic synapse	
+								Prolactin signaling pathway			Hepatitis C	Metabolism of xenobiotics by cytochrome P450	Hepatitis C	Th1 and Th2 cell differentiation	
+											Chemical carcinogenesis	Prolactin signaling pathway	Chemical carcinogenesis		
+											Prolactin signaling pathway	Influenza A	Prolactin signaling pathway		
+											Regulation of lipolysis in adipocytes	Cardiac muscle contraction	Regulation of lipolysis in adipocytes		
+											Cell adhesion molecules	Staphylococcus aureus infection	Cell adhesion molecules		
+													Influenza A		
+													Cardiac muscle contraction		
+													Staphylococcus aureus infection		
+													HIF-1 signaling pathway		
+													Metabolism of xenobiotics by cytochrome P450		
+													PPAR signaling pathway		
+													Asthma		
+													African trypanosomiasis		
+													Hematopoietic cell lineage		
+													Glycosylphosphatidylinositol (GPI)-anchor biosynthesis		
+													Pantothenate and CoA biosynthesis		
+													Cytokine-cytokine receptor interaction		
+													Allograft rejection		
+													Intestinal immune network for IgA production		
+													C-type lectin receptor signaling pathway		
+													Renin-angiotensin system		
+													Glutathione metabolism		
+													Fatty acid degradation		
+													ABC transporters		
+													Bile secretion		
+													Calcium signaling pathway		
+													Porphyrin and chlorophyll metabolism		
+													Arginine and proline metabolism		
+													Leishmaniasis		
+													Glutamatergic synapse		
+													Biosynthesis of amino acids		
+													Graft-versus-host disease		
+													Ascorbate and aldarate metabolism		
+													Estrogen signaling pathway		
+													Glycosphingolipid biosynthesis - ganglio series		
+													Long-term depression		
+													Leukocyte transendothelial migration		
+													cGMP-PKG signaling pathway		
+													Circadian entrainment		
+													Butanoate metabolism		
+													Nicotine addiction		
+													Thermogenesis		
+													Progesterone-mediated oocyte maturation		
+													Pentose and glucuronate interconversions		
+													Steroid biosynthesis		
+													Vascular smooth muscle contraction		
+													Central carbon metabolism in cancer		
+													Glycosaminoglycan biosynthesis - heparan sulfate / heparin		
+													Carbon metabolism		
+													Focal adhesion		
+													Malaria		
+													Ether lipid metabolism		
+													Phospholipase D signaling pathway		
+													Endocrine and other factor-regulated calcium reabsorption		
+													Biosynthesis of unsaturated fatty acids		
+													Adherens junction		
+													Adipocytokine signaling pathway		
+													Fluid shear stress and atherosclerosis		
+													Serotonergic synapse		
+													Gap junction		
+													Tyrosine metabolism		
+													Apelin signaling pathway		
+													Neuroactive ligand-receptor interaction		

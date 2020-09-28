@@ -1,0 +1,87 @@
+Total_terms_MW	Total_terms_Limma	Intersection_All	Only_MW	Only_Limma	Intersection_top_20	Only_MW_top_20	Only_Limma_top_20	Terms_Intersect_top_20	Terms_Only_MW_top_20	Terms_Only_Limma_top_20	Terms_MW_top_20	Terms_Limma_top_20	Terms_Intersect_ALL	Terms_Only_MW	Terms_Only_Limma
+111	99	86	25	13	16	4	4	Maturity onset diabetes of the young	Cell cycle	Metabolism of xenobiotics by cytochrome P450	Maturity onset diabetes of the young	Maturity onset diabetes of the young	Maturity onset diabetes of the young	African trypanosomiasis	Ribosome
+								Asthma	Chemokine signaling pathway	Antigen processing and presentation	Asthma	Intestinal immune network for IgA production	Asthma	Cytokine-cytokine receptor interaction	Proteoglycans in cancer
+								Autoimmune thyroid disease	Dilated cardiomyopathy	Mineral absorption	Autoimmune thyroid disease	Basal cell carcinoma	Autoimmune thyroid disease	Th17 cell differentiation	Protein export
+								Intestinal immune network for IgA production	Hypertrophic cardiomyopathy	Nitrogen metabolism	Intestinal immune network for IgA production	Autoimmune thyroid disease	Intestinal immune network for IgA production	Thyroid hormone synthesis	Endocrine resistance
+								Basal cell carcinoma			Basal cell carcinoma	Type I diabetes mellitus	Basal cell carcinoma	Cell adhesion molecules	Rap1 signaling pathway
+								Complement and coagulation cascades			Complement and coagulation cascades	Complement and coagulation cascades	Complement and coagulation cascades	Leukocyte transendothelial migration	Ras signaling pathway
+								Hematopoietic cell lineage			Hematopoietic cell lineage	Estrogen signaling pathway	Hematopoietic cell lineage	Homologous recombination	GABAergic synapse
+								Allograft rejection			Allograft rejection	Signaling pathways regulating pluripotency of stem cells	Allograft rejection	Osteoclast differentiation	Amoebiasis
+								Type I diabetes mellitus			Type I diabetes mellitus	Allograft rejection	Type I diabetes mellitus	Alzheimer disease	Gastric acid secretion
+								Cardiac muscle contraction			Cell cycle	Asthma	Cell cycle	DNA replication	MicroRNAs in cancer
+								Rheumatoid arthritis			Cardiac muscle contraction	p53 signaling pathway	Cardiac muscle contraction	Carbohydrate digestion and absorption	Arachidonic acid metabolism
+								Signaling pathways regulating pluripotency of stem cells			Rheumatoid arthritis	Fat digestion and absorption	Rheumatoid arthritis	Phagosome	Notch signaling pathway
+								Fat digestion and absorption			Signaling pathways regulating pluripotency of stem cells	Rheumatoid arthritis	Signaling pathways regulating pluripotency of stem cells	Th1 and Th2 cell differentiation	C-type lectin receptor signaling pathway
+								Estrogen signaling pathway			Chemokine signaling pathway	Hematopoietic cell lineage	Chemokine signaling pathway	Adrenergic signaling in cardiomyocytes	
+								p53 signaling pathway			Fat digestion and absorption	Metabolism of xenobiotics by cytochrome P450	Fat digestion and absorption	Insulin secretion	
+								Hippo signaling pathway			Dilated cardiomyopathy	Antigen processing and presentation	Dilated cardiomyopathy	Thyroid hormone signaling pathway	
+											Estrogen signaling pathway	Cardiac muscle contraction	Estrogen signaling pathway	Biosynthesis of unsaturated fatty acids	
+											p53 signaling pathway	Hippo signaling pathway	p53 signaling pathway	Cocaine addiction	
+											Hypertrophic cardiomyopathy	Mineral absorption	Hypertrophic cardiomyopathy	NF-kappa B signaling pathway	
+											Hippo signaling pathway	Nitrogen metabolism	Hippo signaling pathway	Influenza A	
+													Viral protein interaction with cytokine and cytokine receptor	Bile secretion	
+													Metabolism of xenobiotics by cytochrome P450	cGMP-PKG signaling pathway	
+													Antigen processing and presentation	Cortisol synthesis and secretion	
+													Pancreatic secretion	Focal adhesion	
+													Primary immunodeficiency	Cholinergic synapse	
+													Leishmaniasis		
+													Toxoplasmosis		
+													Drug metabolism - cytochrome P450		
+													Pentose and glucuronate interconversions		
+													Retinol metabolism		
+													Phototransduction		
+													Mineral absorption		
+													Breast cancer		
+													Nitrogen metabolism		
+													Steroid biosynthesis		
+													Chemical carcinogenesis		
+													Melanogenesis		
+													Inflammatory bowel disease		
+													PPAR signaling pathway		
+													GnRH secretion		
+													Fanconi anemia pathway		
+													Viral myocarditis		
+													Fluid shear stress and atherosclerosis		
+													Oocyte meiosis		
+													Staphylococcus aureus infection		
+													Purine metabolism		
+													Graft-versus-host disease		
+													Other glycan degradation		
+													Proximal tubule bicarbonate reclamation		
+													Human papillomavirus infection		
+													Renin-angiotensin system		
+													Nicotinate and nicotinamide metabolism		
+													mTOR signaling pathway		
+													Neurotrophin signaling pathway		
+													Lysosome		
+													Pantothenate and CoA biosynthesis		
+													Hepatocellular carcinoma		
+													Inflammatory mediator regulation of TRP channels		
+													Mucin type O-glycan biosynthesis		
+													Amino sugar and nucleotide sugar metabolism		
+													Tryptophan metabolism		
+													Tyrosine metabolism		
+													Ascorbate and aldarate metabolism		
+													Thiamine metabolism		
+													Hedgehog signaling pathway		
+													Peroxisome		
+													GnRH signaling pathway		
+													Primary bile acid biosynthesis		
+													Gastric cancer		
+													Systemic lupus erythematosus		
+													Wnt signaling pathway		
+													Cellular senescence		
+													Steroid hormone biosynthesis		
+													Endocrine and other factor-regulated calcium reabsorption		
+													Protein digestion and absorption		
+													Starch and sucrose metabolism		
+													Progesterone-mediated oocyte maturation		
+													Cushing syndrome		
+													Salivary secretion		
+													Nicotine addiction		
+													Porphyrin and chlorophyll metabolism		
+													Vitamin digestion and absorption		
+													Phenylalanine metabolism		
+													Cholesterol metabolism		
+													IL-17 signaling pathway		
+													Axon guidance		

@@ -1,0 +1,138 @@
+Total_terms_MW	Total_terms_Limma	Intersection_All	Only_MW	Only_Limma	Intersection_top_20	Only_MW_top_20	Only_Limma_top_20	Terms_Intersect_top_20	Terms_Only_MW_top_20	Terms_Only_Limma_top_20	Terms_MW_top_20	Terms_Limma_top_20	Terms_Intersect_ALL	Terms_Only_MW	Terms_Only_Limma
+162	148	137	25	11	18	2	2	Chemical carcinogenesis	Bile secretion	IL-17 signaling pathway	Chemical carcinogenesis	Chemical carcinogenesis	Chemical carcinogenesis	TGF-beta signaling pathway	RNA transport
+								Metabolism of xenobiotics by cytochrome P450	JAK-STAT signaling pathway	Leishmaniasis	Metabolism of xenobiotics by cytochrome P450	Metabolism of xenobiotics by cytochrome P450	Metabolism of xenobiotics by cytochrome P450	Axon guidance	Protein export
+								Drug metabolism - cytochrome P450			Drug metabolism - cytochrome P450	Drug metabolism - cytochrome P450	Drug metabolism - cytochrome P450	Neurotrophin signaling pathway	Cortisol synthesis and secretion
+								Glutathione metabolism			Glutathione metabolism	Pancreatic secretion	Glutathione metabolism	Rap1 signaling pathway	Fc epsilon RI signaling pathway
+								Malaria			Malaria	Glutathione metabolism	Malaria	PPAR signaling pathway	Cushing syndrome
+								Pancreatic secretion			Pancreatic secretion	Malaria	Pancreatic secretion	Glycine, serine and threonine metabolism	Melanogenesis
+								Renal cell carcinoma			Renal cell carcinoma	Renal cell carcinoma	Renal cell carcinoma	Mitophagy - animal	Glycosphingolipid biosynthesis - ganglio series
+								Herpes simplex virus 1 infection			Herpes simplex virus 1 infection	Herpes simplex virus 1 infection	Herpes simplex virus 1 infection	mRNA surveillance pathway	Ribosome biogenesis in eukaryotes
+								HIF-1 signaling pathway			HIF-1 signaling pathway	IL-17 signaling pathway	HIF-1 signaling pathway	Fanconi anemia pathway	Cysteine and methionine metabolism
+								Systemic lupus erythematosus			Systemic lupus erythematosus	HIF-1 signaling pathway	Systemic lupus erythematosus	Adrenergic signaling in cardiomyocytes	cAMP signaling pathway
+								Necroptosis			Bile secretion	Systemic lupus erythematosus	Bile secretion	ECM-receptor interaction	Vascular smooth muscle contraction
+								Cellular senescence			JAK-STAT signaling pathway	Necroptosis	JAK-STAT signaling pathway	Prolactin signaling pathway	
+								MicroRNAs in cancer			Necroptosis	Cellular senescence	Necroptosis	Fatty acid degradation	
+								Alcoholism			Cellular senescence	MicroRNAs in cancer	Cellular senescence	2-Oxocarboxylic acid metabolism	
+								Kaposi sarcoma-associated herpesvirus infection			MicroRNAs in cancer	Alcoholism	MicroRNAs in cancer	Nicotine addiction	
+								Transcriptional misregulation in cancer			Alcoholism	Kaposi sarcoma-associated herpesvirus infection	Alcoholism	Fatty acid elongation	
+								Viral carcinogenesis			Kaposi sarcoma-associated herpesvirus infection	Transcriptional misregulation in cancer	Kaposi sarcoma-associated herpesvirus infection	cGMP-PKG signaling pathway	
+								Focal adhesion			Transcriptional misregulation in cancer	Focal adhesion	Transcriptional misregulation in cancer	Lysosome	
+											Viral carcinogenesis	Viral carcinogenesis	Viral carcinogenesis	Biosynthesis of unsaturated fatty acids	
+											Focal adhesion	Leishmaniasis	Focal adhesion	Hippo signaling pathway	
+													Proteoglycans in cancer	Tryptophan metabolism	
+													Leishmaniasis	Oxidative phosphorylation	
+													Toxoplasmosis	Histidine metabolism	
+													TNF signaling pathway	Rheumatoid arthritis	
+													FoxO signaling pathway	Carbohydrate digestion and absorption	
+													PI3K-Akt signaling pathway		
+													p53 signaling pathway		
+													IL-17 signaling pathway		
+													Ras signaling pathway		
+													Prostate cancer		
+													Adherens junction		
+													MAPK signaling pathway		
+													Colorectal cancer		
+													Central carbon metabolism in cancer		
+													Osteoclast differentiation		
+													Chronic myeloid leukemia		
+													Arachidonic acid metabolism		
+													Cell cycle		
+													Amoebiasis		
+													EGFR tyrosine kinase inhibitor resistance		
+													Platinum drug resistance		
+													Fat digestion and absorption		
+													Drug metabolism - other enzymes		
+													Tyrosine metabolism		
+													Melanoma		
+													Sphingolipid signaling pathway		
+													ErbB signaling pathway		
+													Renin-angiotensin system		
+													Small cell lung cancer		
+													Pancreatic cancer		
+													Viral protein interaction with cytokine and cytokine receptor		
+													Apelin signaling pathway		
+													Insulin resistance		
+													Insulin signaling pathway		
+													Cell adhesion molecules		
+													Yersinia infection		
+													AMPK signaling pathway		
+													Nitrogen metabolism		
+													Glioma		
+													Linoleic acid metabolism		
+													Ascorbate and aldarate metabolism		
+													Staphylococcus aureus infection		
+													Arrhythmogenic right ventricular cardiomyopathy		
+													Protein digestion and absorption		
+													Glucagon signaling pathway		
+													Type II diabetes mellitus		
+													Serotonergic synapse		
+													AGE-RAGE signaling pathway in diabetic complications		
+													Taurine and hypotaurine metabolism		
+													African trypanosomiasis		
+													Neuroactive ligand-receptor interaction		
+													Maturity onset diabetes of the young		
+													Pentose and glucuronate interconversions		
+													Toll-like receptor signaling pathway		
+													Estrogen signaling pathway		
+													Longevity regulating pathway		
+													Human T-cell leukemia virus 1 infection		
+													Salivary secretion		
+													Butanoate metabolism		
+													Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate		
+													Acute myeloid leukemia		
+													Long-term potentiation		
+													Regulation of actin cytoskeleton		
+													Hepatitis B		
+													Asthma		
+													Synaptic vesicle cycle		
+													Peroxisome		
+													Legionellosis		
+													Retinol metabolism		
+													NOD-like receptor signaling pathway		
+													Taste transduction		
+													Mineral absorption		
+													Chemokine signaling pathway		
+													VEGF signaling pathway		
+													Regulation of lipolysis in adipocytes		
+													Proximal tubule bicarbonate reclamation		
+													Ether lipid metabolism		
+													Phagosome		
+													Hematopoietic cell lineage		
+													Cytokine-cytokine receptor interaction		
+													Glycerophospholipid metabolism		
+													PD-L1 expression and PD-1 checkpoint pathway in cancer		
+													Leukocyte transendothelial migration		
+													Non-small cell lung cancer		
+													Endometrial cancer		
+													Longevity regulating pathway - multiple species		
+													Autophagy - animal		
+													alpha-Linolenic acid metabolism		
+													Human cytomegalovirus infection		
+													RNA polymerase		
+													Phospholipase D signaling pathway		
+													Inflammatory mediator regulation of TRP channels		
+													Basal cell carcinoma		
+													Hippo signaling pathway - multiple species		
+													Primary bile acid biosynthesis		
+													Porphyrin and chlorophyll metabolism		
+													Hypertrophic cardiomyopathy		
+													Fc gamma R-mediated phagocytosis		
+													Protein processing in endoplasmic reticulum		
+													Long-term depression		
+													Cholesterol metabolism		
+													Complement and coagulation cascades		
+													Glycerolipid metabolism		
+													Tuberculosis		
+													Renin secretion		
+													Spinocerebellar ataxia		
+													Lysine degradation		
+													Glyoxylate and dicarboxylate metabolism		
+													Steroid hormone biosynthesis		
+													Notch signaling pathway		
+													Choline metabolism in cancer		
+													C-type lectin receptor signaling pathway		
+													Hepatocellular carcinoma		
+													Thiamine metabolism		
+													Fluid shear stress and atherosclerosis		
+													Pertussis		
+													Phototransduction		

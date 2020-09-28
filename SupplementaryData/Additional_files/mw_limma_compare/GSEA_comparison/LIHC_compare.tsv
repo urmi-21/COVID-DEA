@@ -1,0 +1,132 @@
+Total_terms_MW	Total_terms_Limma	Intersection_All	Only_MW	Only_Limma	Intersection_top_20	Only_MW_top_20	Only_Limma_top_20	Terms_Intersect_top_20	Terms_Only_MW_top_20	Terms_Only_Limma_top_20	Terms_MW_top_20	Terms_Limma_top_20	Terms_Intersect_ALL	Terms_Only_MW	Terms_Only_Limma
+168	145	131	37	14	14	6	6	Herpes simplex virus 1 infection	Drug metabolism - other enzymes	Amyotrophic lateral sclerosis	Herpes simplex virus 1 infection	Herpes simplex virus 1 infection	Herpes simplex virus 1 infection	Signaling pathways regulating pluripotency of stem cells	Arginine biosynthesis
+								Cytokine-cytokine receptor interaction	Chemical carcinogenesis	Mineral absorption	Cytokine-cytokine receptor interaction	Cytokine-cytokine receptor interaction	Cytokine-cytokine receptor interaction	mTOR signaling pathway	Taurine and hypotaurine metabolism
+								Chemokine signaling pathway	Steroid hormone biosynthesis	Influenza A	Chemokine signaling pathway	Chemokine signaling pathway	Chemokine signaling pathway	Gastric cancer	Arrhythmogenic right ventricular cardiomyopathy
+								Epstein-Barr virus infection	Type I diabetes mellitus	Natural killer cell mediated cytotoxicity	Epstein-Barr virus infection	Epstein-Barr virus infection	Epstein-Barr virus infection	African trypanosomiasis	Ubiquinone and other terpenoid-quinone biosynthesis
+								Viral protein interaction with cytokine and cytokine receptor	Ascorbate and aldarate metabolism	TGF-beta signaling pathway	Viral protein interaction with cytokine and cytokine receptor	Cell cycle	Viral protein interaction with cytokine and cytokine receptor	GnRH signaling pathway	beta-Alanine metabolism
+								Hematopoietic cell lineage	Drug metabolism - cytochrome P450	cGMP-PKG signaling pathway	Hematopoietic cell lineage	Viral protein interaction with cytokine and cytokine receptor	Hematopoietic cell lineage	Staphylococcus aureus infection	Fatty acid degradation
+								Antigen processing and presentation			Drug metabolism - other enzymes	Antigen processing and presentation	Drug metabolism - other enzymes	Chagas disease	2-Oxocarboxylic acid metabolism
+								Metabolism of xenobiotics by cytochrome P450			Chemical carcinogenesis	Metabolism of xenobiotics by cytochrome P450	Chemical carcinogenesis	Maturity onset diabetes of the young	Vasopressin-regulated water reabsorption
+								Proteasome			Antigen processing and presentation	Proteasome	Antigen processing and presentation	Ferroptosis	Complement and coagulation cascades
+								Graft-versus-host disease			Metabolism of xenobiotics by cytochrome P450	Primary immunodeficiency	Metabolism of xenobiotics by cytochrome P450	Ribosome	Human papillomavirus infection
+								Primary immunodeficiency			Steroid hormone biosynthesis	Amyotrophic lateral sclerosis	Steroid hormone biosynthesis	Glycosylphosphatidylinositol (GPI)-anchor biosynthesis	Tryptophan metabolism
+								Allograft rejection			Proteasome	Mineral absorption	Proteasome	Transcriptional misregulation in cancer	Adherens junction
+								Pentose and glucuronate interconversions			Type I diabetes mellitus	Graft-versus-host disease	Type I diabetes mellitus	Glucagon signaling pathway	Propanoate metabolism
+								Cell cycle			Graft-versus-host disease	Allograft rejection	Graft-versus-host disease	PPAR signaling pathway	Endocrine and other factor-regulated calcium reabsorption
+											Primary immunodeficiency	Pentose and glucuronate interconversions	Primary immunodeficiency	Cholesterol metabolism	
+											Allograft rejection	Influenza A	Allograft rejection	Insulin signaling pathway	
+											Pentose and glucuronate interconversions	Natural killer cell mediated cytotoxicity	Pentose and glucuronate interconversions	Renin-angiotensin system	
+											Ascorbate and aldarate metabolism	Hematopoietic cell lineage	Ascorbate and aldarate metabolism	Type II diabetes mellitus	
+											Cell cycle	TGF-beta signaling pathway	Cell cycle	Tyrosine metabolism	
+											Drug metabolism - cytochrome P450	cGMP-PKG signaling pathway	Drug metabolism - cytochrome P450	Renal cell carcinoma	
+													Cell adhesion molecules	Folate biosynthesis	
+													Amyotrophic lateral sclerosis	Glioma	
+													Autoimmune thyroid disease	Serotonergic synapse	
+													Influenza A	Glycosphingolipid biosynthesis - ganglio series	
+													Natural killer cell mediated cytotoxicity	Ras signaling pathway	
+													cGMP-PKG signaling pathway	Fatty acid metabolism	
+													Axon guidance	Regulation of actin cytoskeleton	
+													Cytosolic DNA-sensing pathway	Systemic lupus erythematosus	
+													Focal adhesion	Biosynthesis of amino acids	
+													Toll-like receptor signaling pathway	Inflammatory mediator regulation of TRP channels	
+													TGF-beta signaling pathway	Glycolysis / Gluconeogenesis	
+													Measles	Fat digestion and absorption	
+													Vascular smooth muscle contraction	Chronic myeloid leukemia	
+													B cell receptor signaling pathway	Fluid shear stress and atherosclerosis	
+													Rap1 signaling pathway	Amoebiasis	
+													cAMP signaling pathway	Neuroactive ligand-receptor interaction	
+													Viral myocarditis	Spinocerebellar ataxia	
+													Hippo signaling pathway		
+													Porphyrin and chlorophyll metabolism		
+													Th17 cell differentiation		
+													Bile secretion		
+													Proximal tubule bicarbonate reclamation		
+													ECM-receptor interaction		
+													Retinol metabolism		
+													EGFR tyrosine kinase inhibitor resistance		
+													Spliceosome		
+													IL-17 signaling pathway		
+													Intestinal immune network for IgA production		
+													Inflammatory bowel disease		
+													T cell receptor signaling pathway		
+													DNA replication		
+													Rheumatoid arthritis		
+													Renin secretion		
+													AMPK signaling pathway		
+													Proteoglycans in cancer		
+													Ribosome biogenesis in eukaryotes		
+													Adrenergic signaling in cardiomyocytes		
+													Mineral absorption		
+													NF-kappa B signaling pathway		
+													Basal cell carcinoma		
+													MAPK signaling pathway		
+													Dilated cardiomyopathy		
+													Prion disease		
+													Breast cancer		
+													Human immunodeficiency virus 1 infection		
+													Hepatitis C		
+													Glutathione metabolism		
+													PI3K-Akt signaling pathway		
+													Phospholipase D signaling pathway		
+													Pentose phosphate pathway		
+													Human cytomegalovirus infection		
+													Huntington disease		
+													NOD-like receptor signaling pathway		
+													Glycosaminoglycan biosynthesis - heparan sulfate / heparin		
+													Valine, leucine and isoleucine degradation		
+													Parkinson disease		
+													Th1 and Th2 cell differentiation		
+													Platinum drug resistance		
+													Phagosome		
+													Notch signaling pathway		
+													Steroid biosynthesis		
+													Melanogenesis		
+													Primary bile acid biosynthesis		
+													Arginine and proline metabolism		
+													Prostate cancer		
+													Cushing syndrome		
+													RIG-I-like receptor signaling pathway		
+													Melanoma		
+													Calcium signaling pathway		
+													Asthma		
+													Pancreatic secretion		
+													Galactose metabolism		
+													Leishmaniasis		
+													Ether lipid metabolism		
+													Hippo signaling pathway - multiple species		
+													Glycosphingolipid biosynthesis - lacto and neolacto series		
+													Hedgehog signaling pathway		
+													mRNA surveillance pathway		
+													Parathyroid hormone synthesis, secretion and action		
+													Alcoholism		
+													RNA transport		
+													Growth hormone synthesis, secretion and action		
+													Kaposi sarcoma-associated herpesvirus infection		
+													Human T-cell leukemia virus 1 infection		
+													Protein digestion and absorption		
+													PD-L1 expression and PD-1 checkpoint pathway in cancer		
+													Insulin secretion		
+													Insulin resistance		
+													Sphingolipid metabolism		
+													JAK-STAT signaling pathway		
+													Hypertrophic cardiomyopathy		
+													Histidine metabolism		
+													Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate		
+													Osteoclast differentiation		
+													Homologous recombination		
+													Cortisol synthesis and secretion		
+													Fanconi anemia pathway		
+													Oxytocin signaling pathway		
+													Regulation of lipolysis in adipocytes		
+													C-type lectin receptor signaling pathway		
+													Citrate cycle (TCA cycle)		
+													Ovarian steroidogenesis		
+													Salivary secretion		
+													Apoptosis		
+													Alanine, aspartate and glutamate metabolism		
+													Carbohydrate digestion and absorption		
+													Terpenoid backbone biosynthesis		
+													Nicotine addiction		
+													Butanoate metabolism		
+													Platelet activation		
+													Mismatch repair		

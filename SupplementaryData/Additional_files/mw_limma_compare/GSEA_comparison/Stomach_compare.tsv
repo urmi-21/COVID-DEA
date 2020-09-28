@@ -1,0 +1,42 @@
+Total_terms_MW	Total_terms_Limma	Intersection_All	Only_MW	Only_Limma	Intersection_top_20	Only_MW_top_20	Only_Limma_top_20	Terms_Intersect_top_20	Terms_Only_MW_top_20	Terms_Only_Limma_top_20	Terms_MW_top_20	Terms_Limma_top_20	Terms_Intersect_ALL	Terms_Only_MW	Terms_Only_Limma
+46	42	41	5	1	18	2	2	Ribosome	Alcoholism	Vitamin digestion and absorption	Ribosome	Ribosome	Ribosome	PI3K-Akt signaling pathway	Renin secretion
+								PPAR signaling pathway	Chemokine signaling pathway	Drug metabolism - cytochrome P450	PPAR signaling pathway	Measles	PPAR signaling pathway	Pyruvate metabolism	
+								Toll-like receptor signaling pathway			Toll-like receptor signaling pathway	Herpes simplex virus 1 infection	Toll-like receptor signaling pathway	Acute myeloid leukemia	
+								Measles			Measles	Toll-like receptor signaling pathway	Measles	Renin-angiotensin system	
+								Cell adhesion molecules			Cell adhesion molecules	Cell adhesion molecules	Cell adhesion molecules	Linoleic acid metabolism	
+								Herpes simplex virus 1 infection			Herpes simplex virus 1 infection	PPAR signaling pathway	Herpes simplex virus 1 infection		
+								Systemic lupus erythematosus			Systemic lupus erythematosus	Cytokine-cytokine receptor interaction	Systemic lupus erythematosus		
+								Cytokine-cytokine receptor interaction			Cytokine-cytokine receptor interaction	Influenza A	Cytokine-cytokine receptor interaction		
+								Synaptic vesicle cycle			Synaptic vesicle cycle	Primary immunodeficiency	Synaptic vesicle cycle		
+								Complement and coagulation cascades			Complement and coagulation cascades	Taste transduction	Complement and coagulation cascades		
+								Influenza A			Influenza A	Complement and coagulation cascades	Influenza A		
+								Metabolism of xenobiotics by cytochrome P450			Metabolism of xenobiotics by cytochrome P450	Synaptic vesicle cycle	Metabolism of xenobiotics by cytochrome P450		
+								Neuroactive ligand-receptor interaction			Neuroactive ligand-receptor interaction	Chemical carcinogenesis	Neuroactive ligand-receptor interaction		
+								Chemical carcinogenesis			Chemical carcinogenesis	Metabolism of xenobiotics by cytochrome P450	Chemical carcinogenesis		
+								Viral protein interaction with cytokine and cytokine receptor			Viral protein interaction with cytokine and cytokine receptor	Glycosphingolipid biosynthesis - lacto and neolacto series	Viral protein interaction with cytokine and cytokine receptor		
+								Taste transduction			Alcoholism	Vitamin digestion and absorption	Alcoholism		
+								Primary immunodeficiency			Taste transduction	Systemic lupus erythematosus	Taste transduction		
+								Glycosphingolipid biosynthesis - lacto and neolacto series			Chemokine signaling pathway	Viral protein interaction with cytokine and cytokine receptor	Chemokine signaling pathway		
+											Primary immunodeficiency	Neuroactive ligand-receptor interaction	Primary immunodeficiency		
+											Glycosphingolipid biosynthesis - lacto and neolacto series	Drug metabolism - cytochrome P450	Glycosphingolipid biosynthesis - lacto and neolacto series		
+													Vitamin digestion and absorption		
+													Glycosylphosphatidylinositol (GPI)-anchor biosynthesis		
+													Mineral absorption		
+													Hematopoietic cell lineage		
+													ECM-receptor interaction		
+													Cytosolic DNA-sensing pathway		
+													Leukocyte transendothelial migration		
+													Dopaminergic synapse		
+													B cell receptor signaling pathway		
+													Retinol metabolism		
+													Drug metabolism - cytochrome P450		
+													Ether lipid metabolism		
+													Fat digestion and absorption		
+													Non-homologous end-joining		
+													cAMP signaling pathway		
+													Phagosome		
+													Salivary secretion		
+													Cholesterol metabolism		
+													Circadian entrainment		
+													NF-kappa B signaling pathway		
+													NOD-like receptor signaling pathway		

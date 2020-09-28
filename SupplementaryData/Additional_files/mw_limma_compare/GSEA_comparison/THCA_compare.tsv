@@ -1,0 +1,91 @@
+Total_terms_MW	Total_terms_Limma	Intersection_All	Only_MW	Only_Limma	Intersection_top_20	Only_MW_top_20	Only_Limma_top_20	Terms_Intersect_top_20	Terms_Only_MW_top_20	Terms_Only_Limma_top_20	Terms_MW_top_20	Terms_Limma_top_20	Terms_Intersect_ALL	Terms_Only_MW	Terms_Only_Limma
+90	99	90	0	9	19	1	1	Neuroactive ligand-receptor interaction	Toll-like receptor signaling pathway	B cell receptor signaling pathway	Neuroactive ligand-receptor interaction	Neuroactive ligand-receptor interaction	Neuroactive ligand-receptor interaction		Human papillomavirus infection
+								Cytokine-cytokine receptor interaction			Cytokine-cytokine receptor interaction	Cytokine-cytokine receptor interaction	Cytokine-cytokine receptor interaction		Fatty acid biosynthesis
+								Chemokine signaling pathway			Chemokine signaling pathway	Chemokine signaling pathway	Chemokine signaling pathway		Mineral absorption
+								Epstein-Barr virus infection			Epstein-Barr virus infection	Epstein-Barr virus infection	Epstein-Barr virus infection		Drug metabolism - other enzymes
+								Tuberculosis			Tuberculosis	Tuberculosis	Tuberculosis		Retinol metabolism
+								Influenza A			Influenza A	Influenza A	Influenza A		GnRH signaling pathway
+								Phagosome			Phagosome	Phagosome	Phagosome		Lysosome
+								Cell adhesion molecules			Cell adhesion molecules	Cell adhesion molecules	Cell adhesion molecules		Rap1 signaling pathway
+								Systemic lupus erythematosus			Systemic lupus erythematosus	Osteoclast differentiation	Systemic lupus erythematosus		GnRH secretion
+								Osteoclast differentiation			Osteoclast differentiation	Systemic lupus erythematosus	Osteoclast differentiation		
+								Natural killer cell mediated cytotoxicity			Natural killer cell mediated cytotoxicity	Natural killer cell mediated cytotoxicity	Natural killer cell mediated cytotoxicity		
+								Th17 cell differentiation			Th17 cell differentiation	NF-kappa B signaling pathway	Th17 cell differentiation		
+								NF-kappa B signaling pathway			NF-kappa B signaling pathway	Th17 cell differentiation	NF-kappa B signaling pathway		
+								T cell receptor signaling pathway			T cell receptor signaling pathway	T cell receptor signaling pathway	T cell receptor signaling pathway		
+								Viral protein interaction with cytokine and cytokine receptor			Viral protein interaction with cytokine and cytokine receptor	Viral protein interaction with cytokine and cytokine receptor	Viral protein interaction with cytokine and cytokine receptor		
+								Hematopoietic cell lineage			Hematopoietic cell lineage	Rheumatoid arthritis	Hematopoietic cell lineage		
+								Rheumatoid arthritis			Rheumatoid arthritis	Hematopoietic cell lineage	Rheumatoid arthritis		
+								Th1 and Th2 cell differentiation			Th1 and Th2 cell differentiation	Th1 and Th2 cell differentiation	Th1 and Th2 cell differentiation		
+								Staphylococcus aureus infection			Toll-like receptor signaling pathway	Staphylococcus aureus infection	Toll-like receptor signaling pathway		
+											Staphylococcus aureus infection	B cell receptor signaling pathway	Staphylococcus aureus infection		
+													Complement and coagulation cascades		
+													B cell receptor signaling pathway		
+													Leishmaniasis		
+													Antigen processing and presentation		
+													Inflammatory bowel disease		
+													Viral myocarditis		
+													Intestinal immune network for IgA production		
+													Type I diabetes mellitus		
+													Autoimmune thyroid disease		
+													Graft-versus-host disease		
+													Allograft rejection		
+													Primary immunodeficiency		
+													Asthma		
+													Human T-cell leukemia virus 1 infection		
+													Alcoholism		
+													Toxoplasmosis		
+													TNF signaling pathway		
+													JAK-STAT signaling pathway		
+													Chagas disease		
+													Cytosolic DNA-sensing pathway		
+													Legionellosis		
+													Necroptosis		
+													Amoebiasis		
+													PD-L1 expression and PD-1 checkpoint pathway in cancer		
+													Fc epsilon RI signaling pathway		
+													Leukocyte transendothelial migration		
+													Arachidonic acid metabolism		
+													NOD-like receptor signaling pathway		
+													PI3K-Akt signaling pathway		
+													alpha-Linolenic acid metabolism		
+													Human cytomegalovirus infection		
+													Apoptosis		
+													Human immunodeficiency virus 1 infection		
+													Salivary secretion		
+													Measles		
+													Viral carcinogenesis		
+													Nitrogen metabolism		
+													Malaria		
+													Tryptophan metabolism		
+													ECM-receptor interaction		
+													Bile secretion		
+													Ether lipid metabolism		
+													Apoptosis - multiple species		
+													Ras signaling pathway		
+													Yersinia infection		
+													Acute myeloid leukemia		
+													Linoleic acid metabolism		
+													Transcriptional misregulation in cancer		
+													Renin-angiotensin system		
+													Kaposi sarcoma-associated herpesvirus infection		
+													Gastric acid secretion		
+													Tyrosine metabolism		
+													RNA polymerase		
+													IL-17 signaling pathway		
+													Butanoate metabolism		
+													C-type lectin receptor signaling pathway		
+													Fc gamma R-mediated phagocytosis		
+													Pertussis		
+													AGE-RAGE signaling pathway in diabetic complications		
+													Histidine metabolism		
+													Carbohydrate digestion and absorption		
+													Ferroptosis		
+													Pathogenic Escherichia coli infection		
+													Glycosylphosphatidylinositol (GPI)-anchor biosynthesis		
+													Phenylalanine metabolism		
+													Amphetamine addiction		
+													Glycosphingolipid biosynthesis - lacto and neolacto series		
+													Prion disease		
+													Serotonergic synapse		
+													Glycosaminoglycan biosynthesis - heparan sulfate / heparin		
