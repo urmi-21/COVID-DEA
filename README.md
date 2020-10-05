@@ -19,7 +19,7 @@ For more detailed explanation, please go through section 8 of the [MetaOmGraph u
 
 
 ## Execute R via MetaOmGraph (violin plots)
-1. Select the features (genes) from the MetaOmGraph's `Feature Metadata` tab.
+1. Select the features (genes) from the MetaOmGraph's `Feature Metadata` tab. Additionally select samples `Sample Metadata` tab to filter out samples from particular tissues.
 2. Go to `Plot --> Selected Rows --> Using R`
 3. Browse to the R script in `rscripts/violinPlots.R`
 4. Enter output directory name. NOTE: the output directory is relative to the project directory.
@@ -49,7 +49,6 @@ Here is a list of all the analysis performed along with code to reproduce result
 
 * Perform dip-test for all genes: `rscripts/diptest_allgenes.R`
 * Perform GSEA for DE lists from pooled GTEx and pooled TCGA samples and generate cnet/ridge plots: `rscripts/gsea_gtex_tcga.R`
-* Perform GSEA tissue/tumorwise and generate cnet/ridge plots: `rscripts/gsea_tissuewise.R`
 * Perform limma DE analysis in tissue/tumor-wise manner: `rscripts/limma_tissuewise.R`
 * Perform limma DE analysis for BRCA samples including molecular-subtyes in the model (uses TCGABiolinks): `rscripts/limma_tissuewise.R`
 * Compare Mann-Whitney and limma DE results; performs GSEA and compare enriched terms: `rscripts/limma_MW_compare_gsea.R`
