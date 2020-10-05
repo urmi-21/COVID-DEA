@@ -4,6 +4,8 @@ library(org.Hs.eg.db)
 library(scales)
 library(readr)
 
+#Perform tissue/tumor-wise GSEA using MW and Limma DE genes and do comparison
+
 
 
 ##########################################Functions###############################################
@@ -14,6 +16,8 @@ to.entrez <- function(symbols) {
 
 doKegg <- function(file,dir,outDir,suffix) {
   thisname<-strsplit(file,"_")[[1]][1]
+  print(paste0(thisname,"_",suffix))
+
   #read file
   df.gtex <- read_delim(paste(dir,.Platform$file.sep,file,sep=""), "\t", escape_double = FALSE, trim_ws = TRUE)
   # Universe with entrez
@@ -32,7 +36,7 @@ doKegg <- function(file,dir,outDir,suffix) {
   gtex.gsea.kk <- gseKEGG(geneList=gtex.fc,
                           organism='hsa',
                           nPerm=5000,
-                          pvalueCutoff = 0.5,
+                          pvalueCutoff = 0.1,
                           verbose = FALSE,
                           pAdjustMethod = "BH",
                           seed = T,
@@ -55,6 +59,7 @@ doKegg <- function(file,dir,outDir,suffix) {
   ggsave(paste(outDir,.Platform$file.sep,thisname,suffix,"_ridge.png",sep = ""),p2,width = 15,units = "in",dpi = 300)
   
   #write results
+  print(paste(outDir,.Platform$file.sep,thisname,suffix,"_kegg.tsv",sep = ""))
   write.table(data.frame(gtex.gsea.kk.x), file=paste(outDir,.Platform$file.sep,thisname,suffix,"_kegg.tsv",sep = ""),
               sep="\t", row.names=FALSE, quote = FALSE)
   
@@ -65,6 +70,15 @@ doKegg <- function(file,dir,outDir,suffix) {
 
 
 compare_topterms <- function(mwres,lmres,topn,name) {
+  
+  #sort by NES
+  #mwres <- mwres %>% arrange(desc(NES))
+  #lmres <- lmres %>% arrange(desc(NES))
+  
+  #sort by abs value
+  #mwres <- mwres %>% arrange(desc(abs(NES)))
+  #lmres <- lmres %>% arrange(desc(abs(NES)))
+  
   commonterms <- intersect(mwres$Description,lmres$Description)
   termsmw<-setdiff(mwres$Description,lmres$Description)
   termslm<-setdiff(lmres$Description,mwres$Description)
@@ -175,7 +189,122 @@ compare_topterms <- function(mwres,lmres,topn,name) {
   write.table(results, file=paste(outdir,.Platform$file.sep,name,"_compare.tsv",sep = ""),
               sep="\t", row.names=FALSE, quote = FALSE)
   
-  }
+}
+
+
+compare_degenes <- function(name,mwdir,limmadir,outDir) {
+ #compare tissue wise DE genes
+ df.mw <- read_delim(paste(mwdir,.Platform$file.sep,paste0(name,"_mw.txt"),sep=""), "\t", escape_double = FALSE, trim_ws = TRUE)
+ df.limma <- read_delim(paste(limmadir,.Platform$file.sep,paste0(name,"_limmaOut.tsv"),sep=""), "\t", escape_double = FALSE, trim_ws = TRUE)
+ #sort by fc
+ df.mw <- df.mw %>% arrange(desc(logFC))
+ df.limma <- df.limma %>% arrange(desc(logFC))
+ 
+
+ upmw<-df.mw %>% filter(`Adj pval` <0.05) %>% filter(logFC >= 1)
+ dwnmw<-df.mw %>% filter(`Adj pval` <0.05) %>% filter(logFC <= -1)
+ 
+ uplm<-df.limma %>% filter(`Adj pval` <0.05) %>% filter(logFC >= 0.5)
+ dwnlm<-df.limma %>% filter(`Adj pval` <0.05) %>% filter(logFC <= -0.5)
+ 
+ #top 50 genes
+ N=100
+ topupmw<-head(upmw,N)$Name
+ topdwnmw<-tail(dwnmw,N)$Name
+ 
+ topuplm<-head(uplm,N)$Name
+ topdwnlm<-tail(dwnlm,N)$Name
+ 
+ upintersect<-intersect(topupmw,topuplm)
+ uponlymw<-setdiff(topupmw,topuplm)
+ uponlylm<-setdiff(topuplm,topupmw)
+ 
+ dwnintersect<-intersect(topdwnmw,topdwnlm)
+ dwnonlymw<-setdiff(topdwnmw,topdwnlm)
+ dwnonlylm<-setdiff(topdwnlm,topdwnmw)
+
+ #write to file
+ results<-data.frame(Up_MW=character(),
+                     Up_limma=character(),
+                     Up_Intersection_All=character(),
+                     Up_Only_MW=integer(),
+                     Up_Only_Limma=integer(),
+                     Dwn_MW=character(),
+                     Dwn_limma=character(),
+                     Dwn_Intersection_All=character(),
+                     Dwn_Only_MW=integer(),
+                     Dwn_Only_Limma=integer(),
+                     stringsAsFactors=FALSE) 
+ 
+ row=1
+ for(x in topupmw){
+   results[row,c('Up_MW')]<-x
+   row=row+1
+ }
+ 
+ row=1
+ for(x in topuplm){
+   results[row,c('Up_limma')]<-x
+   row=row+1
+ }
+ 
+ row=1
+ for(x in upintersect){
+   results[row,c('Up_Intersection_All')]<-x
+   row=row+1
+ }
+ 
+ row=1
+ for(x in uponlymw){
+   results[row,c('Up_Only_MW')]<-x
+   row=row+1
+ }
+
+ row=1
+ for(x in uponlylm){
+   results[row,c('Up_Only_Limma')]<-x
+   row=row+1
+ }
+ 
+ row=1
+ for(x in topdwnmw){
+   results[row,c('Dwn_MW')]<-x
+   row=row+1
+ }
+ 
+ row=1
+ for(x in topdwnlm){
+   results[row,c('Dwn_Limma')]<-x
+   row=row+1
+ }
+ 
+ row=1
+ for(x in dwnintersect){
+   results[row,c('Dwn_Intersection_All')]<-x
+   row=row+1
+ }
+ 
+ row=1
+ for(x in dwnonlymw){
+   results[row,c('Dwn_Only_MW')]<-x
+   row=row+1
+ }
+ 
+ row=1
+ for(x in dwnonlylm){
+   results[row,c('Dwn_Only_Limma')]<-x
+   row=row+1
+ }
+ 
+ #remove NA
+ results <- sapply(results, as.character)
+ results[is.na(results)] <- ""
+ 
+ #wrtite to file
+ write.table(results, file=paste(outDir,.Platform$file.sep,name,"_DE_compare.tsv",sep = ""),
+             sep="\t", row.names=FALSE, quote = FALSE)
+   
+}
 
 
 
@@ -184,10 +313,13 @@ compare_topterms <- function(mwres,lmres,topn,name) {
 #########################################END F############################################################
 
 
-#tissuewise
+#dir with DE results
 limmadir<-"limma_tissuewise"
+#limmadir<-"limma_tissuewise_bmi"
 mwdir<-"MW_tissuewise"
-outdir<-"mw_limma_compar"
+outdir<-"mw_limma_compare5"
+#create outdir if not present
+dir.create(file.path(outdir))
 
 infilesmw<-list.files(path = mwdir, pattern= "_mw.txt", recursive = TRUE)
 
@@ -197,9 +329,9 @@ infileslm<-list.files(path = limmadir, pattern= "_limmaOut.tsv", recursive = TRU
 #infiles<-c("LSttest_BRCAsubtypes/BRCA_LStestOut.tsv")
 #infiles<-c("limma_BRCAsubtypes/BRCA_limmaOut.tsv")
 #doKegg(infiles[1],dir=dir,outDir = outdir)
+#smallmw<-head(infilesmw,3)
+#smalllm<-head(infileslm,3)
 
-smallmw<-head(infilesmw,3)
-smalllm<-head(infileslm,3)
 #make plots for MW
 mwout<-apply(as.matrix(infilesmw),1,doKegg,dir=mwdir,outDir = outdir,suffix="_MW")
 #make plots for limma
@@ -221,6 +353,13 @@ for (f in infilesmw){
   n=n+1
 }
 
+
+names<-apply(as.matrix(infilesmw),1,function(file){return(strsplit(file,"_")[[1]][1])})
+#name<-names[1]
+#mwfiles<-infilesmw[1]
+#lmfiles<-infileslm[1]
+
+apply(as.matrix(names),1,compare_degenes,mwdir=mwdir,limmadir=limmadir,outDir = outdir)
 
 
 
