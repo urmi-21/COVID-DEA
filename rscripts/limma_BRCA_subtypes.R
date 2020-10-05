@@ -12,9 +12,10 @@ library(tidyr)
 
 
 #read data; download data from http://metnetweb.gdcb.iastate.edu/MetNet_MetaOmGraph_download.php
-metadataFile<-"D:/MOGdata/mog_testdata/cancer/raw/normalized/alldata_reduced/TCGA_GTEX_MOG/TCGA_GTEX_MOG_proj/US_5-20-20_GTEx_TCGA_MOG/TCGA_GTEX_MetaData_7142_23_updated.tsv"
-infile<-"D:/MOGdata/mog_testdata/cancer/raw/normalized/alldata_reduced/TCGA_GTEX_MOG/TCGA_GTEX_MOG_proj/US_5-20-20_GTEx_TCGA_MOG/TCGA_GTEX_Data_18212_7142.tsv"
-outDir<-"C:/Users/mrbai/Desktop/mog_demo/limma_BRCAsubtypes/"
+metadataFile<-"TCGA_GTEX_MetaData_7142_23_updated.tsv"
+infile<-"TCGA_GTEX_Data_18212_7142.tsv"
+outDir<-"limma_BRCAsubtypes"
+dir.create(file.path(outDir))
 
 data<-read_delim(infile,"\t", escape_double = FALSE, trim_ws = TRUE)
 colnames(data)[1]<-"Name"

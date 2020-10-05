@@ -313,11 +313,12 @@ compare_degenes <- function(name,mwdir,limmadir,outDir) {
 #########################################END F############################################################
 
 
-#dir with DE results
+#dir with DE results files e.g. BRCA_limmaOut.tsv etc
 limmadir<-"limma_tissuewise"
-#limmadir<-"limma_tissuewise_bmi"
+#dir with MW DE results files e.g. BRCA_mw.txt etc
 mwdir<-"MW_tissuewise"
-outdir<-"mw_limma_compare5"
+
+outdir<-"mw_limma_compare"
 #create outdir if not present
 dir.create(file.path(outdir))
 

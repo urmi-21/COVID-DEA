@@ -5,32 +5,21 @@ library(plyr)
 library(data.table)
 
 
-
-#This script takes 3 arguments
-#arg1: Path to input file (this file is created by MOG)
-#arg2: Path to the metadatafile (used in the MOG project)
-#arg3: Path to the output directory (specified by the MOG user in MOG)
-
-args = commandArgs(trailingOnly=TRUE)
-
-if (length(args)<2) {
-  stop("Invalid Arguments", call.=FALSE)
-} 
-
-#read data
-#infile<-args[1]
-#metadataFile<-args[2]
-#outDir<-args[3]
+metadataFile<-"TCGA_GTEX_MetaData_7142_23_updated.tsv"
+infile<-"TCGA_GTEX_Data_18212_7142.tsv"
+outDir<-"diptest_out"
+#create outdir if not present
+dir.create(file.path(outDir))
 
 
-
-metadataFile<-"D:/MOGdata/mog_testdata/cancer/raw/normalized/alldata_reduced/TCGA_GTEX_MOG/TCGA_GTEX_MOG_proj/US_5-20-20_GTEx_TCGA_MOG/TCGA_GTEX_MetaData_7142_23_updated.tsv"
-infile<-"C:/Users/mrbai/Desktop/mog_demo/tr2/mogData_R_Data.txt"
-outDir<-"C:/Users/mrbai/Desktop/mog_demo/tr2/"
 
 #read data
 data<-read_delim(infile,"\t", escape_double = FALSE, trim_ws = TRUE)
+colnames(data)[1]<-"Name"
 allGenes<-data$Name
+#remove gene metadata columns
+data <- data %>% select(-colnames(data)[2:25])
+
 #read metadata
 metadata<- read_delim(metadataFile, "\t", escape_double = FALSE, trim_ws = TRUE)
 colnames(metadata)[which(colnames(metadata)=="portions.analytes.aliquots.submitter_id")]='SID'

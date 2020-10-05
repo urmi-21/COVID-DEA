@@ -11,7 +11,7 @@ library(grid)
 library(gtable)  
 
 
-
+#Run this script using MetaOmGraph interactively
 #This script takes 3 arguments
 #arg1: Path to input file (this file is created by MOG)
 #arg2: Path to the metadatafile (used in the MOG project)
@@ -28,11 +28,6 @@ infile<-args[1]
 metadataFile<-args[2]
 outDir<-args[3]
 
-
-
-#metadataFile<-"D:/MOGdata/mog_testdata/cancer/raw/normalized/alldata_reduced/TCGA_GTEX_MOG/TCGA_GTEX_MOG_proj/US_5-20-20_GTEx_TCGA_MOG/TCGA_GTEX_MetaData_7142_23_updated.tsv"
-#infile<-"C:/Users/mrbai/Desktop/mog_demo/tcga_gt_vp/mogData_R_Data.txt"
-#outDir<-"C:/Users/mrbai/Desktop/mog_demo/tcga_gt_vp/"
 
 #read data
 data<-read_delim(infile,"\t", escape_double = FALSE, trim_ws = TRUE)
