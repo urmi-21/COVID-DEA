@@ -1,5 +1,5 @@
 # African Americans and European Americans exhibit distinct gene expression patterns across tissues and tumors that are associated with immunologic and infectious functions and environmental exposures
-This file will provide instructions on how to reproduce the results described in the pre-print ["African Americans and European Americans exhibit distinct gene expression patterns across tissues and tumors that are associated with immunologic and infectious functions and environmental exposures"](https://www.researchsquare.com/article/rs-88890/v1).
+This file will provide instructions on how to reproduce the results described in the paper ["African Americans and European Americans exhibit distinct gene expression patterns across tissues and tumors that are associated with immunologic and infectious functions and environmental exposures"](https://www.nature.com/articles/s41598-021-89224-1).
 All analysis were performed using [MetaOmGraph](https://github.com/urmi-21/MetaOmGraph) version 1.8.1. Violin plots were made using ggplot in R.
 
 ## Setting up tools and data
